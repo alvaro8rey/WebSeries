@@ -2320,3 +2320,348 @@ body.auth-required .auth-overlay {
         padding: 15px 20px;
     }
 }
+
+/* ===============================================
+   DISEÑO MODERNO CON LISTA DE EPISODIOS
+   =============================================== */
+
+/* Hero Section compacto */
+.serie-hero-modern {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    min-height: 280px;
+    max-height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.serie-hero-modern::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(11, 15, 26, 0.98) 0%,
+        rgba(11, 15, 26, 0.7) 50%,
+        rgba(11, 15, 26, 0.3) 100%
+    );
+}
+
+.serie-hero-modern .serie-hero-content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    z-index: 2;
+}
+
+.serie-hero-modern .serie-hero-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0 0 8px 0;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.serie-hero-modern .serie-hero-subtitle {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 18px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+.serie-hero-modern .serie-hero-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.serie-hero-modern .btn-hero-play {
+    padding: 12px 28px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.serie-hero-modern .btn-hero-play:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+.serie-hero-modern .btn-hero-secondary {
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.serie-hero-modern .btn-hero-secondary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Container de episodios */
+.episodes-container-modern {
+    margin-top: 20px;
+}
+
+/* Selector de temporadas moderno */
+.season-selector-modern {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.season-tab-modern {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.season-tab-modern:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.season-tab-modern.active {
+    background: white;
+    color: #000;
+    font-weight: 700;
+}
+
+/* Section header moderna */
+.section-header-modern {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-header-modern h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: white;
+}
+
+.episodes-count {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+}
+
+/* Lista de episodios moderna */
+.episodes-list-modern {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.episode-item-modern {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 18px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.episode-item-modern:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.15);
+    transform: translateX(4px);
+}
+
+.episode-item-modern.watched {
+    opacity: 0.65;
+}
+
+.episode-number-badge {
+    min-width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.episode-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.episode-title-modern {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.episode-progress-bar-modern {
+    width: 100%;
+    max-width: 200px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.episode-progress-fill-modern {
+    height: 100%;
+    background: white;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
+.episode-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.watched-icon {
+    font-size: 1.2rem;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.play-icon-small {
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.episode-item-modern:hover .play-icon-small {
+    opacity: 1;
+}
+
+/* Paginación moderna */
+.pagination-modern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.page-btn-modern {
+    all: unset;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 0 4px;
+}
+
+.page-btn-modern:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+}
+
+.page-btn-modern.active {
+    background: white;
+    color: #000;
+}
+
+.page-btn-modern:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .serie-hero-modern {
+        height: 35vh;
+        min-height: 250px;
+    }
+
+    .serie-hero-modern .serie-hero-content {
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+    }
+
+    .serie-hero-modern .serie-hero-title {
+        font-size: 1.8rem;
+    }
+
+    .serie-hero-modern .serie-hero-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .serie-hero-modern .serie-hero-actions {
+        flex-wrap: wrap;
+    }
+
+    .episode-item-modern {
+        padding: 12px 14px;
+    }
+
+    .episode-number-badge {
+        min-width: 38px;
+        height: 38px;
+        font-size: 1rem;
+    }
+
+    .episode-title-modern {
+        font-size: 0.95rem;
+    }
+
+    .page-btn-modern {
+        width: 36px;
+        height: 36px;
+        font-size: 13px;
+    }
+}

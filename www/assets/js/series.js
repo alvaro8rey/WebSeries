@@ -1,4 +1,4 @@
-/* ================= SERIES VIEW (DISNEY+ STYLE) ================= */
+/* ================= SERIES VIEW (MODERNA CON LISTA) ================= */
 
 /**
  * Obtiene el progreso de todos los episodios desde el servidor
@@ -89,7 +89,7 @@ function findCurrentEpisode() {
 }
 
 /**
- * Renderiza la vista de la serie con sus episodios (estilo Disney+)
+ * Renderiza la vista de la serie con sus episodios (LISTA MODERNA)
  */
 function renderSerieView() {
     const currentSerie = window.AppState.getCurrentSerie();
@@ -99,6 +99,7 @@ function renderSerieView() {
     if (globalBackBtn) globalBackBtn.style.display = "block";
 
     const allEpisodes = window.AppUtils.getEpisodesFromSerie(currentSerie);
+    const totalEpisodes = allEpisodes.length;
     const isSerieFav = window.AppState.getFavoritesList().includes(String(currentSerie.id));
 
     // Obtener episodio actual
@@ -106,36 +107,45 @@ function renderSerieView() {
     const hasSeasons = currentSerie.seasons && currentSerie.seasons.length > 0;
     const currentSeasonIndex = window.AppState.getCurrentSeasonIndex();
 
-    // Hero Section
+    // Paginación
+    const totalPages = Math.ceil(totalEpisodes / window.AppState.getEpisodesPerPage());
+    const currentEpisodePage = window.AppState.getCurrentEpisodePage();
+    const start = currentEpisodePage * window.AppState.getEpisodesPerPage();
+    const episodes = allEpisodes.slice(start, start + window.AppState.getEpisodesPerPage());
+
+    // Hero Section (más compacto)
     const heroHTML = `
-        <div class="serie-hero" style="background-image: url('images/${currentSerie.id}.jpg');">
+        <div class="serie-hero-modern" style="background-image: url('images/${currentSerie.id}.jpg');">
             <div class="serie-hero-content">
                 <h1 class="serie-hero-title">${currentSerie.title}</h1>
                 <p class="serie-hero-subtitle">
-                    ${currentEp.progress ? `Continuar viendo · Episodio ${currentEp.index + 1}` : `${allEpisodes.length} episodios`}
+                    ${totalEpisodes} episodios${currentEp.progress ? ` · Continuar: Episodio ${currentEp.index + 1}` : ''}
                 </p>
                 <div class="serie-hero-actions">
-                    <button class="btn-hero-play" onclick="window.SeriesView.playHeroEpisode()">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <button class="btn-hero-play" onclick="window.SeriesView.playEpisodeModal(${currentEp.index})">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M8 5v14l11-7z"/>
                         </svg>
                         ${currentEp.progress ? 'Continuar' : 'Reproducir'}
                     </button>
                     <button class="btn-hero-secondary" onclick="window.Favorites.handleMainClick(event, '${currentSerie.id}')">
-                        ${isSerieFav ? '✓ En Mi Lista' : '+ Mi Lista'}
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="${isSerieFav ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                        ${isSerieFav ? 'En Mi Lista' : 'Mi Lista'}
                     </button>
                 </div>
             </div>
         </div>
     `;
 
-    // Selector de temporadas estilo Disney+
+    // Selector de temporadas moderno
     let seasonSelectorHTML = '';
     if (hasSeasons) {
         seasonSelectorHTML = `
-            <div class="season-selector-disney">
+            <div class="season-selector-modern">
                 ${currentSerie.seasons.map((s, i) => `
-                    <button class="season-tab ${i === currentSeasonIndex ? 'active' : ''}" onclick="window.SeriesView.changeSeason(${i})">
+                    <button class="season-tab-modern ${i === currentSeasonIndex ? 'active' : ''}" onclick="window.SeriesView.changeSeason(${i})">
                         ${s.title || `Temporada ${s.season}`}
                     </button>
                 `).join('')}
@@ -143,42 +153,57 @@ function renderSerieView() {
         `;
     }
 
-    // Grid de episodios
-    const episodesGridHTML = `
-        <div class="episodes-grid">
-            ${allEpisodes.map((ep, index) => {
+    // Paginación moderna
+    let paginationHTML = "";
+    if (totalPages > 1) {
+        let pages = [];
+        const delta = window.innerWidth < 600 ? 1 : 2;
+
+        pages.push(`<button class="page-btn-modern" ${currentEpisodePage === 0 ? 'disabled' : ''} onclick="window.SeriesView.changePageTo(0)">«</button>`);
+        pages.push(`<button class="page-btn-modern" ${currentEpisodePage === 0 ? 'disabled' : ''} onclick="window.SeriesView.changePageTo(${currentEpisodePage - 1})">‹</button>`);
+
+        for (let i = 0; i < totalPages; i++) {
+            if (i === 0 || i === totalPages - 1 || (i >= currentEpisodePage - delta && i <= currentEpisodePage + delta)) {
+                pages.push(`<button class="page-btn-modern ${i === currentEpisodePage ? 'active' : ''}" onclick="window.SeriesView.changePageTo(${i})">${i + 1}</button>`);
+            } else if (i === currentEpisodePage - delta - 1 || i === currentEpisodePage + delta + 1) {
+                pages.push(`<span class="page-dots">...</span>`);
+            }
+        }
+
+        pages.push(`<button class="page-btn-modern" ${currentEpisodePage >= totalPages - 1 ? 'disabled' : ''} onclick="window.SeriesView.changePageTo(${currentEpisodePage + 1})">›</button>`);
+        pages.push(`<button class="page-btn-modern" ${currentEpisodePage >= totalPages - 1 ? 'disabled' : ''} onclick="window.SeriesView.changePageTo(${totalPages - 1})">»</button>`);
+
+        paginationHTML = `<div class="pagination-modern"><div class="pagination-numbers">${pages.join("")}</div></div>`;
+    }
+
+    // Lista de episodios moderna
+    const episodesListHTML = `
+        <div class="episodes-list-modern">
+            ${episodes.map((ep, i) => {
+                const realIndex = start + i;
                 const episodeProgress = (window.seriesProgress || []).find(p => p.episode_id === ep.id);
                 const progressPercent = episodeProgress ? Math.min(100, (episodeProgress.time / episodeProgress.duration) * 100) : 0;
                 const isWatched = window.currentSerieWatched && window.currentSerieWatched.includes(String(ep.id));
                 const displayTitle = window.AppUtils.cleanEpisodeTitle(ep.title);
-
-                // Calcular número de episodio
                 const episodeMatch = ep.id.match(/\d+(\.\d+)?/);
-                let displayNum = episodeMatch ? (Number.isInteger(parseFloat(episodeMatch[0])) ? parseFloat(episodeMatch[0]) : episodeMatch[0]) : index + 1;
+                let displayNum = episodeMatch ? (Number.isInteger(parseFloat(episodeMatch[0])) ? parseFloat(episodeMatch[0]) : episodeMatch[0]) : realIndex + 1;
 
                 return `
-                    <div class="episode-card-disney" onclick="window.SeriesView.playEpisodeDisney(${index})">
-                        <div class="episode-thumbnail">
-                            <img src="images/${currentSerie.id}.jpg" onerror="this.src='images/default.jpg'">
-                            <div class="episode-play-overlay">
-                                <div class="play-icon-large">▶</div>
-                            </div>
-                            ${isWatched ? '<div class="episode-watched-badge">✓ Visto</div>' : ''}
-                        </div>
-                        <div class="episode-info-disney">
-                            <div class="episode-header-disney">
-                                <span class="episode-number-disney">Episodio ${displayNum}</span>
-                                <span class="episode-duration">45 min</span>
-                            </div>
-                            <h3 class="episode-title-disney">${displayTitle}</h3>
-                            <p class="episode-description">
-                                ${displayTitle}
-                            </p>
+                    <div class="episode-item-modern ${isWatched ? 'watched' : ''}" onclick="window.SeriesView.playEpisodeModal(${realIndex})">
+                        <div class="episode-number-badge">${displayNum}</div>
+                        <div class="episode-content">
+                            <div class="episode-title-modern">${displayTitle}</div>
                             ${progressPercent > 0 ? `
-                                <div class="episode-progress-bar">
-                                    <div class="episode-progress-fill" style="width: ${progressPercent}%"></div>
+                                <div class="episode-progress-bar-modern">
+                                    <div class="episode-progress-fill-modern" style="width: ${progressPercent}%"></div>
                                 </div>
                             ` : ''}
+                        </div>
+                        <div class="episode-actions">
+                            ${isWatched ? '<span class="watched-icon">✓</span>' : ''}
+                            <svg class="play-icon-small" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
                         </div>
                     </div>
                 `;
@@ -190,12 +215,14 @@ function renderSerieView() {
     const viewEl = document.getElementById("view");
     viewEl.innerHTML = `
         ${heroHTML}
-        <div class="episodes-grid-container">
-            <div class="section-header">
-                <h2>Episodios</h2>
-            </div>
+        <div class="episodes-container-modern">
             ${seasonSelectorHTML}
-            ${episodesGridHTML}
+            <div class="section-header-modern">
+                <h2>Episodios</h2>
+                <span class="episodes-count">${start + 1}-${Math.min(start + episodes.length, totalEpisodes)} de ${totalEpisodes}</span>
+            </div>
+            ${episodesListHTML}
+            ${paginationHTML}
         </div>
     `;
 
@@ -203,17 +230,9 @@ function renderSerieView() {
 }
 
 /**
- * Reproduce el episodio del hero
+ * Reproduce un episodio en modal
  */
-function playHeroEpisode() {
-    const currentEp = findCurrentEpisode();
-    playEpisodeDisney(currentEp.index);
-}
-
-/**
- * Reproduce un episodio en modal de pantalla completa
- */
-function playEpisodeDisney(episodeIndex) {
+function playEpisodeModal(episodeIndex) {
     const currentSerie = window.AppState.getCurrentSerie();
     const allEpisodes = window.AppUtils.getEpisodesFromSerie(currentSerie);
     const episode = allEpisodes[episodeIndex];
@@ -242,14 +261,14 @@ function playEpisodeDisney(episodeIndex) {
         </div>
         <div class="player-modal-content">
             <div class="player-container">
-                <video id="vjs-player-disney" class="video-js vjs-default-skin vjs-big-play-centered" playsinline></video>
+                <video id="vjs-player" class="video-js vjs-default-skin vjs-big-play-centered" playsinline></video>
             </div>
         </div>
     `;
 
     modal.classList.add('active');
 
-    // Inicializar Video.js
+    // Inicializar reproductor
     setTimeout(() => {
         window.Player.playEpisode(episode, null, episodeIndex);
     }, 300);
@@ -268,7 +287,7 @@ function closePlayer() {
         setTimeout(() => {
             const currentSerie = window.AppState.getCurrentSerie();
             if (currentSerie) {
-                openSerie(currentSerie.id, 0);
+                openSerie(currentSerie.id, window.AppState.getCurrentEpisodePage());
             }
         }, 300);
     }
@@ -294,6 +313,7 @@ function changePageTo(pageIndex) {
     if (pageIndex >= 0 && pageIndex < totalPages) {
         window.AppState.setCurrentEpisodePage(pageIndex);
         renderSerieView();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
 
@@ -311,7 +331,7 @@ function goToEpisode(number) {
     });
 
     if (epIndex !== -1) {
-        playEpisodeDisney(epIndex);
+        playEpisodeModal(epIndex);
     } else {
         alert("Episodio no encontrado");
     }
@@ -343,7 +363,6 @@ window.SeriesView = {
     changePageTo,
     goToEpisode,
     syncWatchedStatus: syncServerWatchedStatus,
-    playHeroEpisode,
-    playEpisodeDisney,
+    playEpisodeModal,
     closePlayer
 };
