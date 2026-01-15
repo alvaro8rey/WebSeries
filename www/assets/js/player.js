@@ -1,6 +1,165 @@
 /* ================= PLAYER (SIMPLIFICADO Y ARREGLADO) ================= */
 
 /**
+ * Configura los controles personalizados del reproductor
+ */
+function setupCustomControls(player, currentIndex, container) {
+    const currentSerie = window.AppState.getCurrentSerie();
+    const allEpisodes = window.AppUtils.getEpisodesFromSerie(currentSerie);
+
+    const prevBtn = container.querySelector('#prevEpisodeBtn');
+    const nextBtn = container.querySelector('#nextEpisodeBtn');
+    const playPauseBtn = container.querySelector('#playPauseBtn');
+    const rewindBtn = container.querySelector('#rewind10Btn');
+    const forwardBtn = container.querySelector('#forward10Btn');
+    const controlsContainer = container.querySelector('.custom-player-controls');
+
+    // Control de visibilidad de los controles
+    let controlsTimeout;
+
+    function showControls() {
+        controlsContainer.classList.add('visible');
+        clearTimeout(controlsTimeout);
+        controlsTimeout = setTimeout(() => {
+            if (!player.paused()) {
+                controlsContainer.classList.remove('visible');
+            }
+        }, 3000);
+    }
+
+    function hideControls() {
+        if (!player.paused()) {
+            controlsContainer.classList.remove('visible');
+        }
+    }
+
+    // Mostrar controles al mover el mouse o tocar la pantalla
+    container.addEventListener('mousemove', showControls);
+    container.addEventListener('touchstart', showControls);
+    container.addEventListener('click', (e) => {
+        if (e.target.closest('.control-btn') || e.target.closest('.vjs-control-bar')) return;
+        showControls();
+    });
+
+    // Actualizar estado play/pause
+    function updatePlayPauseIcon() {
+        const playIcon = playPauseBtn.querySelector('.play-icon');
+        const pauseIcon = playPauseBtn.querySelector('.pause-icon');
+
+        if (player.paused()) {
+            playIcon.classList.remove('hidden');
+            pauseIcon.classList.add('hidden');
+            controlsContainer.classList.add('visible');
+        } else {
+            playIcon.classList.add('hidden');
+            pauseIcon.classList.remove('hidden');
+        }
+    }
+
+    player.on('play', updatePlayPauseIcon);
+    player.on('pause', updatePlayPauseIcon);
+
+    // Botón Play/Pause
+    playPauseBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (player.paused()) {
+            player.play();
+        } else {
+            player.pause();
+        }
+    });
+
+    // Botón retroceder 10s
+    rewindBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const currentTime = player.currentTime();
+        player.currentTime(Math.max(0, currentTime - 10));
+        showControls();
+    });
+
+    // Botón avanzar 10s
+    forwardBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const currentTime = player.currentTime();
+        const duration = player.duration();
+        player.currentTime(Math.min(duration, currentTime + 10));
+        showControls();
+    });
+
+    // Botón episodio anterior
+    if (currentIndex > 0) {
+        prevBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            window.SeriesView.playEpisodeModal(currentIndex - 1);
+        });
+    } else {
+        prevBtn.disabled = true;
+        prevBtn.style.opacity = '0.3';
+    }
+
+    // Botón episodio siguiente
+    if (currentIndex < allEpisodes.length - 1) {
+        nextBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            window.SeriesView.playEpisodeModal(currentIndex + 1);
+        });
+    } else {
+        nextBtn.disabled = true;
+        nextBtn.style.opacity = '0.3';
+    }
+
+    // Atajos de teclado
+    const keyHandler = (e) => {
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+        switch(e.key) {
+            case ' ':
+            case 'k':
+                e.preventDefault();
+                if (player.paused()) {
+                    player.play();
+                } else {
+                    player.pause();
+                }
+                break;
+            case 'ArrowLeft':
+                e.preventDefault();
+                player.currentTime(Math.max(0, player.currentTime() - 10));
+                showControls();
+                break;
+            case 'ArrowRight':
+                e.preventDefault();
+                player.currentTime(Math.min(player.duration(), player.currentTime() + 10));
+                showControls();
+                break;
+            case 'n':
+                e.preventDefault();
+                if (currentIndex < allEpisodes.length - 1) {
+                    window.SeriesView.playEpisodeModal(currentIndex + 1);
+                }
+                break;
+            case 'p':
+                e.preventDefault();
+                if (currentIndex > 0) {
+                    window.SeriesView.playEpisodeModal(currentIndex - 1);
+                }
+                break;
+        }
+    };
+
+    document.addEventListener('keydown', keyHandler);
+
+    // Limpiar al destruir el player
+    player.on('dispose', () => {
+        document.removeEventListener('keydown', keyHandler);
+        clearTimeout(controlsTimeout);
+    });
+
+    // Mostrar controles al inicio
+    showControls();
+}
+
+/**
  * Reproduce un episodio de una serie
  */
 function playEpisode(ep, el, index) {
@@ -19,6 +178,40 @@ function playEpisode(ep, el, index) {
             <button id="floatingNextBtn" class="btn-next-floating hidden">
                 Siguiente episodio ➔
             </button>
+            <div class="custom-player-controls">
+                <div class="controls-row">
+                    <button class="control-btn" id="prevEpisodeBtn" title="Episodio anterior">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
+                        </svg>
+                    </button>
+                    <button class="control-btn" id="rewind10Btn" title="Retroceder 10s">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.99 5V1l-5 5 5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6h-2c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            <text x="9" y="16" font-size="8" fill="currentColor" font-weight="bold">10</text>
+                        </svg>
+                    </button>
+                    <button class="control-btn control-btn-play" id="playPauseBtn" title="Play/Pause">
+                        <svg class="play-icon" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        <svg class="pause-icon hidden" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+                        </svg>
+                    </button>
+                    <button class="control-btn" id="forward10Btn" title="Avanzar 10s">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/>
+                            <text x="11" y="16" font-size="8" fill="currentColor" font-weight="bold">10</text>
+                        </svg>
+                    </button>
+                    <button class="control-btn" id="nextEpisodeBtn" title="Episodio siguiente">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
             <div class="autoplay"></div>`;
     } else {
         // Crear contenedor tradicional (no usado actualmente, pero por compatibilidad)
@@ -29,6 +222,40 @@ function playEpisode(ep, el, index) {
             <button id="floatingNextBtn" class="btn-next-floating hidden">
                 Siguiente episodio ➔
             </button>
+            <div class="custom-player-controls">
+                <div class="controls-row">
+                    <button class="control-btn" id="prevEpisodeBtn" title="Episodio anterior">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
+                        </svg>
+                    </button>
+                    <button class="control-btn" id="rewind10Btn" title="Retroceder 10s">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.99 5V1l-5 5 5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6h-2c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            <text x="9" y="16" font-size="8" fill="currentColor" font-weight="bold">10</text>
+                        </svg>
+                    </button>
+                    <button class="control-btn control-btn-play" id="playPauseBtn" title="Play/Pause">
+                        <svg class="play-icon" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        <svg class="pause-icon hidden" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+                        </svg>
+                    </button>
+                    <button class="control-btn" id="forward10Btn" title="Avanzar 10s">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/>
+                            <text x="11" y="16" font-size="8" fill="currentColor" font-weight="bold">10</text>
+                        </svg>
+                    </button>
+                    <button class="control-btn" id="nextEpisodeBtn" title="Episodio siguiente">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
             <div class="autoplay"></div>`;
         if (el) el.after(box);
     }
@@ -55,7 +282,11 @@ function playEpisode(ep, el, index) {
         });
 
         window.currentVjs = player;
+        window.currentEpisodeIndex = index;
         player.src({ src: ep.url, type: 'application/x-mpegURL' });
+
+        // Configurar controles personalizados
+        setupCustomControls(player, index, box);
 
         // Listener para tecla Escape si estamos en modal
         if (modalContainer) {
