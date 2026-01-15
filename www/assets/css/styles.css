@@ -1,0 +1,1859 @@
+/* =========================================================
+   WebSeries – Estilo streaming (Header Mejorado & Clean UI)
+   ========================================================= */
+
+:root {
+  --bg: #0b0f1a;
+  --panel: #111827;
+  --panel-2: #1e293b;
+  --border: #1f2937;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+  --fav: #facc15;
+  --header-height: 70px;
+}
+
+* { 
+  box-sizing: border-box; 
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  scroll-behavior: smooth;
+}
+
+html, body {
+    touch-action: pan-x pan-y;
+    -webkit-text-size-adjust: 100%;
+    touch-action: manipulation;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="password"], 
+textarea {
+    font-size: 16px !important;
+}
+
+img { display: block; max-width: 100%; }
+
+/* ===== NUEVO HEADER (GLASSMORPHISM) ===== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(11, 15, 26, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#backBtn {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+}
+
+/* Brand / Logo */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.logo-text { color: #fff; }
+.accent-text { color: var(--accent); }
+.logo-icon { font-size: 1.6rem; }
+
+/* Navegación Principal */
+.main-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+  padding: 8px 5px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  transform: translateY(-1px);
+}
+.search {
+  flex: 1;
+  max-width: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  font-size: 0.85rem;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px 15px 10px 42px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.search input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.1);
+}
+
+.suggest {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: var(--panel-2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  z-index: 1001;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+  
+  display: flex;
+  flex-direction: column;
+  
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.suggest-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 12px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.suggest-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.suggest-view-more {
+  padding: 12px;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.suggest-view-more:hover {
+  background: rgba(56, 189, 248, 0.1);
+  color: #fff;
+}
+
+.suggest-results-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  overflow: visible;
+}
+
+.search-results-empty {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.search-results-empty h2 {
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .main-nav, .user-name { display: none; }
+  .header-container { padding: 0 15px; }
+  .search-container { max-width: 200px; }
+  .logo-text { display: none; }
+  .suggest { position: fixed; left: 10px; right: 10px; top: 70px; }
+}
+
+/* Perfil de Usuario y Dropdown */
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile {
+  position: relative;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 50px;
+  transition: background 0.2s;
+}
+
+.user-info:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.user-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--border);
+  background: var(--panel-2);
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 180px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px;
+  display: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  margin-top: 0;
+}
+
+.user-dropdown::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: transparent;
+}
+
+.user-profile:hover .user-dropdown {
+  display: block;
+}
+
+.dropdown-header {
+  padding: 8px 12px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--muted);
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.dropdown-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover { background: rgba(255, 255, 255, 0.05); }
+.dropdown-item.danger { color: #f87171; }
+.dropdown-item.danger:hover { background: rgba(239, 68, 68, 0.1); }
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== SUGERENCIAS DE BÚSQUEDA ===== */
+.suggest {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  max-height: 350px;
+  overflow-y: auto;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+  margin-top: 8px;
+}
+.suggest.hidden { display: none; }
+.s-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  cursor: pointer;
+}
+.s-item:hover { background: var(--panel); }
+.s-thumb { width: 40px; height: 60px; object-fit: cover; border-radius: 4px; }
+.s-title { font-weight: 600; font-size: 0.9rem; }
+.s-muted { color: var(--muted); font-size: 0.75rem; }
+
+/* ===== LAYOUT & CONTENT ===== */
+.container { 
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 24px; 
+}
+
+.back { 
+  margin-bottom: 24px; 
+  color: var(--accent); 
+  cursor: pointer; 
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 15px;
+}
+.section-header h2 { margin: 0; font-size: 1.4rem; font-weight: 700; }
+
+.btn.ghost { 
+  background: transparent; 
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn.ghost:hover { border-color: var(--muted); color: #fff; }
+
+/* ===== CARDS (EL CORAZÓN DEL DISEÑO) ===== */
+.row {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding-bottom: 15px;
+  scrollbar-width: thin;
+}
+
+.card {
+  width: 190px;
+  flex: 0 0 190px;
+  background: var(--panel);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card:hover { transform: translateY(-5px); }
+
+.card-img-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/3;
+  line-height: 0;
+}
+
+.card-img-container img { width: 100%; height: 100%; object-fit: cover; }
+
+.lang-tag {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;               /* ← Mantiene el rectángulo suave del contenedor */
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: bold;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+}
+
+/* Esto fuerza que SOLO la bandera sea círculo perfecto */
+.lang-tag svg {
+  width: 20px;                      /* Ajusta el tamaño si quieres más grande/pequeño */
+  height: 20px;
+  border-radius: 50%;               /* ← Círculo perfecto */
+  overflow: hidden;                 /* ← Recorta el SVG al círculo */
+  flex-shrink: 0;                   /* Evita que se encoja */
+}
+
+/* Opcional: pequeño ajuste al texto "ES"/"GL" para que quede bien centrado */
+.lang-tag span {
+  font-size: 10px;
+  line-height: 1;
+}
+
+.card .meta {
+  padding: 12px 10px;
+  background: var(--panel);
+  width: 100%;
+  overflow: hidden; 
+}
+
+.title-container { width: 100%; overflow: hidden; position: relative; }
+/* =========================================================
+   SISTEMA DE SCROLL DE TÍTULO FORZADO
+   ========================================================= */
+
+.title-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: block;
+}
+
+.scroll-title {
+    display: inline-block; /* Crucial para que la animación funcione */
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: white;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Solo se anima si el ratón está sobre la CARD */
+.card:hover .scroll-title {
+    animation: marquee 5s linear infinite;
+    animation-delay: 0.8s;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    /* El 100% moverá el texto hacia la izquierda */
+    100% { transform: translateX(calc(-100% + 150px)); } 
+}
+
+/* Asegurar que en móvil el grid no rompa el diseño */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .scroll-title {
+        font-size: 0.8rem;
+    }
+    
+    @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-100% + 80px)); } 
+    }
+}
+
+/* ===== GRID (VER TODAS) ===== */
+.grid-container {
+  display: grid;
+  /* Escritorio: Auto-relleno con tamaño mínimo de 180px */
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+/* ===== RESPONSIVE MÓVIL (768px o menos) ===== */
+@media (max-width: 768px) {
+  .main-nav, .user-name, .logo-text { display: none; }
+  
+  .grid-container {
+    /* 3 columnas fijas solo en móvil */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .grid-container .card {
+    width: 100%;
+    flex: 1;
+    max-width: none;
+  }
+
+  .grid-container .card .title { font-size: 0.75rem; }
+
+  @keyframes slideFullTitle {
+    0% { transform: translateX(0); }
+    /* Ajuste para ancho de columna pequeña en móvil */
+    100% { transform: translateX(calc(-100% + 80px)); }
+  }
+}
+/* ===== CONTINUAR VIENDO ===== */
+
+.continue-card {
+  display: flex;
+  gap: 16px;
+  background: var(--panel);
+  padding: 12px;
+  border-radius: 12px;
+  width: 320px;
+  height: 140px; /* Altura fija para que todas las tarjetas sean iguales */
+  flex: 0 0 auto;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Botón X minimalista */
+.delete-continue-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 23px;
+    height: 23px;
+    background: rgba(0, 0, 0, 0.4); /* Muy discreto */
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 4px; /* Un poco cuadrado redondeado queda más moderno */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    opacity: 1; /* Siempre visible */
+    transition: background 0.2s;
+    backdrop-filter: blur(2px); /* Efecto cristal */
+}
+
+.delete-continue-btn:hover {
+    background: rgba(239, 68, 68, 0.8); /* Rojo solo al tocarlo */
+    color: white;
+}
+
+/* Ajuste para que la X sea finita */
+.delete-continue-btn svg {
+    width: 12px;
+    height: 12px;
+    stroke-width: 2px;
+}
+
+.continue-card:hover {
+  background: var(--panel-2);
+  border-color: var(--border);
+}
+
+.continue-card img {
+  width: 85px;
+  height: 115px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.continue-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Permite truncar textos */
+}
+
+/* Nombre azul: permite 2 líneas antes de poner "..." */
+.continue-series-name {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+/* Título de episodio (solo series) */
+.continue-title-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+
+.continue-episode-title {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+/* El bloque de abajo: se pega al fondo */
+.continue-bottom-info {
+  margin-top: auto; 
+  width: 100%;
+}
+
+.continue-time {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 6px;
+  display: block;
+}
+
+.progress-bar {
+  height: 4px;
+  background: var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: var(--accent);
+}
+
+/* Efecto marquesina al pasar el ratón */
+.continue-card:hover .continue-episode-title {
+  animation: marqueeContinue 7s linear infinite;
+  padding-left: 20px;
+}
+
+
+@keyframes marqueeContinue {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* ===== EPISODIOS ===== */
+.episodes { display: flex; flex-direction: column; gap: 10px; }
+.episode {
+  background: var(--panel);
+  padding: 14px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.episode:hover { border-color: var(--border); background: var(--panel-2); }
+.episode-row { display: flex; align-items: center; gap: 15px; }
+.episode-num { color: var(--accent); font-weight: 800; min-width: 30px; }
+.fav-icon { margin-left: auto; color: var(--muted); transition: color 0.2s; }
+.fav-icon.active { color: var(--fav); }
+.episode.watched {
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.watched-check {
+    font-size: 1.1rem;
+    font-weight: bold;
+    filter: drop-shadow(0 0 5px rgba(76, 175, 80, 0.3));
+}
+
+
+
+/* ===== AUTH OVERLAY CORREGIDO ===== */
+#main-content {
+    display: none;
+}
+.auth-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: #0b0f1a;
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+}
+
+body.auth-required .auth-overlay {
+    display: flex;
+}
+
+/* 4. Estilos de la caja de login (tu diseño original) */
+.auth-box {
+  background: var(--panel);
+  width: 100%; 
+  max-width: 400px;
+  padding: 40px; 
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+}
+
+.auth-tabs { display: flex; margin-bottom: 25px; border-bottom: 1px solid var(--border); }
+.tab-btn { flex: 1; padding: 12px; background: none; border: none; color: var(--muted); cursor: pointer; }
+.tab-btn.active { color: var(--accent); border-bottom: 2px solid var(--accent); font-weight: 700; }
+.form-group { margin-bottom: 20px; }
+.form-group input {
+  width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--bg); color: #fff;
+}
+.auth-btn {
+  width: 100%; padding: 14px; background: var(--accent); border: none;
+  border-radius: 10px; color: #000; font-weight: 700; cursor: pointer;
+}
+
+/* ===== ESTADO DE CARGA ===== */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: var(--muted);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 480px) {
+    .favorites-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en móviles pequeños */
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-nav, .user-name { display: none; }
+  .header-container { padding: 0 15px; }
+  .search-container { max-width: 200px; }
+  .logo-text { display: none; }
+}
+
+.s-more {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--accent);
+  background: rgba(255,255,255,0.03);
+  cursor: pointer;
+  border-top: 1px solid var(--border);
+}
+
+.s-more:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.search-results-empty {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.search-results-empty h2 {
+    color: var(--muted);
+    margin-bottom: 20px;
+}
+
+/* ===== SERIE DETAIL (Mejorado) ===== */
+.serie-detail-header {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px; /* Más espacio con lo de abajo */
+  align-items: center; /* Alineación centrada para que no se vea gigante */
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+}
+
+.serie-poster {
+  width: 140px; /* Tamaño reducido más elegante */
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+  flex-shrink: 0;
+}
+
+.serie-info-text {
+  flex: 1;
+}
+
+.serie-info-text h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.8rem;
+}
+
+/* ===== PAGINACIÓN UNIFICADA Y RESPONSIVE ===== */
+.pagination {
+    display: flex;
+    flex-direction: column; /* Ponemos los números arriba y el buscador abajo para que quepan mejor */
+    align-items: center;    /* Centra horizontalmente */
+    justify-content: center;
+    gap: 15px;
+    margin: 40px auto;      /* Centra el bloque en la página */
+    padding: 20px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Contenedor de los cuadraditos numéricos */
+.pagination-numbers {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+/* Estilo de los botones numéricos (Basado en tu imagen de referencia) */
+.page-btn {
+    all: unset;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.page-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Página activa - Azul resaltado */
+.page-btn.active {
+    background: #4270f3 !important; 
+    color: white !important;
+}
+
+.page-btn:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+/* Puntos suspensivos entre bloques de números */
+.page-dots {
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+/* =============================================
+   BLOQUE COMPLETO: BUSCADOR GOTO (SERIES)
+   ============================================= */
+
+/* --- 1. Estilos Generales y Escritorio --- */
+.goto-episode {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--panel-2);
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    height: 38px;
+    transition: all 0.2s ease;
+}
+
+.goto-episode:focus-within {
+    border-color: var(--accent);
+}
+
+/* Etiqueta "EP" (Solo PC) */
+.goto-label-desktop {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: var(--muted);
+    letter-spacing: 1px;
+}
+
+.goto-episode input {
+    width: 50px;
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 700;
+    font-size: 1rem;
+    outline: none !important;
+    text-align: center;
+}
+
+/* Quitar flechas por defecto del input number */
+.goto-episode input::-webkit-outer-spin-button,
+.goto-episode input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Botón de acción (Flecha) */
+.goto-btn-minimal {
+    background: var(--accent);
+    color: black;
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.goto-btn-minimal:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+/* --- 2. Ajuste Ultra-Compacto para Móvil (< 600px) --- */
+@media (max-width: 600px) {
+    .goto-label-desktop {
+        display: none !important; /* Escondemos el texto EP */
+    }
+
+    .goto-episode {
+        width: 130px !important; /* Forzamos el ancho mínimo */
+        height: 45px !important;
+        padding: 5 3px !important;
+        gap: 0 !important;
+        border-radius: 6px !important;
+        margin-right: 20px !important;
+    }
+
+    .goto-episode input {
+        width: 100% !important;
+        font-size: 0.8rem !important;
+    }
+
+    .goto-episode input::placeholder {
+        font-size: 0.65rem !important;
+        font-weight: 900;
+    }
+
+    .goto-btn-minimal {
+        width: 22px !important;
+        height: 22px !important;
+        min-width: 22px !important;
+        margin-left: 2px !important;
+        border-radius: 4px !important;
+    }
+
+    .goto-btn-minimal svg {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    /* Asegurar que los botones de acción quepan en una sola línea */
+    .header-actions {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: 6px !important;
+        align-items: center !important;
+    }
+}
+
+/* --- 3. Animación de resaltado al encontrar episodio --- */
+@keyframes highlightFlash {
+    0% { background: transparent; }
+    50% { background: rgba(56, 189, 248, 0.3); border-color: var(--accent); }
+    100% { background: transparent; }
+}
+
+.highlight-episode {
+    animation: highlightFlash 2s ease-in-out;
+    border-radius: 8px;
+}
+
+/* Botón IR/Go dentro del buscador */
+.btn-jump {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Eliminar flechas del input number */
+.goto-episode input::-webkit-inner-spin-button,
+.goto-episode input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* ===== AJUSTES PARA MÓVIL (Media Queries) ===== */
+@media (max-width: 650px) {
+    .pagination {
+        justify-content: center; /* Centra los elementos */
+        padding: 15px 5px;
+    }
+
+    .pagination-numbers {
+        gap: 5px; /* Estrecha el espacio entre números */
+    }
+
+    .page-btn {
+        width: 30px; /* Botones ligeramente más pequeños */
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .goto-episode {
+        margin-left: 0; /* Quita el empuje a la derecha */
+        width: 100%; /* El buscador ocupa toda la línea de abajo */
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+
+.page-info {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.episodes {
+  margin: 20px 0; /* Espacio extra para la lista de episodios */
+}
+
+.movie-year {
+    background: var(--panel-2);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.movie-description {
+    line-height: 1.6;
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 15px 0;
+    max-width: 800px;
+    /* Limita a 4 líneas y añade puntos suspensivos si es muy larga */
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.movie-actions {
+    margin-top: 20px;
+}
+
+.movie-actions .auth-btn {
+    width: auto;
+    padding: 10px 25px;
+}
+
+@media (max-width: 600px) {
+  /* Contenedor padre de los botones en películas */
+  .movie-actions {
+      display: flex !important;
+      align-items: center !important;
+      gap: 10px !important; /* Espaciado automático entre elementos */
+      width: 100%;
+  }
+
+  .movie-actions .auth-btn {
+      flex: 1; /* Ocupa el espacio disponible de forma flexible */
+      padding: 10px 16px;
+      font-size: 14px;
+      white-space: nowrap;
+      margin-right: 5px; /* Separación extra del corazón */
+      width: auto; /* Dejamos que el flex controle el ancho */
+  }
+  
+  /* Aseguramos que el botón de favorito no se encoja */
+  .movie-actions .btn-fav-compact, 
+  .movie-actions .btn-fav {
+      flex-shrink: 0; 
+  }
+}
+
+/* --- AJUSTES PARA LA VISTA DE PELÍCULA EN MÓVIL --- */
+@media (max-width: 768px) {
+    /* Hacemos que la carátula y el texto se pongan uno sobre otro */
+    .movie-detail-header {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    /* Reducimos el tamaño de la carátula en móvil */
+    .movie-detail-header .serie-poster {
+        width: 150px; /* Tamaño mucho más manejable */
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    /* Ajustamos el contenedor de texto */
+    .serie-info-text {
+        width: 100%;
+    }
+
+    /* La sinopsis ahora puede ocupar más espacio y leerse mejor */
+    .movie-description {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        text-align: justify; /* O center, como prefieras */
+        -webkit-line-clamp: 6; /* Dejamos ver un poco más de texto en móvil */
+        max-width: 100%;
+    }
+
+    .movie-meta-top {
+        margin-bottom: 5px;
+    }
+
+    /* El botón de ver ahora más grande para que sea fácil de pulsar */
+    .movie-actions .auth-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
+/* Contenedor relativo para posicionar las flechas */
+.row-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Ocultar barra de scroll en Chrome, Safari y Opera */
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+/* Ocultar barra en IE, Edge y Firefox */
+.row {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth; /* Movimiento fluido al pulsar flechas */
+}
+
+/* Modifica tus botones de navegación en styles.css */
+.nav-btn {
+    display: none; /* Ocultas por defecto */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.3s;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Solo se muestran si el contenedor padre tiene la clase 'has-scroll' */
+.row-container.has-scroll .nav-btn {
+    display: flex; 
+}
+
+/* Aparecen al pasar el ratón */
+.row-container.has-scroll:hover .nav-btn {
+    opacity: 1;
+}
+
+/* Aparecen al pasar el ratón por el contenedor de la fila */
+.row-container:hover .nav-btn {
+    opacity: 1;
+}
+
+.nav-btn:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.nav-btn.left { left: 0; border-radius: 0 8px 8px 0; }
+.nav-btn.right { right: 0; border-radius: 8px 0 0 8px; }
+
+/* Evitar que las flechas tapen el contenido en móvil (opcional) */
+@media (max-width: 768px) {
+    .nav-btn { display: none; } /* En móvil es mejor usar el dedo */
+    .row { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+}
+
+@media (max-width: 768px) {
+  /* Ocultamos las flechas de navegación en tablets y móviles */
+  .nav-btn.left, 
+  .nav-btn.right {
+    display: none !important;
+  }
+
+  /* Aseguramos que el contenedor permita el scroll horizontal con el dedo */
+  .row {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Mejora la suavidad en iOS */
+  }
+
+  /* Opcional: Ocultamos la barra de scroll para que se vea más limpio */
+  .row::-webkit-scrollbar {
+    display: none;
+  }
+  .row {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.card-container { position: relative; }
+
+/* Asegura que el contenedor de la imagen sea el punto de referencia */
+.card-img-container {
+    position: relative !important;
+    display: block;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Por defecto, ocultamos el botón móvil en escritorio */
+.fav-mobile-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 5px;
+  line-height: 1;
+}
+
+/* ===== AJUSTES PARA MÓVIL (max-width: 768px) ===== */
+@media (max-width: 768px) {
+  /* 1. Ocultamos navegación de escritorio y texto del logo */
+  .main-nav, .logo-text, .user-name {
+    display: none !important;
+  }
+
+  /* 2. Hacemos que la estrella sea visible */
+  .fav-mobile-btn {
+    display: block !important;
+  }
+
+  /* 3. Ajustamos el contenedor para que el buscador sea flexible */
+  .header-container {
+    padding: 0 12px;
+    gap: 10px;
+  }
+
+  .header-left {
+    gap: 0; /* Quitamos el hueco de la nav oculta */
+  }
+
+  /* 4. El buscador se expande para ocupar el centro */
+  .search {
+    flex: 1;
+    margin: 0 5px;
+    max-width: none; /* Quitamos límites de ancho */
+  }
+
+  /* 5. Alineamos la estrella y el avatar a la derecha */
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0; /* Evita que el buscador pise los iconos */
+  }
+
+  /* Ajuste visual del avatar en móvil */
+  .user-avatar {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+
+/* Ajuste para la cuadrícula de favoritos */
+.favorites-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 480px) {
+    .favorites-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en móviles */
+        gap: 10px;
+    }
+}
+
+/* --- CONTENEDOR PRINCIPAL --- */
+.header-actions {
+    display: flex;
+    align-items: center; 
+    gap: 12px;
+    margin-top: 15px;
+    height: 36px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* --- SELECTOR DE TEMPORADAS --- */
+.season-select {
+    height: 36px !important;
+    width: auto; /* En PC solo ocupa lo que necesita el texto */
+    min-width: 130px;
+    max-width: 200px; /* Evita que se haga gigante en PC */
+    background-color: #242a32;
+    color: #efefef;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 0 30px 0 12px;
+    font-size: 13px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    box-sizing: border-box;
+}
+
+/* --- BOTÓN FAVORITOS (RECONSTRUIDO) --- */
+.btn-fav-compact {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 36px !important;
+    padding: 0 15px;
+    background-color: #242a32;
+    color: #efefef;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 8px;
+    font-size: 13px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.btn-fav-compact:hover {
+    background-color: #2f3741;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.heart-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    display: block; /* Importante para que no flote */
+    pointer-events: none;
+}
+
+/* Estado Activo */
+.btn-fav-compact.active {
+    border-color: #ff4b4b;
+    background-color: rgba(255, 75, 75, 0.15);
+    color: #ff4b4b;
+}
+.btn-fav-compact.active .heart-icon {
+    fill: #ff4b4b;
+}
+
+/* --- AJUSTES MÓVIL --- */
+@media (max-width: 500px) {
+    .serie-detail-header {
+        gap: 12px !important;
+        padding: 10px !important;
+    }
+
+    .serie-poster {
+        width: 100px !important;
+        min-width: 100px !important;
+    }
+
+    /* En móvil, el selector se queda a la izquierda y el botón a la derecha */
+    .season-select {
+        flex: 0 1 auto; /* No empuja */
+        min-width: 100px;
+        max-width: 120px;
+    }
+
+    .btn-fav-compact {
+        width: 36px !important; /* Círculo perfecto */
+        padding: 0 !important;
+        border-radius: 50% !important;
+        /* Centrado absoluto del icono */
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .btn-fav-compact .btn-text {
+        display: none !important;
+    }
+
+    .btn-fav-compact .heart-icon {
+        margin: 0 !important; /* Eliminamos cualquier margen que lo saque del círculo */
+    }
+}
+
+/* Oculta y bloquea los controles mientras está cargando progreso */
+.video-js.vjs-waiting .vjs-control-bar {
+    opacity: 0; /* Hace que desaparezcan completamente */
+    pointer-events: none; /* Impide cualquier interacción */
+    transition: opacity 0.3s ease;
+}
+
+/* Opcional: si prefieres que se vean pero no respondan */
+.video-js.vjs-waiting .vjs-control-bar {
+    pointer-events: none;
+    filter: grayscale(100%) opacity(0.4); /* Atenúa visualmente */
+}
+
+/* Mensaje de carga (el que ya tenías) */
+.video-js.vjs-waiting::before {
+    content: "Recuperando progreso...";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0,0,0,0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+/* Oculta el botón grande de play (ya lo tenías) */
+.video-js.vjs-waiting .vjs-big-play-button {
+    display: none !important;
+}
+
+/* Este es el contenedor que creas en playEpisode */
+.player-container {
+    width: 100%;
+    height: 500px; 
+    max-height: 80vh;
+    position: relative;
+    background: #000;
+    margin: 15px 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .player-container {
+        height: 250px; /* Más bajito para teléfonos */
+    }
+}
+
+/* Forzar a Video.js a llenar el contenedor anterior */
+#vjs-player {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Ajustar el video dentro del reproductor (Object Fit) */
+.video-js video {
+    object-fit: contain; /* Esto hace que el video se ajuste sin recortarse */
+}
+
+/* Botón flotante Siguiente Episodio */
+.btn-next-floating {
+    position: absolute;
+    bottom: 80px; /* Por encima de los controles */
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.btn-next-floating:hover {
+    background: #f9f9f9;
+    color: #000;
+}
+
+.btn-next-floating.hidden {
+    display: none;
+}
+
+.next-episode-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Un poco más oscuro para que se vea mejor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; /* Asegúrate de que esté por encima del videojs */
+    color: white;
+}
+
+.autoplay {
+    /* El contenedor .autoplay vive dentro de .player-container */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Evita que bloquee clicks si está vacío */
+}
+
+.autoplay .next-episode-overlay {
+    pointer-events: auto; /* Reactiva los clicks cuando el overlay existe */
+}
+
+.overlay-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.overlay-btns {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-next {
+    background-color: #34b7f1; /* El azul de tu captura */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-cancel {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-next:hover { background-color: #29a0d4; }
+.btn-cancel:hover { background-color: #444; }
+
+/* Overlays de confirmación para ±10s */
+.vjs-seek-overlay {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 120px;
+    height: 120px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50%;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    z-index: 1000;
+}
+
+.vjs-seek-overlay.show {
+    opacity: 1;
+}
+
+.vjs-seek-left {
+    left: 20px;
+}
+
+.vjs-seek-right {
+    right: 20px;
+}
+
+/* 1. Contenedor principal de la fila */
+.row-container {
+    position: relative; /* Crucial para que las flechas se posicionen respecto a esto */
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* 2. La fila que contiene las tarjetas (con scroll horizontal) */
+.row {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+    padding: 10px 0;
+    width: 100%;
+    scrollbar-width: none; /* Oculta scrollbar en Firefox */
+}
+
+.row::-webkit-scrollbar {
+    display: none; /* Oculta scrollbar en Chrome/Safari */
+}
+
+/* Contenedor del botón (la franja de clic) */
+.nav-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    height: 100%;
+    background: transparent; /* Totalmente invisible en reposo */
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+    user-select: none;
+    padding: 0;
+}
+
+/* Posicionamiento */
+.nav-btn.left { left: 0; }
+.nav-btn.right { right: 0; }
+
+/* EFECTO HOVER DIFUMINADO */
+/* Usamos un gradiente que va de un gris oscuro suave a transparente */
+.nav-btn.left:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+}
+
+.nav-btn.right:hover {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+}
+
+/* Estilo de la flecha */
+.nav-btn::before {
+    content: attr(data-icon); /* O usa directamente el ‹ o › si lo tienes en el HTML */
+    font-size: 35px;
+    font-weight: bold;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0.6; /* Flecha tenue en reposo */
+}
+
+.nav-btn:hover::before {
+    transform: scale(1.3);
+    opacity: 1; /* Flecha brillante al pasar el ratón */
+}
+
+/* Clase para ocultar cuando no hay scroll */
+.nav-btn.is-hidden {
+    display: none !important;
+}
+
+/* 5. Mejora visual: gradiente opcional en los bordes para que se vea como Netflix */
+/* Gradientes base */
+.row-container::before,
+.row-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    z-index: 2;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Por defecto ocultos */
+}
+
+/* El gradiente izquierdo solo aparece si la clase 'has-left-gradient' está presente */
+.row-container.has-left-gradient::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(15, 15, 15, 0.9), transparent);
+    opacity: 1;
+}
+
+/* El gradiente derecho solo aparece si la clase 'has-right-gradient' está presente */
+.row-container.has-right-gradient::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(15, 15, 15, 0.9), transparent);
+    opacity: 1;
+}
+
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.badge-new {
+    position: absolute;
+    top: 10px;
+    left: -5px; /* Lo sacamos un poco para el efecto de cinta */
+    background: linear-gradient(135deg, #e50914 0%, #b20710 100%);
+    color: white;
+    font-size: 11px;
+    font-weight: 900;
+    padding: 4px 10px;
+    border-radius: 0 4px 4px 0; /* Redondeado solo en la parte derecha */
+    z-index: 20;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    pointer-events: none;
+    letter-spacing: 1px;
+    border-left: 3px solid #ffffff; /* Una línea blanca sutil al inicio */
+}
+
+/* Opcional: Un pequeño brillo que recorre la etiqueta cada pocos segundos */
+@keyframes shiny {
+    0% { filter: brightness(1); }
+    50% { filter: brightness(1.3); }
+    100% { filter: brightness(1); }
+}
+
+.badge-new {
+    animation: shiny 2s infinite ease-in-out;
+}
+
+/* Zona de interacción ampliada (hitbox) */
+.vjs-progress-control {
+    height: 30px !important; 
+    display: flex !important;
+    align-items: center !important;
+    position: relative !important;
+    overflow: visible !important;
+}
+
+/* Forzamos que el holder (la barra gris) sea un poco más alta visualmente */
+.vjs-progress-holder {
+    height: 10px !important; /* Altura visual de la barra */
+    margin: 0 !important;
+    border-radius: 5px !important;
+}
+
+/* Tooltip de miniatura mejorado con transiciones */
+.custom-thumb-tooltip {
+    position: absolute;
+    bottom: 45px;                   /* Distancia desde la barra */
+    left: 0;
+    width: 200px;                   /* Tamaño grande */
+    height: 112px;                  /* Proporción 16:9 */
+    background: #000;
+    border: 2px solid #ffffffcc;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    pointer-events: none;
+    display: none;
+    z-index: 9999;
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transform: translateX(-50%) scale(0.95);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+/* Clase para mostrar con animación */
+.custom-thumb-tooltip.visible {
+    display: block !important;
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
+/* Asegurar que el relleno de progreso también sea redondeado */
+.vjs-play-progress, .vjs-load-progress {
+    border-radius: 5px !important;
+}

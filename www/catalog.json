@@ -1,0 +1,4165 @@
+{
+  "title": "Catálogo Completo",
+  "series": [
+    {
+      "id": "alice_in_borderland",
+      "title": "Alice in borderland",
+      "lang": "es",
+      "type": "serie",
+      "updated_at": 1767120961.665486,
+      "seasons": [
+        {
+          "season": 3,
+          "title": "Season 03",
+          "episodes": [
+            {
+              "id": "ep001",
+              "title": "Episodio 1",
+              "url": "/Series_HLS/Alice in borderland/Season 03/ep001/index.m3u8"
+            },
+            {
+              "id": "ep002",
+              "title": "Episodio 2",
+              "url": "/Series_HLS/Alice in borderland/Season 03/ep002/index.m3u8"
+            },
+            {
+              "id": "ep003",
+              "title": "Episodio 3",
+              "url": "/Series_HLS/Alice in borderland/Season 03/ep003/index.m3u8"
+            },
+            {
+              "id": "ep004",
+              "title": "Episodio 4",
+              "url": "/Series_HLS/Alice in borderland/Season 03/ep004/index.m3u8"
+            },
+            {
+              "id": "ep005",
+              "title": "Episodio 5",
+              "url": "/Series_HLS/Alice in borderland/Season 03/ep005/index.m3u8"
+            },
+            {
+              "id": "ep006",
+              "title": "Episodio 6",
+              "url": "/Series_HLS/Alice in borderland/Season 03/ep006/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codigo_lyoko",
+      "title": "Codigo Lyoko",
+      "lang": "gl",
+      "type": "serie",
+      "updated_at": 1767272005.1911376,
+      "seasons": [
+        {
+          "season": 1,
+          "title": "Season 01",
+          "episodes": [
+            {
+              "id": "ep001",
+              "title": "Codigo Lyoko 01 - Godzilla o oso de peluche",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep001/index.m3u8"
+            },
+            {
+              "id": "ep002",
+              "title": "Codigo Lyoko 02 - Ver pra crer",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep002/index.m3u8"
+            },
+            {
+              "id": "ep003",
+              "title": "Codigo Lyoko 03 - Vacacións con bruma",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep003/index.m3u8"
+            },
+            {
+              "id": "ep004",
+              "title": "Codigo Lyoko 04 - O diario",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep004/index.m3u8"
+            },
+            {
+              "id": "ep005",
+              "title": "Codigo Lyoko 05 - O virus",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep005/index.m3u8"
+            },
+            {
+              "id": "ep006",
+              "title": "Codigo Lyoko 06 - Dilema cruel",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep006/index.m3u8"
+            },
+            {
+              "id": "ep007",
+              "title": "Codigo Lyoko 07 - Problema de imaxe",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep007/index.m3u8"
+            },
+            {
+              "id": "ep008",
+              "title": "Codigo Lyoko 08 - Última toma",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep008/index.m3u8"
+            },
+            {
+              "id": "ep009",
+              "title": "Codigo Lyoko 09 - O satélite",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep009/index.m3u8"
+            },
+            {
+              "id": "ep010",
+              "title": "Codigo Lyoko 10 - A rapaza dos meus soños",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep010/index.m3u8"
+            },
+            {
+              "id": "ep011",
+              "title": "Codigo Lyoko 11 - A praga",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep011/index.m3u8"
+            },
+            {
+              "id": "ep012",
+              "title": "Codigo Lyoko 12 - O ataque das avespas",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep012/index.m3u8"
+            },
+            {
+              "id": "ep013",
+              "title": "Codigo Lyoko 13 - Xusto a tempo",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep013/index.m3u8"
+            },
+            {
+              "id": "ep014",
+              "title": "Codigo Lyoko 14 - A trampa",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep014/index.m3u8"
+            },
+            {
+              "id": "ep015",
+              "title": "Codigo Lyoko 15 - Ataque de risa",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep015/index.m3u8"
+            },
+            {
+              "id": "ep016",
+              "title": "Codigo Lyoko 16 - Claustrofobia",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep016/index.m3u8"
+            },
+            {
+              "id": "ep017",
+              "title": "Codigo Lyoko 17 - Amnesia",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep017/index.m3u8"
+            },
+            {
+              "id": "ep018",
+              "title": "Codigo Lyoko 18 - Melodía",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep018/index.m3u8"
+            },
+            {
+              "id": "ep019",
+              "title": "Codigo Lyoko 19 - A fronteira",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep019/index.m3u8"
+            },
+            {
+              "id": "ep020",
+              "title": "Codigo Lyoko 20 - Os robots",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep020/index.m3u8"
+            },
+            {
+              "id": "ep021",
+              "title": "Codigo Lyoko 21 - Zona de gravidade cero",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep021/index.m3u8"
+            },
+            {
+              "id": "ep022",
+              "title": "Codigo Lyoko 22 - Rutina",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep022/index.m3u8"
+            },
+            {
+              "id": "ep023",
+              "title": "Codigo Lyoko 23 - Ataque subterráneo",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep023/index.m3u8"
+            },
+            {
+              "id": "ep024",
+              "title": "Codigo Lyoko 24 - A canle oculta",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep024/index.m3u8"
+            },
+            {
+              "id": "ep025",
+              "title": "Codigo Lyoko 25 - Terra",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep025/index.m3u8"
+            },
+            {
+              "id": "ep026",
+              "title": "Codigo Lyoko 26 - Intento frustrado",
+              "url": "/Series_HLS/Codigo Lyoko/Season 01/ep026/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "detective_conan",
+      "title": "Detective Conan",
+      "lang": "gl",
+      "type": "serie",
+      "updated_at": 1768237779.1762197,
+      "seasons": [
+        {
+          "season": 1,
+          "title": "Season 01",
+          "episodes": [
+            {
+              "id": "ep001",
+              "title": "Detective Conan 001 - O detective máis célebre deste século",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep001/index.m3u8"
+            },
+            {
+              "id": "ep002",
+              "title": "Detective Conan 002 - O célebre detective que minguou",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep002/index.m3u8"
+            },
+            {
+              "id": "ep003",
+              "title": "Detective Conan 003 - Moito ollo cos famosos!",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep003/index.m3u8"
+            },
+            {
+              "id": "ep004",
+              "title": "Detective Conan 004 - Clave; o peixe de luces",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep004/index.m3u8"
+            },
+            {
+              "id": "ep005",
+              "title": "Detective Conan 005 - A grande explosión do tren bala",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep005/index.m3u8"
+            },
+            {
+              "id": "ep006",
+              "title": "Detective Conan 006 - Asasinato no día de San Valentín",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep006/index.m3u8"
+            },
+            {
+              "id": "ep007",
+              "title": "Detective Conan 007 - A ameaza mensual dos agasallos",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep007/index.m3u8"
+            },
+            {
+              "id": "ep008",
+              "title": "Detective Conan 008 - Asasinato no museo de Belas Artes",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep008/index.m3u8"
+            },
+            {
+              "id": "ep009",
+              "title": "Detective Conan 009 - Asasinato durante a festa",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep009/index.m3u8"
+            },
+            {
+              "id": "ep010",
+              "title": "Detective Conan 010 - Chantaxe a un futbolista",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep010/index.m3u8"
+            },
+            {
+              "id": "ep011",
+              "title": "Detective Conan 011 - Os asasinatos da sonata O luar (Parte 1ª parte y 2ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep011/index.m3u8"
+            },
+            {
+              "id": "ep012",
+              "title": "Detective Conan 012 - O secuestro de Ayumi",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep012/index.m3u8"
+            },
+            {
+              "id": "ep013",
+              "title": "Detective Conan 013 - O roubo dos cen millóns de dólares",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep013/index.m3u8"
+            },
+            {
+              "id": "ep014",
+              "title": "Detective Conan 014 - O atentado da mensaxe enigmática",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep014/index.m3u8"
+            },
+            {
+              "id": "ep015",
+              "title": "Detective Conan 015 - O cadáver desaparecido",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep015/index.m3u8"
+            },
+            {
+              "id": "ep016",
+              "title": "Detective Conan 016 - O asasinato do coleccionista",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep016/index.m3u8"
+            },
+            {
+              "id": "ep017",
+              "title": "Detective Conan 017 - Roubo nos grandes almacéns",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep017/index.m3u8"
+            },
+            {
+              "id": "ep018",
+              "title": "Detective Conan 018 - O asasinato da noiva",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep018/index.m3u8"
+            },
+            {
+              "id": "ep019",
+              "title": "Detective Conan 019 - Asasinato no ascensor",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep019/index.m3u8"
+            },
+            {
+              "id": "ep020",
+              "title": "Detective Conan 020 - Asasinato na mansión enmeigada",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep020/index.m3u8"
+            },
+            {
+              "id": "ep021",
+              "title": "Detective Conan 021 - Asasinato no escenario da rodaxe",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep021/index.m3u8"
+            },
+            {
+              "id": "ep022",
+              "title": "Detective Conan 022 - Asasinatos nun transatlántico de luxo (1ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep022/index.m3u8"
+            },
+            {
+              "id": "ep023",
+              "title": "Detective Conan 023 - Asasinatos nun transatlántico de luxo (2ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep023/index.m3u8"
+            },
+            {
+              "id": "ep024",
+              "title": "Detective Conan 024 - O misterio da guapa amnésica",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep024/index.m3u8"
+            },
+            {
+              "id": "ep025",
+              "title": "Detective Conan 025 - Rescate pagado con billetes falsos",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep025/index.m3u8"
+            },
+            {
+              "id": "ep026",
+              "title": "Detective Conan 026 - Tom e o asasinato",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep026/index.m3u8"
+            },
+            {
+              "id": "ep027",
+              "title": "Detective Conan 027 - Asasinato na xuntanza de ex-compañeiros de Kogoro (1ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep027/index.m3u8"
+            },
+            {
+              "id": "ep028",
+              "title": "Detective Conan 028 - Asasinato na xuntanza de ex-compañeiros de Kogoro (2ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep028/index.m3u8"
+            },
+            {
+              "id": "ep029",
+              "title": "Detective Conan 029 - O caso do asasinato por computador",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep029/index.m3u8"
+            },
+            {
+              "id": "ep030",
+              "title": "Detective Conan 030 - A coartada perfecta",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep030/index.m3u8"
+            },
+            {
+              "id": "ep031",
+              "title": "Detective Conan 031 - Asasinato no estudio de televisión",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep031/index.m3u8"
+            },
+            {
+              "id": "ep032",
+              "title": "Detective Conan 032 - Asasinato nunha cafetería",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep032/index.m3u8"
+            },
+            {
+              "id": "ep033",
+              "title": "Detective Conan 033 - Xornada de supervivencia para os Detectives Xuvenís",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep033/index.m3u8"
+            },
+            {
+              "id": "ep034",
+              "title": "Detective Conan 034 - O asasino misterioso da mansión da montaña (1ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep034/index.m3u8"
+            },
+            {
+              "id": "ep035",
+              "title": "Detective Conan 035 - O asasino misterioso da mansión da montaña (2ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep035/index.m3u8"
+            },
+            {
+              "id": "ep036",
+              "title": "Detective Conan 036 - O asasinato do luns ás sete e media do serán",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep036/index.m3u8"
+            },
+            {
+              "id": "ep037",
+              "title": "Detective Conan 037 - O asasinato da flor do cacto",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep037/index.m3u8"
+            },
+            {
+              "id": "ep038",
+              "title": "Detective Conan 038 - Asasinato na Festa do Lume",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep038/index.m3u8"
+            },
+            {
+              "id": "ep039",
+              "title": "Detective Conan 039 - O caso da herdeira asasinada (1ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep039/index.m3u8"
+            },
+            {
+              "id": "ep040",
+              "title": "Detective Conan 040 - O caso da herdeira asasinada (2ª parte)",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep040/index.m3u8"
+            },
+            {
+              "id": "ep041",
+              "title": "Detective Conan 041 - O incidente da bandeira rachada",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep041/index.m3u8"
+            },
+            {
+              "id": "ep042",
+              "title": "Detective Conan 042 - Asasinato nunha cabina de karaoke",
+              "url": "/Series_HLS/Detective Conan/Season 01/ep042/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marco",
+      "title": "Marco",
+      "lang": "gl",
+      "type": "serie",
+      "updated_at": 1767397303.7075117,
+      "episodes": [
+        {
+          "id": "ep001",
+          "title": "Marco 01 - Non te vaias mama",
+          "url": "/Series_HLS/Marco/ep001/index.m3u8"
+        },
+        {
+          "id": "ep002",
+          "title": "Marco 02 - Un neno de Xenova",
+          "url": "/Series_HLS/Marco/ep002/index.m3u8"
+        },
+        {
+          "id": "ep003",
+          "title": "Marco 03 - Hoxe imos o Mar",
+          "url": "/Series_HLS/Marco/ep003/index.m3u8"
+        },
+        {
+          "id": "ep004",
+          "title": "Marco 04 - Non te quero Papa",
+          "url": "/Series_HLS/Marco/ep004/index.m3u8"
+        },
+        {
+          "id": "ep005",
+          "title": "Marco 05 - O meu amigo Emilio",
+          "url": "/Series_HLS/Marco/ep005/index.m3u8"
+        },
+        {
+          "id": "ep006",
+          "title": "Marco 06 - A primeira paga de Marco",
+          "url": "/Series_HLS/Marco/ep006/index.m3u8"
+        },
+        {
+          "id": "ep007",
+          "title": "Marco 07 - Un cachiño de mar desde o tellado",
+          "url": "/Series_HLS/Marco/ep007/index.m3u8"
+        },
+        {
+          "id": "ep008",
+          "title": "Marco 08 - Peppino e os seus monicreques",
+          "url": "/Series_HLS/Marco/ep008/index.m3u8"
+        },
+        {
+          "id": "ep009",
+          "title": "Marco 09 - Perdoame Papa",
+          "url": "/Series_HLS/Marco/ep009/index.m3u8"
+        },
+        {
+          "id": "ep010",
+          "title": "Marco 10 - Bos Aires onde esta miña nai",
+          "url": "/Series_HLS/Marco/ep010/index.m3u8"
+        },
+        {
+          "id": "ep011",
+          "title": "Marco 11 - Carta da Mama",
+          "url": "/Series_HLS/Marco/ep011/index.m3u8"
+        },
+        {
+          "id": "ep012",
+          "title": "Marco 12 - Imos velo dirixible",
+          "url": "/Series_HLS/Marco/ep012/index.m3u8"
+        },
+        {
+          "id": "ep013",
+          "title": "Marco 13 - Adeus Fiorina",
+          "url": "/Series_HLS/Marco/ep013/index.m3u8"
+        },
+        {
+          "id": "ep014",
+          "title": "Marco 14 - A determinacion de Marco",
+          "url": "/Series_HLS/Marco/ep014/index.m3u8"
+        },
+        {
+          "id": "ep015",
+          "title": "Marco 15 - O Folgore levanta ancora",
+          "url": "/Series_HLS/Marco/ep015/index.m3u8"
+        },
+        {
+          "id": "ep016",
+          "title": "Marco 16 - A bordo do Folgore",
+          "url": "/Series_HLS/Marco/ep016/index.m3u8"
+        },
+        {
+          "id": "ep017",
+          "title": "Marco 17 - O paso do Ecuador",
+          "url": "/Series_HLS/Marco/ep017/index.m3u8"
+        },
+        {
+          "id": "ep018",
+          "title": "Marco 18 - Xa estamos en Rio",
+          "url": "/Series_HLS/Marco/ep018/index.m3u8"
+        },
+        {
+          "id": "ep019",
+          "title": "Marco 19 - O barco dos emigrantes",
+          "url": "/Series_HLS/Marco/ep019/index.m3u8"
+        },
+        {
+          "id": "ep020",
+          "title": "Marco 20 - Noite de temporal",
+          "url": "/Series_HLS/Marco/ep020/index.m3u8"
+        },
+        {
+          "id": "ep021",
+          "title": "Marco 21 - O rio da prata",
+          "url": "/Series_HLS/Marco/ep021/index.m3u8"
+        },
+        {
+          "id": "ep022",
+          "title": "Marco 22 - Onde estas Mama",
+          "url": "/Series_HLS/Marco/ep022/index.m3u8"
+        },
+        {
+          "id": "ep023",
+          "title": "Marco 23 - Non era a mina nai",
+          "url": "/Series_HLS/Marco/ep023/index.m3u8"
+        },
+        {
+          "id": "ep024",
+          "title": "Marco 24 - Ola, Fiorina",
+          "url": "/Series_HLS/Marco/ep024/index.m3u8"
+        },
+        {
+          "id": "ep025",
+          "title": "Marco 25 - O Grande exito de Peppino e a sua compañia",
+          "url": "/Series_HLS/Marco/ep025/index.m3u8"
+        },
+        {
+          "id": "ep026",
+          "title": "Marco 26 - A traves da Pampa",
+          "url": "/Series_HLS/Marco/ep026/index.m3u8"
+        },
+        {
+          "id": "ep027",
+          "title": "Marco 27 - As bagoas de Fiorina",
+          "url": "/Series_HLS/Marco/ep027/index.m3u8"
+        },
+        {
+          "id": "ep028",
+          "title": "Marco 28 - O gran rancho dos Balboa",
+          "url": "/Series_HLS/Marco/ep028/index.m3u8"
+        },
+        {
+          "id": "ep029",
+          "title": "Marco 29 - Neva",
+          "url": "/Series_HLS/Marco/ep029/index.m3u8"
+        },
+        {
+          "id": "ep030",
+          "title": "Marco 30 - Un gaucho chamado don Carlos",
+          "url": "/Series_HLS/Marco/ep030/index.m3u8"
+        },
+        {
+          "id": "ep031",
+          "title": "Marco 31 - Longa noite",
+          "url": "/Series_HLS/Marco/ep031/index.m3u8"
+        },
+        {
+          "id": "ep032",
+          "title": "Marco 32 - Axiña nos diremos adeus",
+          "url": "/Series_HLS/Marco/ep032/index.m3u8"
+        },
+        {
+          "id": "ep033",
+          "title": "Marco 33 - A Mama non esta aqui",
+          "url": "/Series_HLS/Marco/ep033/index.m3u8"
+        },
+        {
+          "id": "ep034",
+          "title": "Marco 34 - Quero volver para Xenova",
+          "url": "/Series_HLS/Marco/ep034/index.m3u8"
+        },
+        {
+          "id": "ep035",
+          "title": "Marco 35 - Unha carta da Mama",
+          "url": "/Series_HLS/Marco/ep035/index.m3u8"
+        },
+        {
+          "id": "ep036",
+          "title": "Marco 36 - Adeus, Baia Branca",
+          "url": "/Series_HLS/Marco/ep036/index.m3u8"
+        },
+        {
+          "id": "ep037",
+          "title": "Marco 37 - Un dia interminable",
+          "url": "/Series_HLS/Marco/ep037/index.m3u8"
+        },
+        {
+          "id": "ep038",
+          "title": "Marco 38 - Heite encontrar, Mama",
+          "url": "/Series_HLS/Marco/ep038/index.m3u8"
+        },
+        {
+          "id": "ep039",
+          "title": "Marco 39 - Camino de Rosario",
+          "url": "/Series_HLS/Marco/ep039/index.m3u8"
+        },
+        {
+          "id": "ep040",
+          "title": "Marco 40 - A Estrela de Italia",
+          "url": "/Series_HLS/Marco/ep040/index.m3u8"
+        },
+        {
+          "id": "ep041",
+          "title": "Marco 41 - Camino de Cordoba",
+          "url": "/Series_HLS/Marco/ep041/index.m3u8"
+        },
+        {
+          "id": "ep042",
+          "title": "Marco 42 - Pablo, o meu novo amigo",
+          "url": "/Series_HLS/Marco/ep042/index.m3u8"
+        },
+        {
+          "id": "ep043",
+          "title": "Marco 43 - A Mama ten que estar aqui",
+          "url": "/Series_HLS/Marco/ep043/index.m3u8"
+        },
+        {
+          "id": "ep044",
+          "title": "Marco 44 - Compre salvar a Juana",
+          "url": "/Series_HLS/Marco/ep044/index.m3u8"
+        },
+        {
+          "id": "ep045",
+          "title": "Marco 45 - Adeus, Pablo",
+          "url": "/Series_HLS/Marco/ep045/index.m3u8"
+        },
+        {
+          "id": "ep046",
+          "title": "Marco 46 - Unha viaxe accidentada",
+          "url": "/Series_HLS/Marco/ep046/index.m3u8"
+        },
+        {
+          "id": "ep047",
+          "title": "Marco 47 - A Mama esta detras deses montes",
+          "url": "/Series_HLS/Marco/ep047/index.m3u8"
+        },
+        {
+          "id": "ep048",
+          "title": "Marco 48 - Adeus Vella",
+          "url": "/Series_HLS/Marco/ep048/index.m3u8"
+        },
+        {
+          "id": "ep049",
+          "title": "Marco 49 - A Mama chama por min",
+          "url": "/Series_HLS/Marco/ep049/index.m3u8"
+        },
+        {
+          "id": "ep050",
+          "title": "Marco 50 - A fin da viaxe",
+          "url": "/Series_HLS/Marco/ep050/index.m3u8"
+        },
+        {
+          "id": "ep051",
+          "title": "Marco 51 - O encontro",
+          "url": "/Series_HLS/Marco/ep051/index.m3u8"
+        },
+        {
+          "id": "ep052",
+          "title": "Marco 52 - O regreso",
+          "url": "/Series_HLS/Marco/ep052/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "shin_chan",
+      "title": "Shin Chan",
+      "lang": "gl",
+      "type": "serie",
+      "updated_at": 1768247745.7809758,
+      "episodes": [
+        {
+          "id": "ep001",
+          "title": "Shin Chan 1 - Vou de compras - Mamá pola mañá ten moito que facer - Fago un debuxo",
+          "url": "/Series_HLS/Shin Chan/ep001/index.m3u8"
+        },
+        {
+          "id": "ep002",
+          "title": "Shin Chan 2 - Como me gusta o triciclo - Como me doe a barriga - Coitado papá",
+          "url": "/Series_HLS/Shin Chan/ep002/index.m3u8"
+        },
+        {
+          "id": "ep003",
+          "title": "Shin Chan 3 - A min gústame Ultraheroe - Na escola cómese que dá xenio - Vou ao dentista",
+          "url": "/Series_HLS/Shin Chan/ep003/index.m3u8"
+        },
+        {
+          "id": "ep004",
+          "title": "Shin Chan 4 - Os da clase dos Xirasoles somos uns heroes - Vou de merenda ao campo (I) - Vou de merenda ao campo (II)",
+          "url": "/Series_HLS/Shin Chan/ep004/index.m3u8"
+        },
+        {
+          "id": "ep005",
+          "title": "Shin Chan 5 - Vou ao cine - Fágolle un agasallo á señorita - Eu quero axudar na casa",
+          "url": "/Series_HLS/Shin Chan/ep005/index.m3u8"
+        },
+        {
+          "id": "ep006",
+          "title": "Shin Chan 6 - Vou arrombar as miñas cousas - Temos cullarapos - Voume bañar con mamá",
+          "url": "/Series_HLS/Shin Chan/ep006/index.m3u8"
+        },
+        {
+          "id": "ep007",
+          "title": "Shin Chan 7 - Co simulacro de urxencia non se xoga - Atopei un can - Chámase Nevado",
+          "url": "/Series_HLS/Shin Chan/ep007/index.m3u8"
+        },
+        {
+          "id": "ep008",
+          "title": "Shin Chan 8 - Vou levar de paseo a Nevado - Ímoslle facer a casiña a Nevado - Que noxo me dan os pementos",
+          "url": "/Series_HLS/Shin Chan/ep008/index.m3u8"
+        },
+        {
+          "id": "ep009",
+          "title": "Shin Chan 9 - A papá non se molesta - Que ben, vou xogar con plastilina! - Na librería non se pode ler",
+          "url": "/Series_HLS/Shin Chan/ep009/index.m3u8"
+        },
+        {
+          "id": "ep010",
+          "title": "Shin Chan 10 - Teño unha amiga nova - Quero un traxe de baño - Chegou a hora de ir á piscina",
+          "url": "/Series_HLS/Shin Chan/ep010/index.m3u8"
+        },
+        {
+          "id": "ep011",
+          "title": "Shin Chan 11 - Voulle dar de comer a Nevado - As liortas matrimoniais non son cousa de broma - Marchamos de pesca",
+          "url": "/Series_HLS/Shin Chan/ep011/index.m3u8"
+        },
+        {
+          "id": "ep012",
+          "title": "Shin Chan 12 - Hoxe vou ir ao barbeiro - Vou facer de gardacostas - Vou gravar coa cámara",
+          "url": "/Series_HLS/Shin Chan/ep012/index.m3u8"
+        },
+        {
+          "id": "ep013",
+          "title": "Shin Chan 13 - Como gusta ir á praia - Estamos nun hotel de luxo - Que duro é volver á casa",
+          "url": "/Series_HLS/Shin Chan/ep013/index.m3u8"
+        },
+        {
+          "id": "ep014",
+          "title": "Shin Chan 14 - Mamá está a botar a sesta - Aprendo inglés - Esta noite imos botar petardos",
+          "url": "/Series_HLS/Shin Chan/ep014/index.m3u8"
+        },
+        {
+          "id": "ep015",
+          "title": "Shin Chan 15 - Vou montar no tren - Xa montei no tren - Imos aos baños públicos",
+          "url": "/Series_HLS/Shin Chan/ep015/index.m3u8"
+        },
+        {
+          "id": "ep016",
+          "title": "Shin Chan 16 - Coido a mamá - Vamos xogar cun abusón - Imos á feira",
+          "url": "/Series_HLS/Shin Chan/ep016/index.m3u8"
+        },
+        {
+          "id": "ep017",
+          "title": "Shin Chan 17 - Vou ver a Ultraheroe - A señorita Yoshinaga quedou cun mozo - Teño a Nevado moi abandonado",
+          "url": "/Series_HLS/Shin Chan/ep017/index.m3u8"
+        },
+        {
+          "id": "ep018",
+          "title": "Shin Chan 18 - Vou xogar ao béisbol con meu pai - Que simpática é a nai de Nene - Hoxe veu meu avó",
+          "url": "/Series_HLS/Shin Chan/ep018/index.m3u8"
+        },
+        {
+          "id": "ep019",
+          "title": "Shin Chan 19 - Aproxímase un tifón - Buscas guerra? - Vou enviar unha carta",
+          "url": "/Series_HLS/Shin Chan/ep019/index.m3u8"
+        },
+        {
+          "id": "ep020",
+          "title": "Shin Chan 20 - Despois de cear teño que lavar os dentes - Fago pis na cama - Vou bailar unha balada",
+          "url": "/Series_HLS/Shin Chan/ep020/index.m3u8"
+        },
+        {
+          "id": "ep021",
+          "title": "Shin Chan 21 - Practico moito para o día dos deportes - Vou correr con mamá - Imos facer unha carreira de remudas",
+          "url": "/Series_HLS/Shin Chan/ep021/index.m3u8"
+        },
+        {
+          "id": "ep022",
+          "title": "Shin Chan 22 - Estou en guerra con mamá - Xogamos a facer burbullas de xabón - Vou volver á librería",
+          "url": "/Series_HLS/Shin Chan/ep022/index.m3u8"
+        },
+        {
+          "id": "ep023",
+          "title": "Shin Chan 23 - Temos un contrasinal - Andamos con zancos - Imos á estación",
+          "url": "/Series_HLS/Shin Chan/ep023/index.m3u8"
+        },
+        {
+          "id": "ep024",
+          "title": "Shin Chan 24 - A miña veciña traballa arreo - Vou facer teatro - Voume meter na discusión de meus pais",
+          "url": "/Series_HLS/Shin Chan/ep024/index.m3u8"
+        },
+        {
+          "id": "ep025",
+          "title": "Shin Chan 25 - Imos perseguir unha cascuda - Vannos mirar a altura e o peso - Vou lavar o coche con papá",
+          "url": "/Series_HLS/Shin Chan/ep025/index.m3u8"
+        },
+        {
+          "id": "ep026",
+          "title": "Shin Chan 26 - Perdinme nos grandes almacéns - Imos limpar o galiñeiro - Vou ir ao templo",
+          "url": "/Series_HLS/Shin Chan/ep026/index.m3u8"
+        },
+        {
+          "id": "ep027",
+          "title": "Shin Chan 27 - Vou facer gargarexos - Voulle axudar á señorita - Vou mercar patacas doces",
+          "url": "/Series_HLS/Shin Chan/ep027/index.m3u8"
+        },
+        {
+          "id": "ep028",
+          "title": "Shin Chan 28 - Imos de visita ao hospital - Imos xogar ás agachadas - Imos ir ao zoo",
+          "url": "/Series_HLS/Shin Chan/ep028/index.m3u8"
+        },
+        {
+          "id": "ep029",
+          "title": "Shin Chan 29 - O zoo é moi divertido - Vou acompañar a miña nai á perruquería - Eu tamén quero un regalo",
+          "url": "/Series_HLS/Shin Chan/ep029/index.m3u8"
+        },
+        {
+          "id": "ep030",
+          "title": "Shin Chan 30 - Vou ao banco con mamá - A policía vén á escola - Voume bañar con papá",
+          "url": "/Series_HLS/Shin Chan/ep030/index.m3u8"
+        },
+        {
+          "id": "ep031",
+          "title": "Shin Chan 31 - Vou quedar soíño con Nevado - A señorita Matsuzaka ten un segredo - O avó volve",
+          "url": "/Series_HLS/Shin Chan/ep031/index.m3u8"
+        },
+        {
+          "id": "ep032",
+          "title": "Shin Chan 32 - Hoxe vou esquiar - A casa de Kazama é moito - Vou pasar o Nadal con Ultraheroe",
+          "url": "/Series_HLS/Shin Chan/ep032/index.m3u8"
+        },
+        {
+          "id": "ep033",
+          "title": "Shin Chan 33 - Imos facer o xantar de Aninovo - Vou botar o papaventos a voar - Imos facer un boneco de neve",
+          "url": "/Series_HLS/Shin Chan/ep033/index.m3u8"
+        },
+        {
+          "id": "ep034",
+          "title": "Shin Chan 34 - Vou preparar unha friameira para ir á escola - Imos xogar a papás e mamás - Vou axudar as libreiras",
+          "url": "/Series_HLS/Shin Chan/ep034/index.m3u8"
+        },
+        {
+          "id": "ep035",
+          "title": "Shin Chan 35 - Vou facer de modelo - Imos ir a un balneario - No balneario hai uns baños mixtos",
+          "url": "/Series_HLS/Shin Chan/ep035/index.m3u8"
+        },
+        {
+          "id": "ep036",
+          "title": "Shin Chan 36 - Imos celebrar a fin do inverno - Misae cae na arañeira - Vou axudar a mamá a facer a cea",
+          "url": "/Series_HLS/Shin Chan/ep036/index.m3u8"
+        },
+        {
+          "id": "ep037",
+          "title": "Shin Chan 37 - Estou constipado - Ai, coitado policía! - Imos a un karaoke",
+          "url": "/Series_HLS/Shin Chan/ep037/index.m3u8"
+        },
+        {
+          "id": "ep038",
+          "title": "Shin Chan 38 - Vou mercar peixiños de chocolate - Hoxe quedamos na escola - Tamén pasamos a noite na escola",
+          "url": "/Series_HLS/Shin Chan/ep038/index.m3u8"
+        },
+        {
+          "id": "ep039",
+          "title": "Shin Chan 39 - Na biblioteca hai que gardar silencio - Vou adestrar para o maratón - Imos correr o maratón",
+          "url": "/Series_HLS/Shin Chan/ep039/index.m3u8"
+        },
+        {
+          "id": "ep040",
+          "title": "Shin Chan 40 - Imos á casa de Nene - Imos facer un cursiño de natación - Son o domador de Nevado",
+          "url": "/Series_HLS/Shin Chan/ep040/index.m3u8"
+        },
+        {
+          "id": "ep041",
+          "title": "Shin Chan 41 - Vou xogar ao bádminton - Facemos unha excursión coa clase - Vou levar a Nevado de paseo",
+          "url": "/Series_HLS/Shin Chan/ep041/index.m3u8"
+        },
+        {
+          "id": "ep042",
+          "title": "Shin Chan 42 - Imos pedir unha pizza - Masao ten un hámster - Vou estender o futón",
+          "url": "/Series_HLS/Shin Chan/ep042/index.m3u8"
+        },
+        {
+          "id": "ep043",
+          "title": "Shin Chan 43 - Imos adestrar para xogar ao fútbol - Hoxe é o partido de fútbol - Hai un terremoto",
+          "url": "/Series_HLS/Shin Chan/ep043/index.m3u8"
+        },
+        {
+          "id": "ep044",
+          "title": "Shin Chan 44 - Temos que buscar un bo sitio para a festa das cerdeiras - A festa das cerdeiras é moi divertida - Vou visitar a meu pai ao traballo",
+          "url": "/Series_HLS/Shin Chan/ep044/index.m3u8"
+        },
+        {
+          "id": "ep045",
+          "title": "Shin Chan 45 - Imos plantar sementes - Vou mercar ao posto de verduras - Afeitei unha cella",
+          "url": "/Series_HLS/Shin Chan/ep045/index.m3u8"
+        },
+        {
+          "id": "ep046",
+          "title": "Shin Chan 46 - Meu pai amarrou un cagallón - Imos xogar aos detectives - Vou á compra con mamá",
+          "url": "/Series_HLS/Shin Chan/ep046/index.m3u8"
+        },
+        {
+          "id": "ep047",
+          "title": "Shin Chan 47 - Xa vén aí o Día do Neno - Imos xogar a xutar a lata - Quedamos encerrados no ascensor",
+          "url": "/Series_HLS/Shin Chan/ep047/index.m3u8"
+        },
+        {
+          "id": "ep048",
+          "title": "Shin Chan 48 - Miña nai ten lumbago - Coñecín unha vendedora a domicilio - Hoxe é o Día da Nai",
+          "url": "/Series_HLS/Shin Chan/ep048/index.m3u8"
+        },
+        {
+          "id": "ep049",
+          "title": "Shin Chan 49 - Imos de excursión - Perdémonos na montaña - Co lume non se xoga",
+          "url": "/Series_HLS/Shin Chan/ep049/index.m3u8"
+        },
+        {
+          "id": "ep050",
+          "title": "Shin Chan 50 - Non me chista recoller os xoguetes - Meus pais fan festas cando me deito - Vou á librería vender o meu libro",
+          "url": "/Series_HLS/Shin Chan/ep050/index.m3u8"
+        },
+        {
+          "id": "ep051",
+          "title": "Shin Chan 51 - Vou axudar a arricar malas herbas - A señorita Yoshinaga enfermou - Imos visitar a señorita Yoshinaga ao hospital",
+          "url": "/Series_HLS/Shin Chan/ep051/index.m3u8"
+        },
+        {
+          "id": "ep052",
+          "title": "Shin Chan 52 - Sacar o lixo pode ser moi complicado - Volve a vendedora a domicilio - Imos comer fóra",
+          "url": "/Series_HLS/Shin Chan/ep052/index.m3u8"
+        },
+        {
+          "id": "ep053",
+          "title": "Shin Chan 53 - Vou axudar xente que o necesita - Ser carpinteiro é un traballo moi duro - Nevado desapareceu",
+          "url": "/Series_HLS/Shin Chan/ep053/index.m3u8"
+        },
+        {
+          "id": "ep054",
+          "title": "Shin Chan 54 - Vou falar cun político - Teño unha irmá máis vella - Hoxe é o Día do Pai",
+          "url": "/Series_HLS/Shin Chan/ep054/index.m3u8"
+        },
+        {
+          "id": "ep055",
+          "title": "Shin Chan 55 - Hoxe cociñamos papá e mais eu - Mamá ten dor de moas - Imos mirar vestidos de noiva",
+          "url": "/Series_HLS/Shin Chan/ep055/index.m3u8"
+        },
+        {
+          "id": "ep056",
+          "title": "Shin Chan 56 - Volvo xogar co abusón - Imos de voda - Imos ao convite da voda",
+          "url": "/Series_HLS/Shin Chan/ep056/index.m3u8"
+        },
+        {
+          "id": "ep057",
+          "title": "Shin Chan 57 - Teño tanto medo que non dou durmido - Vou axudar a limpar a piscina - Tocounos unha viaxe á Illa de Guam",
+          "url": "/Series_HLS/Shin Chan/ep057/index.m3u8"
+        },
+        {
+          "id": "ep058",
+          "title": "Shin Chan 58 - Mamá ínchame globos - Hoxe atopamos unha carteira na rúa - Vou a Toquio co avó",
+          "url": "/Series_HLS/Shin Chan/ep058/index.m3u8"
+        },
+        {
+          "id": "ep059",
+          "title": "Shin Chan 59 - Vou comer xeado feito na casa - Vou levar a Nevado a poñer a vacina - Imos de acampada",
+          "url": "/Series_HLS/Shin Chan/ep059/index.m3u8"
+        },
+        {
+          "id": "ep060",
+          "title": "Shin Chan 60 - Vou ser un cantante de sona - Imos xogar a debuxar vías do tren - Hai unha vaga de calor",
+          "url": "/Series_HLS/Shin Chan/ep060/index.m3u8"
+        },
+        {
+          "id": "ep061",
+          "title": "Shin Chan 61 - Paso a noite na casa da señorita Yoshinaga - A vendedora a domicilio di que non volve máis - Imos instalar o aire acondicionado",
+          "url": "/Series_HLS/Shin Chan/ep061/index.m3u8"
+        },
+        {
+          "id": "ep062",
+          "title": "Shin Chan 62 - Imos á gasolineira - Temos moitas sandías - Imos abrir as sandías",
+          "url": "/Series_HLS/Shin Chan/ep062/index.m3u8"
+        },
+        {
+          "id": "ep063",
+          "title": "Shin Chan 63 - A señorita Matsuzaka quedou cun mozo - Vou adestrar para o combate de sumo - Hoxe é o campionato de sumo",
+          "url": "/Series_HLS/Shin Chan/ep063/index.m3u8"
+        },
+        {
+          "id": "ep064",
+          "title": "Shin Chan 64 - Papá vai renovar o carné de conducir - Imos cazar insectos - Vou axudar a miña nai nos labores domésticos",
+          "url": "/Series_HLS/Shin Chan/ep064/index.m3u8"
+        },
+        {
+          "id": "ep065",
+          "title": "Shin Chan 65 - Os tifóns causan inundacións - Vou coñecer tres mozas moi malas - Imos xogar ao brilé",
+          "url": "/Series_HLS/Shin Chan/ep065/index.m3u8"
+        },
+        {
+          "id": "ep066",
+          "title": "Shin Chan 66 - Vou facer de policía - Téñenme que levar ao hospital en ambulancia - No hospital sónchevos moi famoso",
+          "url": "/Series_HLS/Shin Chan/ep066/index.m3u8"
+        },
+        {
+          "id": "ep067",
+          "title": "Shin Chan 67 - Keko vén de visita - Vou adestrar para o día do deporte - Meu pai grávame coa cámara",
+          "url": "/Series_HLS/Shin Chan/ep067/index.m3u8"
+        },
+        {
+          "id": "ep068",
+          "title": "Shin Chan 68 - Miña nai fai dieta - Imos facer exercicio ao aire libre - Meu pai quedou sen cellas",
+          "url": "/Series_HLS/Shin Chan/ep068/index.m3u8"
+        },
+        {
+          "id": "ep069",
+          "title": "Shin Chan 69 - Imos facer un palanquín - Escollemos cousas para levar á feira de artigos usados - Imos vender á feira de artigos usados",
+          "url": "/Series_HLS/Shin Chan/ep069/index.m3u8"
+        },
+        {
+          "id": "ep070",
+          "title": "Shin Chan 70 - Temos que amañar a canalización - Como me gusta o sushi feito no momento - Teño un pitiño",
+          "url": "/Series_HLS/Shin Chan/ep070/index.m3u8"
+        },
+        {
+          "id": "ep071",
+          "title": "Shin Chan 71 - Fuxiron as galiñas - Vou axudar a miña nai a tender a roupa - Imos á casa de Keko",
+          "url": "/Series_HLS/Shin Chan/ep071/index.m3u8"
+        },
+        {
+          "id": "ep072",
+          "title": "Shin Chan 72 - Fumie e mais eu xogamos aos mestres - Imos facer unha grellada - Meu pai está deprimido",
+          "url": "/Series_HLS/Shin Chan/ep072/index.m3u8"
+        },
+        {
+          "id": "ep073",
+          "title": "Shin Chan 73 - Miña nai vaise vestir de colexiala - Imos xogar nunha casa piloto - Imos facer unha foto de familia",
+          "url": "/Series_HLS/Shin Chan/ep073/index.m3u8"
+        },
+        {
+          "id": "ep074",
+          "title": "Shin Chan 74 - Hoxe vou aprender a coser - Non me chista que poñan indicacións - Temos un convidado",
+          "url": "/Series_HLS/Shin Chan/ep074/index.m3u8"
+        },
+        {
+          "id": "ep075",
+          "title": "Shin Chan 75 - Miña nai xa non me rifa - A meu pai non lle gustan os gatos - Hoxe volvo á librería",
+          "url": "/Series_HLS/Shin Chan/ep075/index.m3u8"
+        },
+        {
+          "id": "ep076",
+          "title": "Shin Chan 76 - Imos tomar sopa de fideo - Teño dotes para a patinaxe - Keko e o seu marido rifaron",
+          "url": "/Series_HLS/Shin Chan/ep076/index.m3u8"
+        },
+        {
+          "id": "ep077",
+          "title": "Shin Chan 77 - Imos facer galletas caseiras - A señorita Matsuzaka queda con outro mozo - Gañar as eleccións non é doado",
+          "url": "/Series_HLS/Shin Chan/ep077/index.m3u8"
+        },
+        {
+          "id": "ep078",
+          "title": "Shin Chan 78 - Axúdolle a miña nai a calcetar - Vou montar no tren na hora punta - Vou quedar con meu pai no choio",
+          "url": "/Series_HLS/Shin Chan/ep078/index.m3u8"
+        },
+        {
+          "id": "ep079",
+          "title": "Shin Chan 79 - Vou ser modelo - Imos limpar a aula - Eu tamén quero oír as badaladas de fin de ano",
+          "url": "/Series_HLS/Shin Chan/ep079/index.m3u8"
+        },
+        {
+          "id": "ep080",
+          "title": "Shin Chan 80 - Vanme dar o aguinaldo de fin de ano - Hoxe vou gastar o aguinaldo - Os avós veñen á casa",
+          "url": "/Series_HLS/Shin Chan/ep080/index.m3u8"
+        },
+        {
+          "id": "ep081",
+          "title": "Shin Chan 81 - Imos esquiar coa escola - Van rematar as clases de esquí - Hoxe imos esquiar en familia",
+          "url": "/Series_HLS/Shin Chan/ep081/index.m3u8"
+        },
+        {
+          "id": "ep082",
+          "title": "Shin Chan 82 - As tácticas de miña nai para que non perda o autobús funcionan - Masao namorouse - Vou comer arroz con soia xerminada",
+          "url": "/Series_HLS/Shin Chan/ep082/index.m3u8"
+        },
+        {
+          "id": "ep083",
+          "title": "Shin Chan 83 - Vou xogar a un colexio de raparigas - Na tele botan unha serie que se chama coma min - Vou imitar o Shin-chan da tele",
+          "url": "/Series_HLS/Shin Chan/ep083/index.m3u8"
+        },
+        {
+          "id": "ep084",
+          "title": "Shin Chan 84 - Imos xogar á lotería - Imos a un enterro - Imos facer unha guerra de bólas de neve",
+          "url": "/Series_HLS/Shin Chan/ep084/index.m3u8"
+        },
+        {
+          "id": "ep085",
+          "title": "Shin Chan 85 - Miña nai vaime cortar o pelo - Kazama está enfermo - Imos coñecer a casa do xefe de meu pai",
+          "url": "/Series_HLS/Shin Chan/ep085/index.m3u8"
+        },
+        {
+          "id": "ep086",
+          "title": "Shin Chan 86 - Volve Pregunta, o gato misterioso - Miña nai límpame os oídos - Miña nai quedou cos excompañeiros da clase",
+          "url": "/Series_HLS/Shin Chan/ep086/index.m3u8"
+        },
+        {
+          "id": "ep087",
+          "title": "Shin Chan 87 - Imos xogar ao béisbol (I) - Imos xogar ao béisbol (II) - Meus pais quérense divorciar",
+          "url": "/Series_HLS/Shin Chan/ep087/index.m3u8"
+        },
+        {
+          "id": "ep088",
+          "title": "Shin Chan 88 - Voume bañar eu só - Imos facer unha carreira de triciclos - Imos cear a un buffet libre",
+          "url": "/Series_HLS/Shin Chan/ep088/index.m3u8"
+        },
+        {
+          "id": "ep089",
+          "title": "Shin Chan 89 - Imos ao museo de arte - Vou facer de Kazama - O xefe de meu pai vén á casa",
+          "url": "/Series_HLS/Shin Chan/ep089/index.m3u8"
+        },
+        {
+          "id": "ep090",
+          "title": "Shin Chan 90 - Meu pai está enfermo - Vou mercar cosméticos con miña nai - Vou ter un irmán",
+          "url": "/Series_HLS/Shin Chan/ep090/index.m3u8"
+        },
+        {
+          "id": "ep091",
+          "title": "Shin Chan 91 - Imos a un parque temático (I) - Imos a un parque temático (II) - Vai un vento que mete medo",
+          "url": "/Series_HLS/Shin Chan/ep091/index.m3u8"
+        },
+        {
+          "id": "ep092",
+          "title": "Shin Chan 92 - Volve a festa das cerdeiras - A señorita Yoshinaga e miña nai fan boas migas - A veciña axúdame a cociñar",
+          "url": "/Series_HLS/Shin Chan/ep092/index.m3u8"
+        },
+        {
+          "id": "ep093",
+          "title": "Shin Chan 93 - Imos apañar ameixas - Miña nai perde toda a paga do mes - Miña nai obríganos a aforrar",
+          "url": "/Series_HLS/Shin Chan/ep093/index.m3u8"
+        },
+        {
+          "id": "ep094",
+          "title": "Shin Chan 94 - O director xoga connosco aos papás e mamás - Miña nai quere sacar o carné de conducir - Vou acompañar a miña nai á autoescola",
+          "url": "/Series_HLS/Shin Chan/ep094/index.m3u8"
+        },
+        {
+          "id": "ep095",
+          "title": "Shin Chan 95 - Quero comer galletas das boas - A señorita Matsuzaka está cansa - Miña nai vaise da casa",
+          "url": "/Series_HLS/Shin Chan/ep095/index.m3u8"
+        },
+        {
+          "id": "ep096",
+          "title": "Shin Chan 96 - Miña nai segue na autoescola - Vimos un ovni - Vou asinar libros",
+          "url": "/Series_HLS/Shin Chan/ep096/index.m3u8"
+        },
+        {
+          "id": "ep097",
+          "title": "Shin Chan 97 - Gardamos a roupa de inverno e sacamos a de verán - Imos comer carne á prancha - Imos ás carreiras de cabalos",
+          "url": "/Series_HLS/Shin Chan/ep097/index.m3u8"
+        },
+        {
+          "id": "ep098",
+          "title": "Shin Chan 98 - Miña nai lévame á escola en bici - Miña nai aproba o exame de conducir - Miña nai lévame á escola en coche",
+          "url": "/Series_HLS/Shin Chan/ep098/index.m3u8"
+        },
+        {
+          "id": "ep099",
+          "title": "Shin Chan 99 - Sabedes que? No fondo son bo - Imos xogar aos birlos - Imos coidar doutro can",
+          "url": "/Series_HLS/Shin Chan/ep099/index.m3u8"
+        },
+        {
+          "id": "ep100",
+          "title": "Shin Chan 100 - Imos a un partido de béisbol - Volven as raparigas do Exército Escarlata - Yuko namorouse",
+          "url": "/Series_HLS/Shin Chan/ep100/index.m3u8"
+        },
+        {
+          "id": "ep101",
+          "title": "Shin Chan 101 - Vou xogar con meu pai - Imos de excursión á montaña - Vou facer a compra ao supermercado",
+          "url": "/Series_HLS/Shin Chan/ep101/index.m3u8"
+        },
+        {
+          "id": "ep102",
+          "title": "Shin Chan 102 - Imos ao zoo - Imos saír na tele - Temos pingueiras",
+          "url": "/Series_HLS/Shin Chan/ep102/index.m3u8"
+        },
+        {
+          "id": "ep103",
+          "title": "Shin Chan 103 - Marcho da casa - Imos facer unha competición de natación - Imos xogar ás máquinas comecartos",
+          "url": "/Series_HLS/Shin Chan/ep103/index.m3u8"
+        },
+        {
+          "id": "ep104",
+          "title": "Shin Chan 104 - Que dura é a vida de miña nai - Imos buscar a gatiña de Nene - Imos mirar coches",
+          "url": "/Series_HLS/Shin Chan/ep104/index.m3u8"
+        },
+        {
+          "id": "ep105",
+          "title": "Shin Chan 105 - Plantámoslles cara a uns matóns - Que ben se pasa na praia - Imos alugar unha barca",
+          "url": "/Series_HLS/Shin Chan/ep105/index.m3u8"
+        },
+        {
+          "id": "ep106",
+          "title": "Shin Chan 106 - Imos de acampada - Pasamos moito medo - Tocounos un melón",
+          "url": "/Series_HLS/Shin Chan/ep106/index.m3u8"
+        },
+        {
+          "id": "ep107",
+          "title": "Shin Chan 107 - Meu pai non pode durmir - Teño que me gorecer da chuvia - Imos ao acuario",
+          "url": "/Series_HLS/Shin Chan/ep107/index.m3u8"
+        },
+        {
+          "id": "ep108",
+          "title": "Shin Chan 108 - Ímonos poñer a remollo na piscina - Vou debuxar cómics - Volvo ver a Ultraheroe",
+          "url": "/Series_HLS/Shin Chan/ep108/index.m3u8"
+        },
+        {
+          "id": "ep109",
+          "title": "Shin Chan 109 - Vou escribir un diario - A piscina pública é unha gozada - Ímoslle axudar a Keko coa mudanza",
+          "url": "/Series_HLS/Shin Chan/ep109/index.m3u8"
+        },
+        {
+          "id": "ep110",
+          "title": "Shin Chan 110 - Vou á Estafeta de Correos - Imos entrar na casa do terror - Miña nai fai folga",
+          "url": "/Series_HLS/Shin Chan/ep110/index.m3u8"
+        },
+        {
+          "id": "ep111",
+          "title": "Shin Chan 111 - Imos plantar pementos - Meu pai vai deixar o tabaco - Encóntrome coa señorita Matsuzaka",
+          "url": "/Series_HLS/Shin Chan/ep111/index.m3u8"
+        },
+        {
+          "id": "ep112",
+          "title": "Shin Chan 112 - Vou lavar os meus cubertos - Que vergonza pasou meu pai! - Quedamos a cear nos baños públicos",
+          "url": "/Series_HLS/Shin Chan/ep112/index.m3u8"
+        },
+        {
+          "id": "ep113",
+          "title": "Shin Chan 113 - Pérdome outra vez nos grandes almacéns - Meu pai anda a moer para fóra - Os pais non se deben meter nas cousas dos nenos",
+          "url": "/Series_HLS/Shin Chan/ep113/index.m3u8"
+        },
+        {
+          "id": "ep114",
+          "title": "Shin Chan 114 - Imos de pesca - Coñezo unha superdotada - Imos recoller a meu pai no coche",
+          "url": "/Series_HLS/Shin Chan/ep114/index.m3u8"
+        },
+        {
+          "id": "ep115",
+          "title": "Shin Chan 115 - Imos comer arroz ao curry - Detesto ter que levar a Nevado de paseo - Imos facer competicións",
+          "url": "/Series_HLS/Shin Chan/ep115/index.m3u8"
+        },
+        {
+          "id": "ep116",
+          "title": "Shin Chan 116 - Imos xogar ao tenis - Fuximos todos da casa - Keko ten un neno na barriga",
+          "url": "/Series_HLS/Shin Chan/ep116/index.m3u8"
+        },
+        {
+          "id": "ep117",
+          "title": "Shin Chan 117 - Temos fax na casa - Son un gran pintor - Escordello un nocello",
+          "url": "/Series_HLS/Shin Chan/ep117/index.m3u8"
+        },
+        {
+          "id": "ep118",
+          "title": "Shin Chan 118 - Anda un corvo arredor da casa - Vou pelexar con Kazama - Non penso comer o pemento",
+          "url": "/Series_HLS/Shin Chan/ep118/index.m3u8"
+        },
+        {
+          "id": "ep119",
+          "title": "Shin Chan 119 - Imos dar unha volta en barca - Que aborrecido é arrombar os xoguetes - Imos comer un súper menú de fideos",
+          "url": "/Series_HLS/Shin Chan/ep119/index.m3u8"
+        },
+        {
+          "id": "ep120",
+          "title": "Shin Chan 120 - Toleo polos xeados - Kazama marcha da escola - Miña nai esquécese de min",
+          "url": "/Series_HLS/Shin Chan/ep120/index.m3u8"
+        },
+        {
+          "id": "ep121",
+          "title": "Shin Chan 121 - Vou botar a sesta - Vou comer con Nene - Vou cortar o pelo con meu pai",
+          "url": "/Series_HLS/Shin Chan/ep121/index.m3u8"
+        },
+        {
+          "id": "ep122",
+          "title": "Shin Chan 122 - Imos xogar ás agachadas - Acompaño a Keko ás clases de preparación para o parto - Miña nai traballa",
+          "url": "/Series_HLS/Shin Chan/ep122/index.m3u8"
+        },
+        {
+          "id": "ep123",
+          "title": "Shin Chan 123 - A señorita Matsuzaka vai aos grandes almacéns - Vou trocar de nai - Non podemos entrar na casa",
+          "url": "/Series_HLS/Shin Chan/ep123/index.m3u8"
+        },
+        {
+          "id": "ep124",
+          "title": "Shin Chan 124 - Buscamos unha moza que perdeu o pano - Miña nai amarrou unha chispa - Imos de marcha",
+          "url": "/Series_HLS/Shin Chan/ep124/index.m3u8"
+        },
+        {
+          "id": "ep125",
+          "title": "Shin Chan 125 - Quedamos ás escuras - Vén un mestre novo de prácticas - Atopamos un paxariño ferido",
+          "url": "/Series_HLS/Shin Chan/ep125/index.m3u8"
+        },
+        {
+          "id": "ep126",
+          "title": "Shin Chan 126 - Vou escribir as postais de Aninovo - Traballar de mensaxeiro é moi duro - Cambiámoslle os planos á señorita Yoshinaga",
+          "url": "/Series_HLS/Shin Chan/ep126/index.m3u8"
+        },
+        {
+          "id": "ep127",
+          "title": "Shin Chan 127 - Imos celebrar o Aninovo - Imos esquiar - Revolucionamos as pistas de esquí",
+          "url": "/Series_HLS/Shin Chan/ep127/index.m3u8"
+        },
+        {
+          "id": "ep128",
+          "title": "Shin Chan 128 - Descubro un incendio - Masao é un heroe - Que boa está a pasta de arroz",
+          "url": "/Series_HLS/Shin Chan/ep128/index.m3u8"
+        },
+        {
+          "id": "ep129",
+          "title": "Shin Chan 129 - Vén a tía Masae - Vai un frío que vela - Estou acatarrado",
+          "url": "/Series_HLS/Shin Chan/ep129/index.m3u8"
+        },
+        {
+          "id": "ep130",
+          "title": "Shin Chan 130 - Quedei cunha nena - Encántame a loita libre feminina - Que divertido é retirar a neve",
+          "url": "/Series_HLS/Shin Chan/ep130/index.m3u8"
+        },
+        {
+          "id": "ep131",
+          "title": "Shin Chan 131 - Imos ver o fillo de Keko - Kazama enfádase coa nai - Vou conducir o coche",
+          "url": "/Series_HLS/Shin Chan/ep131/index.m3u8"
+        },
+        {
+          "id": "ep132",
+          "title": "Shin Chan 132 - Vou facer pintadas nunha parede - Mercamos unha bolsa sorpresa - Vén un estudante á casa",
+          "url": "/Series_HLS/Shin Chan/ep132/index.m3u8"
+        },
+        {
+          "id": "ep133",
+          "title": "Shin Chan 133 - Vou xogar cos panos de papel - Imos botar a sesta na escola - Imos mirar as estrelas",
+          "url": "/Series_HLS/Shin Chan/ep133/index.m3u8"
+        },
+        {
+          "id": "ep134",
+          "title": "Shin Chan 134 - Vou facer caligrafía - Vou á tele - Escangallóusenos a tele",
+          "url": "/Series_HLS/Shin Chan/ep134/index.m3u8"
+        },
+        {
+          "id": "ep135",
+          "title": "Shin Chan 135 - Na mesa hai que ter boas maneiras - Téñolle que levar uns papeis á veciña - Vou á librería con miña nai",
+          "url": "/Series_HLS/Shin Chan/ep135/index.m3u8"
+        },
+        {
+          "id": "ep136",
+          "title": "Shin Chan 136 - Voume bañar con Nevado - Axudámoslle a un rapaz a declararse - Ai... canto fai sufrir o amor!",
+          "url": "/Series_HLS/Shin Chan/ep136/index.m3u8"
+        },
+        {
+          "id": "ep137",
+          "title": "Shin Chan 137 - Atopamos unha cobra - Imos durmir nun hotel de luxo - Imos ao parque de atraccións",
+          "url": "/Series_HLS/Shin Chan/ep137/index.m3u8"
+        },
+        {
+          "id": "ep138",
+          "title": "Shin Chan 138 - Teño vacacións de primavera - Nevado está maliño - A festa das cerdeiras é unha troulada",
+          "url": "/Series_HLS/Shin Chan/ep138/index.m3u8"
+        },
+        {
+          "id": "ep139",
+          "title": "Shin Chan 139 - O trapeiro vén polos meus contos - Miña nai escangalla a tele - Nevado namorouse",
+          "url": "/Series_HLS/Shin Chan/ep139/index.m3u8"
+        },
+        {
+          "id": "ep140",
+          "title": "Shin Chan 140 - Ei, que queremos ir de paseo - Quero un cuarto para min só - O amor é cego",
+          "url": "/Series_HLS/Shin Chan/ep140/index.m3u8"
+        },
+        {
+          "id": "ep141",
+          "title": "Shin Chan 141 - Miña nai xa é unha gran condutora - Miña nai ten un accidente - A señorita Matsuzaka namorouse",
+          "url": "/Series_HLS/Shin Chan/ep141/index.m3u8"
+        },
+        {
+          "id": "ep142",
+          "title": "Shin Chan 142 - Coñezo unha actriz famosa - Formamos o Exército de Kasukabe - Imos espreitar os namorados",
+          "url": "/Series_HLS/Shin Chan/ep142/index.m3u8"
+        },
+        {
+          "id": "ep143",
+          "title": "Shin Chan 143 - Imos a un combate de sumo - A señorita Yoshinaga agarrou unha chispa - Meu pai trae traballo para a casa",
+          "url": "/Series_HLS/Shin Chan/ep143/index.m3u8"
+        },
+        {
+          "id": "ep144",
+          "title": "Shin Chan 144 - Destinan a meu pai a Osaca - Marcha meu pai - Imos despedir a meu pai",
+          "url": "/Series_HLS/Shin Chan/ep144/index.m3u8"
+        },
+        {
+          "id": "ep145",
+          "title": "Shin Chan 145 - Meu pai xa está en Osaca - Xogar ao béisbol pode ser perigoso - Armo unha gordísima",
+          "url": "/Series_HLS/Shin Chan/ep145/index.m3u8"
+        },
+        {
+          "id": "ep146",
+          "title": "Shin Chan 146 - Os nenos non toman café - Vou ver a Nene - O avó vénnos axudar",
+          "url": "/Series_HLS/Shin Chan/ep146/index.m3u8"
+        },
+        {
+          "id": "ep147",
+          "title": "Shin Chan 147 - Atopamos o director da escola no tren - Meu pai métese nun sarillo - Saímos a cear en Osaca",
+          "url": "/Series_HLS/Shin Chan/ep147/index.m3u8"
+        },
+        {
+          "id": "ep148",
+          "title": "Shin Chan 148 - Imos mercar un monte de cousas - Imos observar aves - Facemos un vídeo para meu pai",
+          "url": "/Series_HLS/Shin Chan/ep148/index.m3u8"
+        },
+        {
+          "id": "ep149",
+          "title": "Shin Chan 149 - Volve meu pai - Volvo amolar as mozas do Exército Escarlata - Facemos boliñas de polbo",
+          "url": "/Series_HLS/Shin Chan/ep149/index.m3u8"
+        },
+        {
+          "id": "ep150",
+          "title": "Shin Chan 150 - Vou xogar co fillo de Keko - Ir de pesca púxose de moda - Vou subir ao faiado",
+          "url": "/Series_HLS/Shin Chan/ep150/index.m3u8"
+        },
+        {
+          "id": "ep151",
+          "title": "Shin Chan 151 - Chove despois de chover - Érgome a media noite - É a festa de Tanabata",
+          "url": "/Series_HLS/Shin Chan/ep151/index.m3u8"
+        },
+        {
+          "id": "ep152",
+          "title": "Shin Chan 152 - Facer as beiras ten a súa ciencia - A meus pais non lles prestou a comida - Pasamos a noite no hospital",
+          "url": "/Series_HLS/Shin Chan/ep152/index.m3u8"
+        },
+        {
+          "id": "ep153",
+          "title": "Shin Chan 153 - O avó marcha da casa - Pasámolo de marabilla coas mozas - O avó arma unha liorta",
+          "url": "/Series_HLS/Shin Chan/ep153/index.m3u8"
+        },
+        {
+          "id": "ep154",
+          "title": "Shin Chan 154 - Vou xogar con Kazama - Imos á piscina - Quedamos a xantar na piscina",
+          "url": "/Series_HLS/Shin Chan/ep154/index.m3u8"
+        },
+        {
+          "id": "ep155",
+          "title": "Shin Chan 155 - Vou escoller o traxe de baño deste ano - Marchamos de campamento - A señorita Matsuzaka está en perigo",
+          "url": "/Series_HLS/Shin Chan/ep155/index.m3u8"
+        },
+        {
+          "id": "ep156",
+          "title": "Shin Chan 156 - Miña nai quedou pechada no váter - A señorita Matsuzaka empeña unhas cousas - Imos ver os fogos de luces",
+          "url": "/Series_HLS/Shin Chan/ep156/index.m3u8"
+        },
+        {
+          "id": "ep157",
+          "title": "Shin Chan 157 - Vou facer de canguro - Persigo a meu pai - Consigo darlle o sobre a meu pai",
+          "url": "/Series_HLS/Shin Chan/ep157/index.m3u8"
+        },
+        {
+          "id": "ep158",
+          "title": "Shin Chan 158 - Meu pai está a soñar - Nene enfádase - Meus pais celebran o aniversario do seu compromiso",
+          "url": "/Series_HLS/Shin Chan/ep158/index.m3u8"
+        },
+        {
+          "id": "ep159",
+          "title": "Shin Chan 159 - Miña nai mércame uns calzóns de Ultraheroe - O vento lévame os calzóns - Fachendeo de calzóns",
+          "url": "/Series_HLS/Shin Chan/ep159/index.m3u8"
+        },
+        {
+          "id": "ep160",
+          "title": "Shin Chan 160 - Facemos unha competición na escola - Meu pai volve á casa ao abrente - Miña nai xoga ao golf",
+          "url": "/Series_HLS/Shin Chan/ep160/index.m3u8"
+        },
+        {
+          "id": "ep161",
+          "title": "Shin Chan 161 - Son o capitán Shin-chan - Meu pai ten unha xuntanza de exalumnos - Pasámolo de marabilla na xuntanza de exalumnos",
+          "url": "/Series_HLS/Shin Chan/ep161/index.m3u8"
+        },
+        {
+          "id": "ep162",
+          "title": "Shin Chan 162 - Vou facer teatro - Preparo uns fideos explosivos - Vou buscar a miña nai",
+          "url": "/Series_HLS/Shin Chan/ep162/index.m3u8"
+        },
+        {
+          "id": "ep163",
+          "title": "Shin Chan 163 - Meu pai ten almorrás - Son un ninja xusticeiro - Ingresan a meu pai",
+          "url": "/Series_HLS/Shin Chan/ep163/index.m3u8"
+        },
+        {
+          "id": "ep164",
+          "title": "Shin Chan 164 - Operan a meu pai - Meu pai segue ingresado - Mercamos carne de primeira",
+          "url": "/Series_HLS/Shin Chan/ep164/index.m3u8"
+        },
+        {
+          "id": "ep165",
+          "title": "Shin Chan 165 - Shinnosuke e os tres ladróns - Ultraheroe contra as arañas robots - Amplío a casiña de Nevado",
+          "url": "/Series_HLS/Shin Chan/ep165/index.m3u8"
+        },
+        {
+          "id": "ep166",
+          "title": "Shin Chan 166 - Apaño as follas secas - Sacamos as estufas para o inverno - Nevado ten unha amiga secreta",
+          "url": "/Series_HLS/Shin Chan/ep166/index.m3u8"
+        },
+        {
+          "id": "ep167",
+          "title": "Shin Chan 167 - Imos xogar á pita - Sigo a señorita Yoshinaga - Grazas a min a cita é un éxito",
+          "url": "/Series_HLS/Shin Chan/ep167/index.m3u8"
+        },
+        {
+          "id": "ep168",
+          "title": "Shin Chan 168 - As raparigas do Exército Escarlata póñense furiosas - Na librería non se pode ler de balde - Miña nai ten uns aforros atobados",
+          "url": "/Series_HLS/Shin Chan/ep168/index.m3u8"
+        },
+        {
+          "id": "ep169",
+          "title": "Shin Chan 169 - Estamos todos con febre - O Exército de Kasukabe entra en acción - Bañámonos con auga ben quente para quitar o frío",
+          "url": "/Series_HLS/Shin Chan/ep169/index.m3u8"
+        },
+        {
+          "id": "ep170",
+          "title": "Shin Chan 170 - Quérennos quitar a señorita Matsuzaka - Ultraheroe loita contra a ameaza Tsunami - A cea de Nadal remata en troulada",
+          "url": "/Series_HLS/Shin Chan/ep170/index.m3u8"
+        },
+        {
+          "id": "ep171",
+          "title": "Shin Chan 171 - Estou farto de comer pasta de arroz - Imos apañar herbas - Meu pai anda sen un can",
+          "url": "/Series_HLS/Shin Chan/ep171/index.m3u8"
+        },
+        {
+          "id": "ep172",
+          "title": "Shin Chan 172 - Miña nai vai á cerimonia de madurez - Escangallouse a estufa e vai un frío que pela - Acompaño a meu pai a mercar roupa",
+          "url": "/Series_HLS/Shin Chan/ep172/index.m3u8"
+        },
+        {
+          "id": "ep173",
+          "title": "Shin Chan 173 - Miña nai quere adelgazar - Ultraheroe contra o malvado Zweinbach - Miña nai ten un accidente",
+          "url": "/Series_HLS/Shin Chan/ep173/index.m3u8"
+        },
+        {
+          "id": "ep174",
+          "title": "Shin Chan 174 - Atopei o amor da miña vida - Quérome declarar ao amor da miña vida - Xogo ás agachadas con Nevado",
+          "url": "/Series_HLS/Shin Chan/ep174/index.m3u8"
+        },
+        {
+          "id": "ep175",
+          "title": "Shin Chan 175 - Quedo soíño na casa con meu pai - Xogo coa pelota nova - Hai un ladrón de bragas no barrio",
+          "url": "/Series_HLS/Shin Chan/ep175/index.m3u8"
+        },
+        {
+          "id": "ep176",
+          "title": "Shin Chan 176 - Convidamos a Nanako á casa - Imos patinar - Imos facer unha competición de patinaxe",
+          "url": "/Series_HLS/Shin Chan/ep176/index.m3u8"
+        },
+        {
+          "id": "ep177",
+          "title": "Shin Chan 177 - Nanako convídame á súa casa - Etzfaigna descobre o punto débil de Ultraheroe - Buscamos unha cadela perdida",
+          "url": "/Series_HLS/Shin Chan/ep177/index.m3u8"
+        },
+        {
+          "id": "ep178",
+          "title": "Shin Chan 178 - Vou á casa de Nanako - Paso a noite con Nanako - Vou operar o radiocasete",
+          "url": "/Series_HLS/Shin Chan/ep178/index.m3u8"
+        },
+        {
+          "id": "ep179",
+          "title": "Shin Chan 179 - Entra un mono na casa - Créceme o pelo - A batalla decisiva de Ultraheroe",
+          "url": "/Series_HLS/Shin Chan/ep179/index.m3u8"
+        },
+        {
+          "id": "ep180",
+          "title": "Shin Chan 180 - Lústrolle os zapatos a meu pai - Agora lústrolle os zapatos á xente - Atopo o diario secreto de Kazama",
+          "url": "/Series_HLS/Shin Chan/ep180/index.m3u8"
+        },
+        {
+          "id": "ep181",
+          "title": "Shin Chan 181 - Teño a plusmarca de chegar tarde á escola - Compro por catálogo - Durmo coma un bendito",
+          "url": "/Series_HLS/Shin Chan/ep181/index.m3u8"
+        },
+        {
+          "id": "ep182",
+          "title": "Shin Chan 182 - A señorita Yoshinaga por fin vai ser feliz - Imos de compras en taxi - Son o rei das merenas",
+          "url": "/Series_HLS/Shin Chan/ep182/index.m3u8"
+        },
+        {
+          "id": "ep183",
+          "title": "Shin Chan 183 - Imos de viaxe a Hokkaido - Levamos unha boa enchente - Escangállasenos o coche de alugueiro",
+          "url": "/Series_HLS/Shin Chan/ep183/index.m3u8"
+        },
+        {
+          "id": "ep184",
+          "title": "Shin Chan 184 - Imos ver unha reserva de osos - Pasamos a noite nun hospital en ruínas - Remata a viaxe a Hokkaido",
+          "url": "/Series_HLS/Shin Chan/ep184/index.m3u8"
+        },
+        {
+          "id": "ep185",
+          "title": "Shin Chan 185 - Son o can de Flandres - Vou ao festival cultural do instituto feminino - Imos mirar coches",
+          "url": "/Series_HLS/Shin Chan/ep185/index.m3u8"
+        },
+        {
+          "id": "ep186",
+          "title": "Shin Chan 186 - Se cadra deberiamos mercar outro coche - Que divertido é plantar arroz - Facer pis sen salpicar non é tan fácil",
+          "url": "/Series_HLS/Shin Chan/ep186/index.m3u8"
+        },
+        {
+          "id": "ep187",
+          "title": "Shin Chan 187 - Ao final mercamos o coche - Salvamos animais - Imos xantar de restaurante",
+          "url": "/Series_HLS/Shin Chan/ep187/index.m3u8"
+        },
+        {
+          "id": "ep188",
+          "title": "Shin Chan 188 - Meus pais teñen unha agarrada enorme",
+          "url": "/Series_HLS/Shin Chan/ep188/index.m3u8"
+        },
+        {
+          "id": "ep189",
+          "title": "Shin Chan 189 - Miña nai e mais eu imos a ballet - Xogo á pita con Nanako - A miña nai só lle quedan tres meses de vida",
+          "url": "/Series_HLS/Shin Chan/ep189/index.m3u8"
+        },
+        {
+          "id": "ep190",
+          "title": "Shin Chan 190 - Son Son Goku - Quero o autógrafo dun debuxante de cómics - Aprendemos a facer o boca a boca",
+          "url": "/Series_HLS/Shin Chan/ep190/index.m3u8"
+        },
+        {
+          "id": "ep191",
+          "title": "Shin Chan 191 - Miña nai está embarazada de tres meses - Quero ser coleccionista - Ler sen pagar é un vicio",
+          "url": "/Series_HLS/Shin Chan/ep191/index.m3u8"
+        },
+        {
+          "id": "ep192",
+          "title": "Shin Chan 192 - A educación prenatal é moi importante - Kazama namorouse - Querémoslle axudar a Kazama",
+          "url": "/Series_HLS/Shin Chan/ep192/index.m3u8"
+        },
+        {
+          "id": "ep193",
+          "title": "Shin Chan 193 - A raíña das neves é terrorífica - A señorita Yoshinaga chora de alegría - Non lle teño medo ao dentista",
+          "url": "/Series_HLS/Shin Chan/ep193/index.m3u8"
+        },
+        {
+          "id": "ep194",
+          "title": "Shin Chan 194 - Teño outra mamá - Hoxe xogamos a buscar un tesouro na piscina - Miña nai non pode facer esforzos",
+          "url": "/Series_HLS/Shin Chan/ep194/index.m3u8"
+        },
+        {
+          "id": "ep195",
+          "title": "Shin Chan 195 - Imos de excursión á montaña - Perdémonos na montaña - Aprendemos técnicas de supervivencia",
+          "url": "/Series_HLS/Shin Chan/ep195/index.m3u8"
+        },
+        {
+          "id": "ep196",
+          "title": "Shin Chan 196 - Miña nai quérenos máis refinados - Era unha vez a fábula da tartaruga e a lebre - As raparigas do Exército Escarlata traballan nunha piscina",
+          "url": "/Series_HLS/Shin Chan/ep196/index.m3u8"
+        },
+        {
+          "id": "ep197",
+          "title": "Shin Chan 197 - Hoxe saberemos se vou ter un irmán ou unha irmá - Facemos de axudantes dun debuxante de cómics - Vou ao parque con meu pai",
+          "url": "/Series_HLS/Shin Chan/ep197/index.m3u8"
+        },
+        {
+          "id": "ep198",
+          "title": "Shin Chan 198 - Meu pai recibe unha carta de amor - A regueifa que se armou por mor do raio da carta - Levamos a Hitoshi ao parque por primeira vez",
+          "url": "/Series_HLS/Shin Chan/ep198/index.m3u8"
+        },
+        {
+          "id": "ep199",
+          "title": "Shin Chan 199 - Volve a tía Masae - Miho vólvese namorar - Preparámonos para cando miña nai dea a luz",
+          "url": "/Series_HLS/Shin Chan/ep199/index.m3u8"
+        },
+        {
+          "id": "ep200",
+          "title": "Shin Chan 200 - Son o famoso Shinocho - Temos que recuperar a pelota - Son o gardacostas de miña nai",
+          "url": "/Series_HLS/Shin Chan/ep200/index.m3u8"
+        },
+        {
+          "id": "ep200.5",
+          "title": "Shin Chan 200 - Especial | Está a piques de nacer",
+          "url": "/Series_HLS/Shin Chan/ep200.5/index.m3u8"
+        },
+        {
+          "id": "ep201",
+          "title": "Shin Chan 201 - A miña irmá chega á casa - Vou durmir a nena - Que soneira teño",
+          "url": "/Series_HLS/Shin Chan/ep201/index.m3u8"
+        },
+        {
+          "id": "ep202",
+          "title": "Shin Chan 202 - Facemos unha foto de familia - Temos que decidir o nome da nena - Por fin decidimos como se vai chamar a nena",
+          "url": "/Series_HLS/Shin Chan/ep202/index.m3u8"
+        },
+        {
+          "id": "ep203",
+          "title": "Shin Chan 203 - Son un bo irmán - Hoxe hai combate - Saímos mercar cueiros ás tantas da noite",
+          "url": "/Series_HLS/Shin Chan/ep203/index.m3u8"
+        },
+        {
+          "id": "ep204",
+          "title": "Shin Chan 204 - Voulles presentar a Himawari aos meus amigos - Imos de merenda - O director da escola vén á casa",
+          "url": "/Series_HLS/Shin Chan/ep204/index.m3u8"
+        },
+        {
+          "id": "ep205",
+          "title": "Shin Chan 205 - Nevado e mais eu marchamos da casa - Aprendemos a facer cerámica - Miña nai quere xuntar puntos",
+          "url": "/Series_HLS/Shin Chan/ep205/index.m3u8"
+        },
+        {
+          "id": "ep206",
+          "title": "Shin Chan 206 - Eu tamén quero coidar de Himawari - Volvémonos encontrar co debuxante de cómics - Abrimos unha conta no banco",
+          "url": "/Series_HLS/Shin Chan/ep206/index.m3u8"
+        },
+        {
+          "id": "ep207",
+          "title": "Shin Chan 207 - Veñen os avós de Kyushu - Saio de paseo cos avós - Fago de oficinista",
+          "url": "/Series_HLS/Shin Chan/ep207/index.m3u8"
+        },
+        {
+          "id": "ep208",
+          "title": "Shin Chan 208 - Os avós compiten por todo - Xogamos ás casiñas - A señorita Matsuzaka busca mozo",
+          "url": "/Series_HLS/Shin Chan/ep208/index.m3u8"
+        },
+        {
+          "id": "ep209",
+          "title": "Shin Chan 209 - Imos de copas cun cliente - A Himawari póñenlle a primeira vacina - Volvo ao departamento de nenos perdidos",
+          "url": "/Series_HLS/Shin Chan/ep209/index.m3u8"
+        },
+        {
+          "id": "ep210",
+          "title": "Shin Chan 210 - Volven os avós - Evitamos que rouben na pastelería - A señorita Matsuzaka quedou cun mozo",
+          "url": "/Series_HLS/Shin Chan/ep210/index.m3u8"
+        },
+        {
+          "id": "ep211",
+          "title": "Shin Chan 211 - Celebramos o Nadal na escola - Vendo pasteis de Nadal - Chega Papá Noel",
+          "url": "/Series_HLS/Shin Chan/ep211/index.m3u8"
+        },
+        {
+          "id": "ep212",
+          "title": "Shin Chan 212 - Himawari aprende a camiñar ás gatiñas - Axúdolle a un neno que se perdeu - A señorita Yoshinaga sofre un desengano amoroso",
+          "url": "/Series_HLS/Shin Chan/ep212/index.m3u8"
+        },
+        {
+          "id": "ep213",
+          "title": "Shin Chan 213 - Hoxe Nanako fainos de mamá - Estou morto de frío - Boto carreiras co carriño",
+          "url": "/Series_HLS/Shin Chan/ep213/index.m3u8"
+        },
+        {
+          "id": "ep214",
+          "title": "Shin Chan 214 - Meu pai grávanos a Himawari e a min - Son o irmán máis vello e quero que me fagan caso - Teño unha viaxe de negocios",
+          "url": "/Series_HLS/Shin Chan/ep214/index.m3u8"
+        },
+        {
+          "id": "ep215",
+          "title": "Shin Chan 215 - Meu pai baña a Himawari - Coñecemos a Marilyn - Intento fuxir da escola",
+          "url": "/Series_HLS/Shin Chan/ep215/index.m3u8"
+        },
+        {
+          "id": "ep216",
+          "title": "Shin Chan 216 - Imos esquiar - Aprendo a esquiar cunha moza moi misteriosa - Despois de esquiar imos á sala de xogos",
+          "url": "/Series_HLS/Shin Chan/ep216/index.m3u8"
+        },
+        {
+          "id": "ep217",
+          "title": "Shin Chan 217 - Imos celebrar o Día dos Namorados - Imos xogar ao golf - A señorita Matsuzaka tamén celebra o Día dos Namorados",
+          "url": "/Series_HLS/Shin Chan/ep217/index.m3u8"
+        },
+        {
+          "id": "ep218",
+          "title": "Shin Chan 218 - Papá deixa atrás uns documentos moi importantes - Imos coller o tren - Perdémonos polo camiño",
+          "url": "/Series_HLS/Shin Chan/ep218/index.m3u8"
+        },
+        {
+          "id": "ep219",
+          "title": "Shin Chan 219 - Imos mercar bonecos para a Festa das Nenas - Visítanos Marilyn - Neva que pon medo",
+          "url": "/Series_HLS/Shin Chan/ep219/index.m3u8"
+        },
+        {
+          "id": "ep220",
+          "title": "Shin Chan 220 - Himawari desaparece - Ter un gato na casa dá moito traballo - Xogamos cuns lentes moi especiais",
+          "url": "/Series_HLS/Shin Chan/ep220/index.m3u8"
+        },
+        {
+          "id": "ep221",
+          "title": "Shin Chan 221 - Mercamos roupa para Himawari - A gata da señorita Matsuzaka vai casar - Himawari non nos deixa pegar ollo",
+          "url": "/Series_HLS/Shin Chan/ep221/index.m3u8"
+        },
+        {
+          "id": "ep222",
+          "title": "Shin Chan 222 - Himawari non me quere soltar - Quero deixar as miñas pegadas no cemento - Pensamos no futuro de Himawari",
+          "url": "/Series_HLS/Shin Chan/ep222/index.m3u8"
+        },
+        {
+          "id": "ep223",
+          "title": "Shin Chan 223 - Bañarse con Himawari é unha aventura - A Himawari fanlle máis caso ca min - Á señorita Matsuzaka gústanlle noviños",
+          "url": "/Series_HLS/Shin Chan/ep223/index.m3u8"
+        },
+        {
+          "id": "ep224",
+          "title": "Shin Chan 224 - A Himawari gústanlle as cousas brillantes - A vendedora a domicilio volve de visita - As raparigas do Exército Escarlata fan de canguros",
+          "url": "/Series_HLS/Shin Chan/ep224/index.m3u8"
+        },
+        {
+          "id": "ep225",
+          "title": "Shin Chan 225 - Hoxe é o Día do Neno - Convídannos á cerimonia do té - Temos que amañar o peixe voador",
+          "url": "/Series_HLS/Shin Chan/ep225/index.m3u8"
+        },
+        {
+          "id": "ep226",
+          "title": "Shin Chan 226 - Volvín perder o autobús - Hoxe non damos saído da casa - Miña nai ten un mal día",
+          "url": "/Series_HLS/Shin Chan/ep226/index.m3u8"
+        },
+        {
+          "id": "ep227",
+          "title": "Shin Chan 227 - Meu pai fai footing - Kazama échevos moi limpo - Volvemos visitar o debuxante de cómics",
+          "url": "/Series_HLS/Shin Chan/ep227/index.m3u8"
+        },
+        {
+          "id": "ep228",
+          "title": "Shin Chan 228 - Saímos de compras con Himawari - Como cansa coidar de Himawari - Saímos cear por aí",
+          "url": "/Series_HLS/Shin Chan/ep228/index.m3u8"
+        },
+        {
+          "id": "ep229",
+          "title": "Shin Chan 229 - Meu pai monta unha maqueta - Kazama confía en min - Son un bo vendedor",
+          "url": "/Series_HLS/Shin Chan/ep229/index.m3u8"
+        },
+        {
+          "id": "ep230",
+          "title": "Shin Chan 230 - Himawari sábese entreter soíña - Masao non dá unha - Miña nai quere aprender informática",
+          "url": "/Series_HLS/Shin Chan/ep230/index.m3u8"
+        },
+        {
+          "id": "ep231",
+          "title": "Shin Chan 231 - Xogo cunha máquina de dar masaxes - A señorita Yoshinaga rifa co mozo - A señorita Yoshinaga está deprimida",
+          "url": "/Series_HLS/Shin Chan/ep231/index.m3u8"
+        },
+        {
+          "id": "ep232",
+          "title": "Shin Chan 232 - Contamos o conto da Carapuchiña Vermella e a Carapuchiña Morada - Adestramos para un partido de béisbol - Xogamos coas princesas do bate",
+          "url": "/Series_HLS/Shin Chan/ep232/index.m3u8"
+        },
+        {
+          "id": "ep233",
+          "title": "Shin Chan 233 - Nevado coida a Himawari - Hoxe xogamos á chuvia - A señorita Matsuzaka bota outro noivo",
+          "url": "/Series_HLS/Shin Chan/ep233/index.m3u8"
+        },
+        {
+          "id": "ep234",
+          "title": "Shin Chan 234 - Vixiar a Himawari é moi pesado - A señorita Yoshinaga fai prácticas para cando case - Un pervertido segue a Nanako",
+          "url": "/Series_HLS/Shin Chan/ep234/index.m3u8"
+        },
+        {
+          "id": "ep235",
+          "title": "Shin Chan 235 - Os avós queren cambiar - O director apaña un niño de avespas - Himawari xoga con globos",
+          "url": "/Series_HLS/Shin Chan/ep235/index.m3u8"
+        },
+        {
+          "id": "ep236",
+          "title": "Shin Chan 236 - Himawari desaparece sen deixar rastro - Preparo a piscina inchable - Comemos caranguexos",
+          "url": "/Series_HLS/Shin Chan/ep236/index.m3u8"
+        },
+        {
+          "id": "ep237",
+          "title": "Shin Chan 237 - Oi, chéirame que miña nai anda a moer para fóra - Rego as flores da escola - Os mosquitos tortúranme",
+          "url": "/Series_HLS/Shin Chan/ep237/index.m3u8"
+        },
+        {
+          "id": "ep238",
+          "title": "Shin Chan 238 - Buscamos vacalouras - As mozas do Exército Escarlata están na feira - Bañamos a Himawari na piscina",
+          "url": "/Series_HLS/Shin Chan/ep238/index.m3u8"
+        },
+        {
+          "id": "ep239",
+          "title": "Shin Chan 239 - A boneca francesa está maldita - Que pasa hoxe na escola? - Unha pantasma convídanos á súa casa",
+          "url": "/Series_HLS/Shin Chan/ep239/index.m3u8"
+        },
+        {
+          "id": "ep240",
+          "title": "Shin Chan 240 - Poñémos na fileira para mercar billetes de tren - O tren vai ateigado de xente - Pasámolo de marabilla na casa dos avós",
+          "url": "/Series_HLS/Shin Chan/ep240/index.m3u8"
+        },
+        {
+          "id": "ep241",
+          "title": "Shin Chan 241 - Teño un mapa do tesouro - O Exército de Kasukabe é moi agradecido - Poñemos aire acondicionado na casa",
+          "url": "/Series_HLS/Shin Chan/ep241/index.m3u8"
+        },
+        {
+          "id": "ep242",
+          "title": "Shin Chan 242 - Atopamos unha galiña moi alborotadora - Coidamos do director da escola - Axúdolle a meu pai a arrincar as malas herbas do xardín",
+          "url": "/Series_HLS/Shin Chan/ep242/index.m3u8"
+        },
+        {
+          "id": "ep243",
+          "title": "Shin Chan 243 - Hoxe vai unha de vaqueiros - Miña nai fai exercicio - Bátome nun duelo",
+          "url": "/Series_HLS/Shin Chan/ep243/index.m3u8"
+        },
+        {
+          "id": "ep244",
+          "title": "Shin Chan 244 - Xa son adulto - Miña nai quere estar soa - Saio mercar tofu",
+          "url": "/Series_HLS/Shin Chan/ep244/index.m3u8"
+        },
+        {
+          "id": "ep245",
+          "title": "Shin Chan 245 - Coñecemos a Michi e Yoshirin - Atopamos o borrador dun cómic de Usuto Yoshii - Coido de Himawari nos grandes almacéns",
+          "url": "/Series_HLS/Shin Chan/ep245/index.m3u8"
+        },
+        {
+          "id": "ep246",
+          "title": "Shin Chan 246 - Meu pai vai ao choio aínda que hai un tifón - Véñennos facer unha enquisa - Yoshirin e Michi veñen vivir ao noso lado",
+          "url": "/Series_HLS/Shin Chan/ep246/index.m3u8"
+        },
+        {
+          "id": "ep247",
+          "title": "Shin Chan 247 - Imos mercar lambonadas para a excursión - Na excursión pasámolo de marabilla - Volvinme perder indo de excursión",
+          "url": "/Series_HLS/Shin Chan/ep247/index.m3u8"
+        },
+        {
+          "id": "ep248",
+          "title": "Shin Chan 248 - Michi e Yoshirin rifaron - Déixanme a casa para min só - No corredor estase de película",
+          "url": "/Series_HLS/Shin Chan/ep248/index.m3u8"
+        },
+        {
+          "id": "ep249",
+          "title": "Shin Chan 249 - Estará chispa Himawari? - Imos na procura do can de tres ollos - Meu pai tense que erguer cedo e decide non deitarse",
+          "url": "/Series_HLS/Shin Chan/ep249/index.m3u8"
+        },
+        {
+          "id": "ep250",
+          "title": "Shin Chan 250 - Teño que pensar un regalo para Nanako - A señorita Yoshinaga busca piso - Xogamos coa lanterna",
+          "url": "/Series_HLS/Shin Chan/ep250/index.m3u8"
+        },
+        {
+          "id": "ep251",
+          "title": "Shin Chan 251 - Preparo arroz con curry - Xogamos a Ultraheroe - Péchasenos o coche coas chaves postas",
+          "url": "/Series_HLS/Shin Chan/ep251/index.m3u8"
+        },
+        {
+          "id": "ep252",
+          "title": "Shin Chan 252 - Himawari é modelo - Descubrimos un cofre soterrado - Miña nai ten un pasado oculto",
+          "url": "/Series_HLS/Shin Chan/ep252/index.m3u8"
+        },
+        {
+          "id": "ep253",
+          "title": "Shin Chan 253 - Coa paga extra podémonos permitir un luxo - Ao final comemos peixe globo - Enfróntome ao Dragón Errante",
+          "url": "/Series_HLS/Shin Chan/ep253/index.m3u8"
+        },
+        {
+          "id": "ep254",
+          "title": "Shin Chan 254 - Miña nai fai de encargada do lixo - Xogamos a facer combates de espada - Montamos unha festa os tres na bañeira",
+          "url": "/Series_HLS/Shin Chan/ep254/index.m3u8"
+        },
+        {
+          "id": "ep255",
+          "title": "Shin Chan 255 - Quedo con Nanako - Defendo a Nanako - Botamos a voar avións de papel",
+          "url": "/Series_HLS/Shin Chan/ep255/index.m3u8"
+        },
+        {
+          "id": "ep256",
+          "title": "Shin Chan 256 - Non temos cartos para lle pagar ao transportista - Sónchevos un profesional da aspiradora - A señorita Matsuzaka queda cun mozo",
+          "url": "/Series_HLS/Shin Chan/ep256/index.m3u8"
+        },
+        {
+          "id": "ep257",
+          "title": "Shin Chan 257 - Miña nai merca unha máquina de coser - O Exército Escarlata loita contra o Exército dos Calcetíns de Xirafa - Hai moita diferenza entre un neno e unha nena",
+          "url": "/Series_HLS/Shin Chan/ep257/index.m3u8"
+        },
+        {
+          "id": "ep258",
+          "title": "Shin Chan 258 - Himawari soña - Hoxe hai combate de nenos ninja - Meu pai quere montar un negocio de seu",
+          "url": "/Series_HLS/Shin Chan/ep258/index.m3u8"
+        },
+        {
+          "id": "ep259",
+          "title": "Shin Chan 259 - Facer recados é moi complicado - Atopo a Michi e Yoshirin na librería - Aínda que estea constipado quero a merena",
+          "url": "/Series_HLS/Shin Chan/ep259/index.m3u8"
+        },
+        {
+          "id": "ep260",
+          "title": "Shin Chan 260 - Cortámoslle o pelo a Himawari - Imos a unha tenda de segunda man - Imos dar unha festa na casa",
+          "url": "/Series_HLS/Shin Chan/ep260/index.m3u8"
+        },
+        {
+          "id": "ep261",
+          "title": "Shin Chan 261 - Hoxe ceamos bisté do bo - Vén un coello á escola - Vou perseguir a Himawari",
+          "url": "/Series_HLS/Shin Chan/ep261/index.m3u8"
+        },
+        {
+          "id": "ep262",
+          "title": "Shin Chan 262 - Vender seguros de vida é moi duro - Hoxe Nene é a protagonista - Construímos un iglú no xardín",
+          "url": "/Series_HLS/Shin Chan/ep262/index.m3u8"
+        },
+        {
+          "id": "ep263",
+          "title": "Shin Chan 263 - Somos unhas nenas - Nevado está morto de fame - Buscamos o tesouro de papá",
+          "url": "/Series_HLS/Shin Chan/ep263/index.m3u8"
+        },
+        {
+          "id": "ep264",
+          "title": "Shin Chan 264 - Mamá marcha da casa - Imos construír a segunda base secreta - A señorita Matsuzaka non ten cartos",
+          "url": "/Series_HLS/Shin Chan/ep264/index.m3u8"
+        },
+        {
+          "id": "ep265",
+          "title": "Shin Chan 265 - Son o irmán máis novo de Himawari - Masao vai de compras - Vou fuxir da casa coa cómica",
+          "url": "/Series_HLS/Shin Chan/ep265/index.m3u8"
+        },
+        {
+          "id": "ep266",
+          "title": "Shin Chan 266 - Papá quere moito a Himawari - A festa das cerdeiras é macanuda - Aparece o rival do Exército de Kasukabe",
+          "url": "/Series_HLS/Shin Chan/ep266/index.m3u8"
+        },
+        {
+          "id": "ep267",
+          "title": "Shin Chan 267 - Teño avós por partida dobre - Os teléfonos móbiles sonche moito - Gardamos a roupa de inverno",
+          "url": "/Series_HLS/Shin Chan/ep267/index.m3u8"
+        },
+        {
+          "id": "ep268",
+          "title": "Shin Chan 268 - Ímonos disfrazar no pazo da fotografía - Imos á escola dos nosos rivais - Mamá ten alerxia ao pole",
+          "url": "/Series_HLS/Shin Chan/ep268/index.m3u8"
+        },
+        {
+          "id": "ep269",
+          "title": "Shin Chan 269 - Himawari é unha copiona - Michi e Yoshirin montan un número - Non atopamos os aforros secretos",
+          "url": "/Series_HLS/Shin Chan/ep269/index.m3u8"
+        },
+        {
+          "id": "ep270",
+          "title": "Shin Chan 270 - Imos aforrar para evitar o quecemento do planeta - Kazama arrola a Himawari - Imos coidar de Nanako",
+          "url": "/Series_HLS/Shin Chan/ep270/index.m3u8"
+        },
+        {
+          "id": "ep271",
+          "title": "Shin Chan 271 - Andar vendado é un choque - Miña nai traballa a media xornada - O traballo de miña nai é moi escravo",
+          "url": "/Series_HLS/Shin Chan/ep271/index.m3u8"
+        },
+        {
+          "id": "ep272",
+          "title": "Shin Chan 272 - Competimos a «pedra, papel, tesoiras» con mamá - Veñen vender seguros á escola - Evitamos que meu pai enferme",
+          "url": "/Series_HLS/Shin Chan/ep272/index.m3u8"
+        },
+        {
+          "id": "ep273",
+          "title": "Shin Chan 273 - A nai de Nene está embarazada - A señorita Matsuzaka sente a chegada da primavera - A señorita Matsuzaka namorouse a primeira vista",
+          "url": "/Series_HLS/Shin Chan/ep273/index.m3u8"
+        },
+        {
+          "id": "ep274",
+          "title": "Shin Chan 274 - A señorita Matsuzaka é moi feliz na clínica - Salvo a Himawari do perigo - Ingrésanme coa señorita Matsuzaka",
+          "url": "/Series_HLS/Shin Chan/ep274/index.m3u8"
+        },
+        {
+          "id": "ep275",
+          "title": "Shin Chan 275 - A señorita Matsuzaka toleou de amor - Fuxo da clínica - Durmo a sesta na clínica",
+          "url": "/Series_HLS/Shin Chan/ep275/index.m3u8"
+        },
+        {
+          "id": "ep276",
+          "title": "Shin Chan 276 - Volvo para a casa despois de moito tempo - Estou a facer rehabilitación - Non quero que me quiten a escaiola",
+          "url": "/Series_HLS/Shin Chan/ep276/index.m3u8"
+        },
+        {
+          "id": "ep277",
+          "title": "Shin Chan 277 - Por fin volvo á escola - A mestra nova é... distinta - Chega un regalo da festa budista do quince de xullo",
+          "url": "/Series_HLS/Shin Chan/ep277/index.m3u8"
+        },
+        {
+          "id": "ep278",
+          "title": "Shin Chan 278 - Se lle tiras as lentes di o que pensa - Vou loitar contra o monstro Himawari - Pasámolo de marabilla no Xardín da Cervexa",
+          "url": "/Series_HLS/Shin Chan/ep278/index.m3u8"
+        },
+        {
+          "id": "ep279",
+          "title": "Shin Chan 279 - Quérome bañar con Nanako na piscina - Kazama está moi agoniado porque fai pis na cama - Michi e Yoshirin toman conta de nós",
+          "url": "/Series_HLS/Shin Chan/ep279/index.m3u8"
+        },
+        {
+          "id": "ep280",
+          "title": "Shin Chan 280 - Vou a unha piscina con ondas - No verán apetece tomar sorbete de xeo - Avarióusenos o aire acondicionado",
+          "url": "/Series_HLS/Shin Chan/ep280/index.m3u8"
+        },
+        {
+          "id": "ep281",
+          "title": "Shin Chan 281 - Xogamos a papás e a mamás e ás casiñas con Nene - Esquécenos unha cousa tras a outra - O impo non pasa nunca",
+          "url": "/Series_HLS/Shin Chan/ep281/index.m3u8"
+        },
+        {
+          "id": "ep282",
+          "title": "Shin Chan 282 - Oi, que traballeira dá escoller un xoguete! - A vinganza do pastel é terrible - Miña nai queda pechada no balcón",
+          "url": "/Series_HLS/Shin Chan/ep282/index.m3u8"
+        },
+        {
+          "id": "ep283",
+          "title": "Shin Chan 283 - Facémonos ilusións co futuro de Himawari - Hoxe Michi está maldita - Facemos un festival de petardos en familia",
+          "url": "/Series_HLS/Shin Chan/ep283/index.m3u8"
+        },
+        {
+          "id": "ep284",
+          "title": "Shin Chan 284 - Son un home silencioso - Imos visitar a señorita Matsuzaka - Xogamos cos utensilios de limpeza",
+          "url": "/Series_HLS/Shin Chan/ep284/index.m3u8"
+        },
+        {
+          "id": "ep285",
+          "title": "Shin Chan 285 - Tirámoslle unha foto escandalosa a miña nai - Dámoslle ánimos á señorita Ageo - O vídeo secreto de meu pai",
+          "url": "/Series_HLS/Shin Chan/ep285/index.m3u8"
+        },
+        {
+          "id": "ep286",
+          "title": "Shin Chan 286 - Miña nai pasa toda a noite da Ceca para a Meca - Os nacidos na era Taisho teñen moita vitalidade - Seguimos o percorrido do paseo de Nevado",
+          "url": "/Series_HLS/Shin Chan/ep286/index.m3u8"
+        },
+        {
+          "id": "ep287",
+          "title": "Shin Chan 287 - Xogo aos avións con meu pai - Construímos un refuxio subterráneo - Danlle a alta á señorita Matsuzaka",
+          "url": "/Series_HLS/Shin Chan/ep287/index.m3u8"
+        },
+        {
+          "id": "ep288",
+          "title": "Shin Chan 288 - Volveu a señorita Matsuzaka - Himawari tamén se apunta á lectura no outono - Imos xogar ao parque que hai ao lado da casa",
+          "url": "/Series_HLS/Shin Chan/ep288/index.m3u8"
+        },
+        {
+          "id": "ep289",
+          "title": "Shin Chan 289 - Protexemos a cita da señorita Matsuzaka - Moito ollo cos ladróns - Imos apañar patacas doces",
+          "url": "/Series_HLS/Shin Chan/ep289/index.m3u8"
+        },
+        {
+          "id": "ep290",
+          "title": "Shin Chan 290 - Ter un lavalouza é moi práctico - Kazama é un admirador secreto - Esta noite non dou durmido",
+          "url": "/Series_HLS/Shin Chan/ep290/index.m3u8"
+        },
+        {
+          "id": "ep291",
+          "title": "Shin Chan 291 - Boo-chan é o mellor neno de Saitama - Os paseos matinais de meu pai dan que desconfiar - Descubro o segredo dos paseos de meu pai",
+          "url": "/Series_HLS/Shin Chan/ep291/index.m3u8"
+        },
+        {
+          "id": "ep292",
+          "title": "Shin Chan 292 - Atopo un termo máxico - Cando Nene se enfada mete moito medo - Coidamos un gato",
+          "url": "/Series_HLS/Shin Chan/ep292/index.m3u8"
+        },
+        {
+          "id": "ep293",
+          "title": "Shin Chan 293 - Fago patacas asadas con Kazama - Yoshirin marcha da casa - Métenme nunha liorta matrimonial",
+          "url": "/Series_HLS/Shin Chan/ep293/index.m3u8"
+        },
+        {
+          "id": "ep294",
+          "title": "Shin Chan 294 - Quero o agasallo de Ultraheroe - Seguimos a cita da señorita Matsuzaka - Imos lavar o coche",
+          "url": "/Series_HLS/Shin Chan/ep294/index.m3u8"
+        },
+        {
+          "id": "ep295",
+          "title": "Shin Chan 295 - A Himawari gústanlle as cartas - Nosas nais xúntanse para falar - A señorita Yoshinaga non dá chegado á súa cita",
+          "url": "/Series_HLS/Shin Chan/ep295/index.m3u8"
+        },
+        {
+          "id": "ep296",
+          "title": "Shin Chan 296 - Voar papaventos é moi complicado - Kazama ten mal fado - Meu pai pasa unha noite do demo",
+          "url": "/Series_HLS/Shin Chan/ep296/index.m3u8"
+        },
+        {
+          "id": "ep297",
+          "title": "Shin Chan 297 - Himawari e mais eu querémonos coma irmáns - Buscamos pedras curiosas - Volvo coincidir co pai de Nanako",
+          "url": "/Series_HLS/Shin Chan/ep297/index.m3u8"
+        },
+        {
+          "id": "ep298",
+          "title": "Shin Chan 298 - A señorita Matsuzaka apaixónase na súa cita - Imos ver un combate de loita libre - Esta oferta non a deixamos escapar",
+          "url": "/Series_HLS/Shin Chan/ep298/index.m3u8"
+        },
+        {
+          "id": "ep299",
+          "title": "Shin Chan 299 - Os días de rebaixas causan moita tensión - Kazama e mais eu somos amigos íntimos - A que se monta por causa dunhas pilas",
+          "url": "/Series_HLS/Shin Chan/ep299/index.m3u8"
+        },
+        {
+          "id": "ep300",
+          "title": "Shin Chan 300 - Rompeu o Súper Robot - Nas mañás frías xogamos co xeo - No inverno non hai nada mellor que ir ás caldas",
+          "url": "/Series_HLS/Shin Chan/ep300/index.m3u8"
+        },
+        {
+          "id": "ep301",
+          "title": "Shin Chan 301 - O director bótase a chorar - O Exército Escarlata traballa disfrazado - Fago a rolda de noite con meu pai",
+          "url": "/Series_HLS/Shin Chan/ep301/index.m3u8"
+        },
+        {
+          "id": "ep302",
+          "title": "Shin Chan 302 - Miña nai vai cobrar a recadación - Nene é unha heroína tráxica - Teño toda a escola para min",
+          "url": "/Series_HLS/Shin Chan/ep302/index.m3u8"
+        },
+        {
+          "id": "ep303",
+          "title": "Shin Chan 303 - Vivimos coma pobres para aforrar - Nene atina nas súas predicións do futuro - Aprendo a facer haikus con versos de 5, 7 e 5 sílabas",
+          "url": "/Series_HLS/Shin Chan/ep303/index.m3u8"
+        },
+        {
+          "id": "ep304",
+          "title": "Shin Chan 304 - Vou facer un Ultraheroe con latas - O meu posto de irmán máis vello corre perigo - Xogo cunha casa de xoguete",
+          "url": "/Series_HLS/Shin Chan/ep304/index.m3u8"
+        },
+        {
+          "id": "ep305",
+          "title": "Shin Chan 305 - Himawari ten unha colección secreta - A Masao fanlle unha proba moi dura - A nosa familia esquece as cousas con facilidade",
+          "url": "/Series_HLS/Shin Chan/ep305/index.m3u8"
+        },
+        {
+          "id": "ep306",
+          "title": "Shin Chan 306 - Hoxe imos comer menú - A Masao preocúpao o futuro - Papá marcha da casa",
+          "url": "/Series_HLS/Shin Chan/ep306/index.m3u8"
+        },
+        {
+          "id": "ep307",
+          "title": "Shin Chan 307 - Mamá e mais eu aprendemos inglés - O vídeo viuno todo - Isto cheira que alcatrea",
+          "url": "/Series_HLS/Shin Chan/ep307/index.m3u8"
+        },
+        {
+          "id": "ep308",
+          "title": "Shin Chan 308 - Himawari é o meu lacaio - O mafioso trae un pastel de amorodos - Con este barullo non hai quen durma",
+          "url": "/Series_HLS/Shin Chan/ep308/index.m3u8"
+        },
+        {
+          "id": "ep309",
+          "title": "Shin Chan 309 - Eu tamén quero poñerme guapo con maquillaxe - Son o neno que trae a felicidade - Záfome das tarefas da casa",
+          "url": "/Series_HLS/Shin Chan/ep309/index.m3u8"
+        },
+        {
+          "id": "ep310",
+          "title": "Shin Chan 310 - Mamá é o modelo de Himawari - O autobús da escola dá moito sono - Non me parezo a ninguén",
+          "url": "/Series_HLS/Shin Chan/ep310/index.m3u8"
+        },
+        {
+          "id": "ep311",
+          "title": "Shin Chan 311 - Vemos vídeos de cando era un bebé - Vou substituír a Kazama - Buscamos un apartamento",
+          "url": "/Series_HLS/Shin Chan/ep311/index.m3u8"
+        },
+        {
+          "id": "ep312",
+          "title": "Shin Chan 312 - Mamá teima en coseguir un regalo - A señorita Matsuzaka vai romper co mozo - Quedo pegado á tenda das teles",
+          "url": "/Series_HLS/Shin Chan/ep312/index.m3u8"
+        },
+        {
+          "id": "ep313",
+          "title": "Shin Chan 313 - O avó e mais eu somos rivais no amor - O avó é moi madrugador - Planeamos unha excursión",
+          "url": "/Series_HLS/Shin Chan/ep313/index.m3u8"
+        },
+        {
+          "id": "ep314",
+          "title": "Shin Chan 314 - Ler libros é moi divertido - Acompaño a Kazama ao salón de beleza - Subimos ao Space Shuttle",
+          "url": "/Series_HLS/Shin Chan/ep314/index.m3u8"
+        },
+        {
+          "id": "ep315",
+          "title": "Shin Chan 315 - A roupa non dá enxugado - O pintalabios trae problemas - Nevado traba a Himawari",
+          "url": "/Series_HLS/Shin Chan/ep315/index.m3u8"
+        },
+        {
+          "id": "ep316",
+          "title": "Shin Chan 316 - Saboreo o verán xaponés - O quimono quédame xenial - Facemos pasta na casa",
+          "url": "/Series_HLS/Shin Chan/ep316/index.m3u8"
+        },
+        {
+          "id": "ep317",
+          "title": "Shin Chan 317 - Himawari pelexa co ventilador - Á señorita Ageo danlle medo as alturas - A casa dos Nohara está ateigada de segredos",
+          "url": "/Series_HLS/Shin Chan/ep317/index.m3u8"
+        },
+        {
+          "id": "ep318",
+          "title": "Shin Chan 318 - O Exército de Kasukabe sepárase - O Exército de Kasukabe está en pé de guerra - Papá pásao moi mal cos discursos",
+          "url": "/Series_HLS/Shin Chan/ep318/index.m3u8"
+        },
+        {
+          "id": "ep319",
+          "title": "Shin Chan 319 - Mamá cambia de peiteado - O peiteado de mamá é cada vez máis raro - Masao imita moi ben",
+          "url": "/Series_HLS/Shin Chan/ep319/index.m3u8"
+        },
+        {
+          "id": "ep320",
+          "title": "Shin Chan 320 - Cortamos o céspede - O xogo de Nene vai a máis - Intentamos levar unha vida tranquila",
+          "url": "/Series_HLS/Shin Chan/ep320/index.m3u8"
+        },
+        {
+          "id": "ep321",
+          "title": "Shin Chan 321 - Reúnense todos os coñecidos da familia Nohara - A familia arma moito barullo - Ter familia é marabilloso",
+          "url": "/Series_HLS/Shin Chan/ep321/index.m3u8"
+        },
+        {
+          "id": "ep322",
+          "title": "Shin Chan 322 - Papá cóntanos unha historia de medo - A historia da boneca maldita - Vou con Nanako á casa do terror",
+          "url": "/Series_HLS/Shin Chan/ep322/index.m3u8"
+        },
+        {
+          "id": "ep323",
+          "title": "Shin Chan 323 - Comprar cansa moito - Facemos fotos para gañar cen mil iens - A señorita Matsuzaka espera que se lle declaren",
+          "url": "/Series_HLS/Shin Chan/ep323/index.m3u8"
+        },
+        {
+          "id": "ep324",
+          "title": "Shin Chan 324 - Os vales de compra están para caducar - O debuxante de cómics sofre un contratempo - O plan da señorita Matsuzaka vai ao garete",
+          "url": "/Series_HLS/Shin Chan/ep324/index.m3u8"
+        },
+        {
+          "id": "ep325",
+          "title": "Shin Chan 325 - O amor da señorita Matsuzaka chega á súa fin (I) - O amor da señorita Matsuzaka chega á súa fin (II) - O amor da señorita Matsuzaka chega á súa fin (III)",
+          "url": "/Series_HLS/Shin Chan/ep325/index.m3u8"
+        },
+        {
+          "id": "ep326",
+          "title": "Shin Chan 326 - Cóntanme o pasado de papá e mamá (I) - Cóntanme o pasado de papá e mamá (II) - Cóntanme o pasado de papá e mamá (III)",
+          "url": "/Series_HLS/Shin Chan/ep326/index.m3u8"
+        },
+        {
+          "id": "ep327",
+          "title": "Shin Chan 327 - Pelexo con Himawari - O Exército de Kasukabe adestra a Nevado - Atácanos o tifón Misae",
+          "url": "/Series_HLS/Shin Chan/ep327/index.m3u8"
+        },
+        {
+          "id": "ep328",
+          "title": "Shin Chan 328 - Papá queda sen día libre - Himawari pasa un día na escola - Os grilos son a graza do outono",
+          "url": "/Series_HLS/Shin Chan/ep328/index.m3u8"
+        },
+        {
+          "id": "ep329",
+          "title": "Shin Chan 329 - A pinza do hipopótamo é moi chula - Mari-chan enfróntase a un gran desafío - Chegou a hora da sesta",
+          "url": "/Series_HLS/Shin Chan/ep329/index.m3u8"
+        },
+        {
+          "id": "ep330",
+          "title": "Shin Chan 330 - Volvémonos tolos cun coche de xoguete - A papá dóenlle as caries - Preparo minestra de verduras con Robert",
+          "url": "/Series_HLS/Shin Chan/ep330/index.m3u8"
+        },
+        {
+          "id": "ep331",
+          "title": "Shin Chan 331 - Gardamos o ventilador - Os festivais universitarios son moi divertidos - Teño que limpar os zapatos con papá",
+          "url": "/Series_HLS/Shin Chan/ep331/index.m3u8"
+        },
+        {
+          "id": "ep332",
+          "title": "Shin Chan 332 - Mamá descobre o que é tomar bario - Imos ver a rodaxe de Mari-chan - Hoxe aprendo a facer empanadillas xaponesas",
+          "url": "/Series_HLS/Shin Chan/ep332/index.m3u8"
+        },
+        {
+          "id": "ep333",
+          "title": "Shin Chan 333 - Aparece Ai Suotome - Masao é escravo do amor - Mamá ten moito éxito cos rapaces",
+          "url": "/Series_HLS/Shin Chan/ep333/index.m3u8"
+        },
+        {
+          "id": "ep335",
+          "title": "Shin Chan 335 - A popularidade de Ai-chan arrampla con todo - Empeza o gran duelo: Nene contra Ai - A Himawari gústalle meterse nas caixas",
+          "url": "/Series_HLS/Shin Chan/ep335/index.m3u8"
+        },
+        {
+          "id": "ep336",
+          "title": "Shin Chan 336 - Ai-chan está toliña por min - Bátome en duelo con Kazama - Himawari fai predicións",
+          "url": "/Series_HLS/Shin Chan/ep336/index.m3u8"
+        },
+        {
+          "id": "ep337",
+          "title": "Shin Chan 337 - Os segredos de papá e mamá son deliciosos - Aprendemos a técnica mortal de todo home - O amor de Misae chega á derradeira estación",
+          "url": "/Series_HLS/Shin Chan/ep337/index.m3u8"
+        },
+        {
+          "id": "ep338",
+          "title": "Shin Chan 338 - Son un experto en patacas doces - Mari-chan loita en Kasukabe - Imos cambiar a neveira",
+          "url": "/Series_HLS/Shin Chan/ep338/index.m3u8"
+        },
+        {
+          "id": "ep340",
+          "title": "Shin Chan 340 - Son o que máis aforra da nosa casa - Alugamos un vídeo de Mari-chan - Papá recupérase dun arrefriado",
+          "url": "/Series_HLS/Shin Chan/ep340/index.m3u8"
+        },
+        {
+          "id": "ep341",
+          "title": "Shin Chan 341 - Ai-chan está toliña por min - O supermercado é un campo de batalla para homes - Nevado ten un segredo",
+          "url": "/Series_HLS/Shin Chan/ep341/index.m3u8"
+        },
+        {
+          "id": "ep342",
+          "title": "Shin Chan 342 - A bruxiña Mari-chan está en perigo - Non podemos deixar de vixiar a estufa - Seguimos a Kazama que é moi sospeitoso",
+          "url": "/Series_HLS/Shin Chan/ep342/index.m3u8"
+        },
+        {
+          "id": "ep343",
+          "title": "Shin Chan 343 - Á señorita Ageo non lle gusta ese fulano - Quero comer goma de mascar - Papá ten un segredo moi perigoso",
+          "url": "/Series_HLS/Shin Chan/ep343/index.m3u8"
+        },
+        {
+          "id": "ep344",
+          "title": "Shin Chan 344 - Eu tamén quero ir á perruquería - Himawari está moi rara - Isto é unha cea de luxo só para homes",
+          "url": "/Series_HLS/Shin Chan/ep344/index.m3u8"
+        },
+        {
+          "id": "ep345",
+          "title": "Shin Chan 345 - Facemos unha festa de adultos na miña casa - Eu tamén fago unha audición - Tocounos a lotería",
+          "url": "/Series_HLS/Shin Chan/ep345/index.m3u8"
+        },
+        {
+          "id": "ep347",
+          "title": "Shin Chan 347 - Vou mercar comida para levar - Van estrear a película de Ultraheroe - Imos a un balneario para descansar do traballo",
+          "url": "/Series_HLS/Shin Chan/ep347/index.m3u8"
+        },
+        {
+          "id": "ep348",
+          "title": "Shin Chan 348 - A merenda sabe mellor se se come ás agachadas - Papá loita contra Ultraheroe - Encontrei un teléfono móbil",
+          "url": "/Series_HLS/Shin Chan/ep348/index.m3u8"
+        },
+        {
+          "id": "ep349",
+          "title": "Shin Chan 349 - Ai-chan vén á nosa casa - O shogun de Kasukabe - Bótolle unha man a mamá",
+          "url": "/Series_HLS/Shin Chan/ep349/index.m3u8"
+        },
+        {
+          "id": "ep363",
+          "title": "Shin Chan 363 - Hoxe son Nevado - Quedo a soas con Nanako - Nene namorouse",
+          "url": "/Series_HLS/Shin Chan/ep363/index.m3u8"
+        },
+        {
+          "id": "ep364",
+          "title": "Shin Chan 364 - Estou preso - As miñas bólas de arroz están boísimas - Ao principio da fileira hai cousas estupendas",
+          "url": "/Series_HLS/Shin Chan/ep364/index.m3u8"
+        },
+        {
+          "id": "ep365",
+          "title": "Shin Chan 365 - As aventuras do Porquiño Pirata (I): as maracas - As aventuras do Porquiño Pirata (II): o rapto - Meu pai lévame de viaxe",
+          "url": "/Series_HLS/Shin Chan/ep365/index.m3u8"
+        },
+        {
+          "id": "ep366",
+          "title": "Shin Chan 366 - As aventuras do Porquiño Pirata (III): o asalto - As aventuras do Porquiño Pirata (IV): o rescate - Ultraheroe faise máis poderoso",
+          "url": "/Series_HLS/Shin Chan/ep366/index.m3u8"
+        },
+        {
+          "id": "ep367",
+          "title": "Shin Chan 367 - As aventuras do Porquiño Pirata: ui, o castelo do monstro!",
+          "url": "/Series_HLS/Shin Chan/ep367/index.m3u8"
+        },
+        {
+          "id": "ep368",
+          "title": "Shin Chan 368 - Teño unha aventura nun mundo soñado - Acaba Ultraheroe",
+          "url": "/Series_HLS/Shin Chan/ep368/index.m3u8"
+        },
+        {
+          "id": "ep369",
+          "title": "Shin Chan 369 - Vou de viaxe con mamá - Chega a última batalla de Súper Robot",
+          "url": "/Series_HLS/Shin Chan/ep369/index.m3u8"
+        },
+        {
+          "id": "ep370",
+          "title": "Shin Chan 370 - Súper Robot é invencible - Estamos entre ninjas e samurais",
+          "url": "/Series_HLS/Shin Chan/ep370/index.m3u8"
+        },
+        {
+          "id": "ep371",
+          "title": "Shin Chan 371 - Ensaiamos unha obra de teatro - Derroto o ogro do conto - Pásoo de medo nas máquinas",
+          "url": "/Series_HLS/Shin Chan/ep371/index.m3u8"
+        },
+        {
+          "id": "ep372",
+          "title": "Shin Chan 372 - Nevado coñece o seu primeiro amor - Repasamos as promesas a mamá - Vemos a película de Ultraheroe",
+          "url": "/Series_HLS/Shin Chan/ep372/index.m3u8"
+        },
+        {
+          "id": "ep373",
+          "title": "Shin Chan 373 - A señorita Yoshinaga namórase - Ultraheroe está ao límite - Mamá engánchase no ioga",
+          "url": "/Series_HLS/Shin Chan/ep373/index.m3u8"
+        },
+        {
+          "id": "ep374",
+          "title": "Shin Chan 374 - A aventura do oeste norteamericano: o pistoleiro Nohara - O pistoleiro Nohara: o regreso",
+          "url": "/Series_HLS/Shin Chan/ep374/index.m3u8"
+        },
+        {
+          "id": "ep375",
+          "title": "Shin Chan 375 - Ui! Que quentiño se está no braseiro! - Son o Porquiño Pirata - Facemos limpeza xeral - Imos de compras",
+          "url": "/Series_HLS/Shin Chan/ep375/index.m3u8"
+        },
+        {
+          "id": "ep376",
+          "title": "Shin Chan 376 - Botan un especial de Ultraheroe - Ai, que de recordos! - Vou á casa de Kazama - Agora Kazama vén á miña casa",
+          "url": "/Series_HLS/Shin Chan/ep376/index.m3u8"
+        },
+        {
+          "id": "ep377",
+          "title": "Shin Chan 377 - Nevado leva unha vida de can - Vou ver as CC Girls - Vai nacer un bebé",
+          "url": "/Series_HLS/Shin Chan/ep377/index.m3u8"
+        },
+        {
+          "id": "ep378",
+          "title": "Shin Chan 378 - Saímos por primeira vez ao estranxeiro - É a primeira vez que monto en avión - Chegamos á illa de Guam",
+          "url": "/Series_HLS/Shin Chan/ep378/index.m3u8"
+        },
+        {
+          "id": "ep379",
+          "title": "Shin Chan 379 - Esta illa é de tres estralos - Viaxo ao país do inverno - Son vendedor de mistos",
+          "url": "/Series_HLS/Shin Chan/ep379/index.m3u8"
+        },
+        {
+          "id": "ep380",
+          "title": "Shin Chan 380 - Gústame moito o robot Kantam - Temos festa de Nadal na gardería - Quero regalos de Nadal",
+          "url": "/Series_HLS/Shin Chan/ep380/index.m3u8"
+        },
+        {
+          "id": "ep381",
+          "title": "Shin Chan 381 - O meu é gabear polas árbores - Unha vez ao ano hai que facer limpeza - Temos cea de Noitevella",
+          "url": "/Series_HLS/Shin Chan/ep381/index.m3u8"
+        },
+        {
+          "id": "ep382",
+          "title": "Shin Chan 382 - Vemos a Shin-chan na prehistoria (I) - Vemos a Shin-chan na prehistoria (II) - Pelexan polos feixóns",
+          "url": "/Series_HLS/Shin Chan/ep382/index.m3u8"
+        },
+        {
+          "id": "ep383",
+          "title": "Shin Chan 383 - Boo-chan declárase - O mafioso é fotógrafo - Mamá ten un cabaleiro no pescozo - Atópanse o mono e o cangrexo",
+          "url": "/Series_HLS/Shin Chan/ep383/index.m3u8"
+        },
+        {
+          "id": "ep384",
+          "title": "Shin Chan 384 - Shin-chan ponse dramático (I) - Shin-chan ponse dramático (II) - Nevado pásaas negras - Que non pare o desvarío",
+          "url": "/Series_HLS/Shin Chan/ep384/index.m3u8"
+        },
+        {
+          "id": "ep385",
+          "title": "Shin Chan 385 - Volve a vendedora do inferno - Nevado ten un día de cans - Momotaro é amigo meu",
+          "url": "/Series_HLS/Shin Chan/ep385/index.m3u8"
+        },
+        {
+          "id": "ep386",
+          "title": "Shin Chan 386 - Son Astro Shin-chan - Papá tamén pasa as súas - Hoxe toca zaragallada cómica",
+          "url": "/Series_HLS/Shin Chan/ep386/index.m3u8"
+        },
+        {
+          "id": "ep387",
+          "title": "Shin Chan 387 - Que está para nacer! - Que xa está aquí, que xa nace! - Xa naceu a nena",
+          "url": "/Series_HLS/Shin Chan/ep387/index.m3u8"
+        },
+        {
+          "id": "ep388",
+          "title": "Shin Chan 388 - Coñezo un xenio da cociña - Hoxe facemos limpeza xeral - Revivimos o pasado",
+          "url": "/Series_HLS/Shin Chan/ep388/index.m3u8"
+        },
+        {
+          "id": "ep389",
+          "title": "Shin Chan 389 - O detective Nohara entra en acción (I) - O detective Nohara entra en acción (II) - O detective Nohara entra en acción (III)",
+          "url": "/Series_HLS/Shin Chan/ep389/index.m3u8"
+        },
+        {
+          "id": "ep390",
+          "title": "Shin Chan 390 - Xa chegou Shinchanéitor - As irmás Matsuzaka celebran o Aninovo",
+          "url": "/Series_HLS/Shin Chan/ep390/index.m3u8"
+        },
+        {
+          "id": "ep391",
+          "title": "Shin Chan 391 - Pasamos o Aninovo en familia - Este xogo é tan real como a vida mesma - Vou de compras cos avós",
+          "url": "/Series_HLS/Shin Chan/ep391/index.m3u8"
+        },
+        {
+          "id": "ep392",
+          "title": "Shin Chan 392 - Somos o príncipe azul e a andoriña Shinosuke - Miña irmá mátaas calando - Nene escolle marido",
+          "url": "/Series_HLS/Shin Chan/ep392/index.m3u8"
+        },
+        {
+          "id": "ep393",
+          "title": "Shin Chan 393 - Nevado está bébedo - Saímos de merena ao campo - Nunha carreira o que conta é a amizade",
+          "url": "/Series_HLS/Shin Chan/ep393/index.m3u8"
+        },
+        {
+          "id": "ep394",
+          "title": "Shin Chan 394 - Himawari é unha princesa - A mamá sáelle unha cana - Michi e Yoshirin múdanse de casa",
+          "url": "/Series_HLS/Shin Chan/ep394/index.m3u8"
+        },
+        {
+          "id": "ep395",
+          "title": "Shin Chan 395 - Shin Chan nas galaxias",
+          "url": "/Series_HLS/Shin Chan/ep395/index.m3u8"
+        },
+        {
+          "id": "ep396",
+          "title": "Shin Chan 396 - Imos a Hawai toda a familia (I) - Imos a Hawai toda a familia (II) - Imos a Hawai toda a familia (III)",
+          "url": "/Series_HLS/Shin Chan/ep396/index.m3u8"
+        },
+        {
+          "id": "ep397",
+          "title": "Shin Chan 397 - Imos a Hawai toda a familia (IV) - Imos a Hawai toda a familia (V) - Imos a Hawai toda a familia (VI)",
+          "url": "/Series_HLS/Shin Chan/ep397/index.m3u8"
+        },
+        {
+          "id": "ep398",
+          "title": "Shin Chan 398 - Todos temos un pasado: papá e mamá tamén - As estatuas son agradecidas",
+          "url": "/Series_HLS/Shin Chan/ep398/index.m3u8"
+        },
+        {
+          "id": "ep399",
+          "title": "Shin Chan 399 - Somos os tres porquiños (I) - Somos os tres porquiños (II) - Vou a un recital de piano",
+          "url": "/Series_HLS/Shin Chan/ep399/index.m3u8"
+        },
+        {
+          "id": "ep400",
+          "title": "Shin Chan 400 - Imos de veraneo - Mamá e eu trocamos o corpo (I) - Mamá e eu trocamos o corpo (II)",
+          "url": "/Series_HLS/Shin Chan/ep400/index.m3u8"
+        },
+        {
+          "id": "ep401",
+          "title": "Shin Chan 401 - Somos os detectives de Kasukabe (I) - Somos os detectives de Kasukabe (II) - A cervexa é para adultos",
+          "url": "/Series_HLS/Shin Chan/ep401/index.m3u8"
+        },
+        {
+          "id": "ep402",
+          "title": "Shin Chan 402 - Axudo a un estranxeiro (I) - Axudo a un estranxeiro (II) - Metémonos nun atasco",
+          "url": "/Series_HLS/Shin Chan/ep402/index.m3u8"
+        },
+        {
+          "id": "ep403",
+          "title": "Shin Chan 403 - Somos os Chusingura (I) - Somos os Chusingura (II)",
+          "url": "/Series_HLS/Shin Chan/ep403/index.m3u8"
+        },
+        {
+          "id": "ep404",
+          "title": "Shin Chan 404 - Contamos a historia do vello ruín - Queremos ir ao balneario - Papá é moi melindroso co baño",
+          "url": "/Series_HLS/Shin Chan/ep404/index.m3u8"
+        },
+        {
+          "id": "ep405",
+          "title": "Shin Chan 405 - Na vida nunca sae todo como o planeamos - Mary, a maga misteriosa - Temos a \"Mary, a maga\" na tele",
+          "url": "/Series_HLS/Shin Chan/ep405/index.m3u8"
+        },
+        {
+          "id": "ep406",
+          "title": "Shin Chan 406 - Os casos do axente Nohara: A cantante ameazada - Os casos do axente Nohara: Á procura dos asasinos",
+          "url": "/Series_HLS/Shin Chan/ep406/index.m3u8"
+        },
+        {
+          "id": "ep407",
+          "title": "Shin Chan 407 - Quero a medalla de ouro - Misae, a buscadora de tesouros (I) - Misae, a buscadora de tesouros (II)",
+          "url": "/Series_HLS/Shin Chan/ep407/index.m3u8"
+        },
+        {
+          "id": "ep408",
+          "title": "Shin Chan 408 - Xogo a ser taxista - As aventuras do Porquiño Pirata: Gin Goldfinger",
+          "url": "/Series_HLS/Shin Chan/ep408/index.m3u8"
+        },
+        {
+          "id": "ep409",
+          "title": "Shin Chan 409 - A cousa anímase en Australia - Kazama conquista a Himawari",
+          "url": "/Series_HLS/Shin Chan/ep409/index.m3u8"
+        },
+        {
+          "id": "ep410",
+          "title": "Shin Chan 410 - Seguimos en Australia - Os anxos de Futaba",
+          "url": "/Series_HLS/Shin Chan/ep410/index.m3u8"
+        },
+        {
+          "id": "ep411",
+          "title": "Shin Chan 411 - Quero unha paga mensual - Papá tamén quere unha paga - Mamá quere unha bici eléctrica",
+          "url": "/Series_HLS/Shin Chan/ep411/index.m3u8"
+        },
+        {
+          "id": "ep412",
+          "title": "Shin Chan 412 - Imos de pícnic (I) - Imos de pícnic (II) - Imos de pícnic (III) - Somos preguiceiros",
+          "url": "/Series_HLS/Shin Chan/ep412/index.m3u8"
+        },
+        {
+          "id": "ep413",
+          "title": "Shin Chan 413 - Coidado cos ladróns - Hai que devolver o que nos emprestan - Mamá e papá falan en segredo",
+          "url": "/Series_HLS/Shin Chan/ep413/index.m3u8"
+        },
+        {
+          "id": "ep414",
+          "title": "Shin Chan 414 - Diremán ao ataque! (I) - Diremán ao ataque! (II) - Diremán ao ataque! (III) - Diremán ao ataque! (IV) - A señorita Yoshinaga acaba de casar",
+          "url": "/Series_HLS/Shin Chan/ep414/index.m3u8"
+        },
+        {
+          "id": "ep415",
+          "title": "Shin Chan 415 - Os superirmáns loitan contra o mal",
+          "url": "/Series_HLS/Shin Chan/ep415/index.m3u8"
+        },
+        {
+          "id": "ep416",
+          "title": "Shin Chan 416 - Ordenamos as fotos para o álbum - A mamá é unha fóra de serie",
+          "url": "/Series_HLS/Shin Chan/ep416/index.m3u8"
+        },
+        {
+          "id": "ep417",
+          "title": "Shin Chan 417 - Himawari é unha charabiscas (I) - Himawari é unha charabiscas (II) - Himawari é unha charabiscas (III) - A historia do coelliño de Nene - O coelliño de Nene sempre apanda",
+          "url": "/Series_HLS/Shin Chan/ep417/index.m3u8"
+        },
+        {
+          "id": "ep418",
+          "title": "Shin Chan 418 - Masao quere casar comigo - Hoxe vai ir moi bo día - Imos á procura dun kappa",
+          "url": "/Series_HLS/Shin Chan/ep418/index.m3u8"
+        },
+        {
+          "id": "ep419",
+          "title": "Shin Chan 419 - A mamá preocúpase pola súa saúde - Xogamos ás cartas - Bebemos dez cartóns de leite",
+          "url": "/Series_HLS/Shin Chan/ep419/index.m3u8"
+        },
+        {
+          "id": "ep420",
+          "title": "Shin Chan 420 - A señorita Matsuzaka é unha veterana no amor - Mudámonos ao niño dos que acaban de casar - Encárgome eu de lavar a louza",
+          "url": "/Series_HLS/Shin Chan/ep420/index.m3u8"
+        },
+        {
+          "id": "ep421",
+          "title": "Shin Chan 421 - Competimos en serio co tiratacos - Unha noite na montaña dos monos - Temos rabos brancos para dar e tomar - Michi e Yoshirin queren aforrar",
+          "url": "/Series_HLS/Shin Chan/ep421/index.m3u8"
+        },
+        {
+          "id": "ep422",
+          "title": "Shin Chan 422 - O papá fai compras ás agachadas - A mamá tamén ten segredos - Está prohibido chegar tarde",
+          "url": "/Series_HLS/Shin Chan/ep422/index.m3u8"
+        },
+        {
+          "id": "ep423",
+          "title": "Shin Chan 423 - Descubrimos o segredo da señorita Ageo - Xogo ao voleibol",
+          "url": "/Series_HLS/Shin Chan/ep423/index.m3u8"
+        },
+        {
+          "id": "ep424",
+          "title": "Shin Chan 424 - Shin-chan vai á escola de primaria - Boo-chan ten un segredo",
+          "url": "/Series_HLS/Shin Chan/ep424/index.m3u8"
+        },
+        {
+          "id": "ep425",
+          "title": "Shin Chan 425 - Vivo co avó - Xogo co avó (I)",
+          "url": "/Series_HLS/Shin Chan/ep425/index.m3u8"
+        },
+        {
+          "id": "ep426",
+          "title": "Shin Chan 426 - Xogo co avó (II) - Hoxe á noite toca cocido - Se usas a cabeza, vólveste listo",
+          "url": "/Series_HLS/Shin Chan/ep426/index.m3u8"
+        },
+        {
+          "id": "ep427",
+          "title": "Shin Chan 427 - Ai-chan ten un plan con papá - Colecciono adhesivos - Ai-chan ten un plan con Himawari",
+          "url": "/Series_HLS/Shin Chan/ep427/index.m3u8"
+        },
+        {
+          "id": "ep428",
+          "title": "Shin Chan 428 - Papá vén á gardería - Boo-chan é detective - Se buscas as cousas, nunca aparecen",
+          "url": "/Series_HLS/Shin Chan/ep428/index.m3u8"
+        },
+        {
+          "id": "ep429",
+          "title": "Shin Chan 429 - Que me seguen a pista - Que a casa nos cae a anacos",
+          "url": "/Series_HLS/Shin Chan/ep429/index.m3u8"
+        },
+        {
+          "id": "ep430",
+          "title": "Shin Chan 430 - Buscamos casa nova - A mudanza - Comezamos unha vida nova",
+          "url": "/Series_HLS/Shin Chan/ep430/index.m3u8"
+        },
+        {
+          "id": "ep431",
+          "title": "Shin Chan 431 - Espertamos no novo apartamento - Saudamos aos novos veciños - Kazama é un experto en pedir desculpas",
+          "url": "/Series_HLS/Shin Chan/ep431/index.m3u8"
+        },
+        {
+          "id": "ep432",
+          "title": "Shin Chan 432 - Non sabemos quen é a veciña - Os atallos son os camiños máis longos - Esa rapaza gústame",
+          "url": "/Series_HLS/Shin Chan/ep432/index.m3u8"
+        },
+        {
+          "id": "ep433",
+          "title": "Shin Chan 433 - Visitando a casa dos Nohara - Mamá quere traballar na casa - Temos liña directa co veciño",
+          "url": "/Series_HLS/Shin Chan/ep433/index.m3u8"
+        },
+        {
+          "id": "ep434",
+          "title": "Shin Chan 434 - Mamá ponse á última moda - Estamos preparando a festa de Tanabata - Os días de chuvia son un lerio",
+          "url": "/Series_HLS/Shin Chan/ep434/index.m3u8"
+        },
+        {
+          "id": "ep435",
+          "title": "Shin Chan 435 - Esta vez é un incendio - Non todos os escaravellos son iguais - As rapazas poden connosco",
+          "url": "/Series_HLS/Shin Chan/ep435/index.m3u8"
+        },
+        {
+          "id": "ep436",
+          "title": "Shin Chan 436 - Mamá é unha nai modelo - Volve esa parella pesada - Quitamos as arañeiras",
+          "url": "/Series_HLS/Shin Chan/ep436/index.m3u8"
+        },
+        {
+          "id": "ep437",
+          "title": "Shin Chan 437 - Que Masao é a única testemuña - Compramos no centro comercial - É unha marabilla ir ao baño público",
+          "url": "/Series_HLS/Shin Chan/ep437/index.m3u8"
+        },
+        {
+          "id": "ep438",
+          "title": "Shin Chan 438 - Intercambiar un diario é perigoso - Nevado volve estar connosco - Polo verán, quero ir ao mar",
+          "url": "/Series_HLS/Shin Chan/ep438/index.m3u8"
+        },
+        {
+          "id": "ep439",
+          "title": "Shin Chan 439 - Ai-chan e Nene son irmás - Temos goteiras na casa - Irrítanseme os ollos",
+          "url": "/Series_HLS/Shin Chan/ep439/index.m3u8"
+        },
+        {
+          "id": "ep440",
+          "title": "Shin Chan 440 - Non nos construen a casa nin a tiros",
+          "url": "/Series_HLS/Shin Chan/ep440/index.m3u8"
+        },
+        {
+          "id": "ep441",
+          "title": "Shin Chan 441 - Os estudantes teñen moitas dúbidas - Non podo dicir que o comín - Boureo ó xogar a papás e mamás",
+          "url": "/Series_HLS/Shin Chan/ep441/index.m3u8"
+        },
+        {
+          "id": "ep442",
+          "title": "Shin Chan 442 - Atsumi vaise da casa - Non me dan medo os cambios - Apoiamos a Yuu nas súas probas",
+          "url": "/Series_HLS/Shin Chan/ep442/index.m3u8"
+        },
+        {
+          "id": "ep443",
+          "title": "Shin Chan 443 - Mamá ten lumbago - Estamos preocupados polo director - Mamá ten febre",
+          "url": "/Series_HLS/Shin Chan/ep443/index.m3u8"
+        },
+        {
+          "id": "ep444",
+          "title": "Shin Chan 444 - A señorita Yoshinaga ten un segredo - Como nos gustan os feixóns - Os detalles pequenos contan",
+          "url": "/Series_HLS/Shin Chan/ep444/index.m3u8"
+        },
+        {
+          "id": "ep445",
+          "title": "Shin Chan 445 - Papá ten mala sorte - Ai-chan dá un concerto - Nevado vai fuxir",
+          "url": "/Series_HLS/Shin Chan/ep445/index.m3u8"
+        },
+        {
+          "id": "ep446",
+          "title": "Shin Chan 446 - O rancho é enorme (I) - O rancho é enorme (II) - Kazama ten un problema",
+          "url": "/Series_HLS/Shin Chan/ep446/index.m3u8"
+        },
+        {
+          "id": "ep447",
+          "title": "Shin Chan 447 - Papá é o chapuceiro da casa - No braseiro estase quentiño - Mañá vou facer footing",
+          "url": "/Series_HLS/Shin Chan/ep447/index.m3u8"
+        },
+        {
+          "id": "ep448",
+          "title": "Shin Chan 448 - Shin-chan é un mago - Somos cinco na familia",
+          "url": "/Series_HLS/Shin Chan/ep448/index.m3u8"
+        },
+        {
+          "id": "ep449",
+          "title": "Shin Chan 449 - Hai limpeza no barrio - Gústanos conducir",
+          "url": "/Series_HLS/Shin Chan/ep449/index.m3u8"
+        },
+        {
+          "id": "ep450",
+          "title": "Shin Chan 450 - Kazama faise adulto - Eu tamén quero poñer un quimono - Himawari calada é perigosa",
+          "url": "/Series_HLS/Shin Chan/ep450/index.m3u8"
+        },
+        {
+          "id": "ep451",
+          "title": "Shin Chan 451 - Nanako pon un quimono - Buscamos o marmelo - Masao cambia por completo",
+          "url": "/Series_HLS/Shin Chan/ep451/index.m3u8"
+        },
+        {
+          "id": "ep452",
+          "title": "Shin Chan 452 - Ultraheroe busca unha nova técnica - Armamos unha boa algarada no corredor - Que vai romper a porta",
+          "url": "/Series_HLS/Shin Chan/ep452/index.m3u8"
+        },
+        {
+          "id": "ep453",
+          "title": "Shin Chan 453 - Quero comer esta pataca doce - Temos un cacto - Catro non dá durmido antes do exame",
+          "url": "/Series_HLS/Shin Chan/ep453/index.m3u8"
+        },
+        {
+          "id": "ep454",
+          "title": "Shin Chan 454 - Ir de compras cando neva é complicado - Chegan uns policías secretos - Saen as notas de Catro",
+          "url": "/Series_HLS/Shin Chan/ep454/index.m3u8"
+        },
+        {
+          "id": "ep455",
+          "title": "Shin Chan 455 - Vén todo o mundo á casa - Yuu ten unha audición (I) - Yuu ten unha audición (II)",
+          "url": "/Series_HLS/Shin Chan/ep455/index.m3u8"
+        },
+        {
+          "id": "ep456",
+          "title": "Shin Chan 456 - Nene é unha boa estilista - A cea de hoxe é un segredo - Papá non quere casar a Himawari",
+          "url": "/Series_HLS/Shin Chan/ep456/index.m3u8"
+        },
+        {
+          "id": "ep457",
+          "title": "Shin Chan 457 - Facemos un pícnic debaixo das cerdeiras - Catro está namorado",
+          "url": "/Series_HLS/Shin Chan/ep457/index.m3u8"
+        },
+        {
+          "id": "ep458",
+          "title": "Shin Chan 458 - Estar de vixilancia é moi duro - Non se pode dicir \"non\" e \"paso\" - A casa nova xa está medio acabada",
+          "url": "/Series_HLS/Shin Chan/ep458/index.m3u8"
+        },
+        {
+          "id": "ep459",
+          "title": "Shin Chan 459 - Lisa Aspirina aparece por fin - Que boa está a sopa instantánea - Os policías e os ladróns xogan xuntos",
+          "url": "/Series_HLS/Shin Chan/ep459/index.m3u8"
+        },
+        {
+          "id": "ep460",
+          "title": "Shin Chan 460 - Imos de paseo cunha supermodelo - O mafioso fai unha función de maxia - A despedida de Yuu",
+          "url": "/Series_HLS/Shin Chan/ep460/index.m3u8"
+        },
+        {
+          "id": "ep461",
+          "title": "Shin Chan 461 - Despedímonos dos apartamentos (I) - Despedímonos dos apartamentos (II) - Despedímonos dos apartamentos (III)",
+          "url": "/Series_HLS/Shin Chan/ep461/index.m3u8"
+        },
+        {
+          "id": "ep462",
+          "title": "Shin Chan 462 - Volvemos á casa - Non volverei abandonar a Nevado - Empeza a vida na casa nova",
+          "url": "/Series_HLS/Shin Chan/ep462/index.m3u8"
+        },
+        {
+          "id": "ep463",
+          "title": "Shin Chan 463 - Hoxe bañámonos con papá - Hai unha oferta moi especial - Que difícil é escoller un agasallo",
+          "url": "/Series_HLS/Shin Chan/ep463/index.m3u8"
+        },
+        {
+          "id": "ep464",
+          "title": "Shin Chan 464 - A casa nova ten un segredo - Boo-chan ten un problema - Mamá pode contar comigo",
+          "url": "/Series_HLS/Shin Chan/ep464/index.m3u8"
+        },
+        {
+          "id": "ep465",
+          "title": "Shin Chan 465 - Chegou Lupin IV Shinnosuke - Desta vez ordenamos ben a casa - O meu pai vai de visita á gardería",
+          "url": "/Series_HLS/Shin Chan/ep465/index.m3u8"
+        },
+        {
+          "id": "ep466",
+          "title": "Shin Chan 466 - Desta vez limpamos a casa de verdade - Masao vaise fugar por amor - Tomamos un petisco de madrugada",
+          "url": "/Series_HLS/Shin Chan/ep466/index.m3u8"
+        },
+        {
+          "id": "ep467",
+          "title": "Shin Chan 467 - Anda un sospeitoso polo barrio - Imos cazar ras - Atsuko fainos unha visita",
+          "url": "/Series_HLS/Shin Chan/ep467/index.m3u8"
+        },
+        {
+          "id": "ep468",
+          "title": "Shin Chan 468 - Marchamos de viaxe a España (I) - Marchamos de viaxe a España (II) - Marchamos de viaxe a España (III)",
+          "url": "/Series_HLS/Shin Chan/ep468/index.m3u8"
+        },
+        {
+          "id": "ep469",
+          "title": "Shin Chan 469 - Misae, a buscadora de tesouros. O clan Suotome (I)",
+          "url": "/Series_HLS/Shin Chan/ep469/index.m3u8"
+        },
+        {
+          "id": "ep470",
+          "title": "Shin Chan 470 - Misae, a buscadora de tesouros. O clan Suotome (II)",
+          "url": "/Series_HLS/Shin Chan/ep470/index.m3u8"
+        },
+        {
+          "id": "ep471",
+          "title": "Shin Chan 471 - Temos moita gana de ir de pícnic - Da comida encárgome eu - O pícnic acaba encerellado",
+          "url": "/Series_HLS/Shin Chan/ep471/index.m3u8"
+        },
+        {
+          "id": "ep472",
+          "title": "Shin Chan 472 - Xogamos a inverter os papeis - Teño un profesor particular - Papá ten unha amiga secreta",
+          "url": "/Series_HLS/Shin Chan/ep472/index.m3u8"
+        },
+        {
+          "id": "ep473",
+          "title": "Shin Chan 473 - Hai que podar a sebe - Sobrevivimos nunha illa deserta - Comemos sandía pola noite",
+          "url": "/Series_HLS/Shin Chan/ep473/index.m3u8"
+        },
+        {
+          "id": "ep474",
+          "title": "Shin Chan 474 - Que calor pasamos hoxe! - Pasear a Nevado dá moito traballo - Hoxe durmimos na gardería",
+          "url": "/Series_HLS/Shin Chan/ep474/index.m3u8"
+        },
+        {
+          "id": "ep475",
+          "title": "Shin Chan 475 - Quedo só na casa e chegan invitados - Comemos xeo picado - Dígoche eu por onde ir",
+          "url": "/Series_HLS/Shin Chan/ep475/index.m3u8"
+        },
+        {
+          "id": "ep476",
+          "title": "Shin Chan 476 - O avó de Kyushu é moi serio - O avó queda a durmir na nosa casa - Todo o mundo fai o mesmo",
+          "url": "/Series_HLS/Shin Chan/ep476/index.m3u8"
+        },
+        {
+          "id": "ep477",
+          "title": "Shin Chan 477 - Himawari é moi revoltosa (I) - Himawari é moi revoltosa (II) - Rompín un cristal",
+          "url": "/Series_HLS/Shin Chan/ep477/index.m3u8"
+        },
+        {
+          "id": "ep478",
+          "title": "Shin Chan 478 - Nevado ten moza e vai casar - Que vai vir un tifón - Catro dáme clases particulares",
+          "url": "/Series_HLS/Shin Chan/ep478/index.m3u8"
+        },
+        {
+          "id": "ep479",
+          "title": "Shin Chan 479 - Hoxe imos vacinar a Nevado - A mamá gústanlle os heroes da tele - Non teño roupa para poñer",
+          "url": "/Series_HLS/Shin Chan/ep479/index.m3u8"
+        },
+        {
+          "id": "ep480",
+          "title": "Shin Chan 480 - Masao é moi ordenado - Enfádome con Nevado - O cangrexo é para os maiores",
+          "url": "/Series_HLS/Shin Chan/ep480/index.m3u8"
+        },
+        {
+          "id": "ep481",
+          "title": "Shin Chan 481 - Volven as do Exército Escarlata - Estou moi gordo - Quero tinguir o pelo",
+          "url": "/Series_HLS/Shin Chan/ep481/index.m3u8"
+        },
+        {
+          "id": "ep482",
+          "title": "Shin Chan 482 - Que complicado é prepararse para saír da casa! - Nene anda namorada - Quero botar unha sonada",
+          "url": "/Series_HLS/Shin Chan/ep482/index.m3u8"
+        },
+        {
+          "id": "ep483",
+          "title": "Shin Chan 483 - Visitar o avó de Kyushu é divertido (I) - Visitar o avó de Kyushu é divertido (II) - Visitar o avó de Kyushu é divertido (III)",
+          "url": "/Series_HLS/Shin Chan/ep483/index.m3u8"
+        },
+        {
+          "id": "ep484",
+          "title": "Shin Chan 484 - Shin-chan nos límites da realidade: o diabriño - Imos a un hostal balneario rústico - Os móbiles son útiles",
+          "url": "/Series_HLS/Shin Chan/ep484/index.m3u8"
+        },
+        {
+          "id": "ep485",
+          "title": "Shin Chan 485 - Vou entrar nos Boy Scouts - Que divertido é ser boy scout - Shin-chan nos límites da realidade: o espírito do lume",
+          "url": "/Series_HLS/Shin Chan/ep485/index.m3u8"
+        },
+        {
+          "id": "ep486",
+          "title": "Shin Chan 486 - Masao perde algo importante - Os días libres acaba un esgotado - Fago de adestrador de golf",
+          "url": "/Series_HLS/Shin Chan/ep486/index.m3u8"
+        },
+        {
+          "id": "ep487",
+          "title": "Shin Chan 487 - Shin-chan nos límites da realidade: o mutante 000 - Mamá vai a clases de cociña - A señorita Matsuzaka ten problemas",
+          "url": "/Series_HLS/Shin Chan/ep487/index.m3u8"
+        },
+        {
+          "id": "ep488",
+          "title": "Shin Chan 488 - Que bonito é ser mociño (I) - Mamá lévame de compras no coche - Papá quere un coche deportivo",
+          "url": "/Series_HLS/Shin Chan/ep488/index.m3u8"
+        },
+        {
+          "id": "ep489",
+          "title": "Shin Chan 489 - Que bonito é ser mociño (II) - Vou alugar a Nevado - Keiko vénnos facer unha visita",
+          "url": "/Series_HLS/Shin Chan/ep489/index.m3u8"
+        },
+        {
+          "id": "ep490",
+          "title": "Shin Chan 490 - Collo unha fartura de tanto varrer - Que bonito é ser novo (III) - Hoxe collemos un taxi",
+          "url": "/Series_HLS/Shin Chan/ep490/index.m3u8"
+        },
+        {
+          "id": "ep491",
+          "title": "Shin Chan 491 - Papá vai buscar gasóleo - A zorra de Masao é moito - Que bonito é ser novo (IV)",
+          "url": "/Series_HLS/Shin Chan/ep491/index.m3u8"
+        },
+        {
+          "id": "ep493",
+          "title": "Shin Chan 493 - Masao ten impo - Mamá non é parva - Temos peixes de cores",
+          "url": "/Series_HLS/Shin Chan/ep493/index.m3u8"
+        },
+        {
+          "id": "ep494",
+          "title": "Shin Chan 494 - Mamá descobre un iogur milagroso - Kazama e mais eu facemos un trato - Mamá cóllelle gusto á lectura",
+          "url": "/Series_HLS/Shin Chan/ep494/index.m3u8"
+        },
+        {
+          "id": "ep495",
+          "title": "Shin Chan 495 - Convértome en chef de cociña (I) - Convértome en chef de cociña (III) - Os fideos de mamá non matan",
+          "url": "/Series_HLS/Shin Chan/ep495/index.m3u8"
+        },
+        {
+          "id": "ep496",
+          "title": "Shin Chan 496 - Kazama triunfa na vida - Hoxe vén a mestra a nosa casa - Teño unha casa para min só",
+          "url": "/Series_HLS/Shin Chan/ep496/index.m3u8"
+        },
+        {
+          "id": "ep497",
+          "title": "Shin Chan 497 - Xogamos ao tiro de corda - Hoxe imos andando ao súper - Merenda na casa de Nene",
+          "url": "/Series_HLS/Shin Chan/ep497/index.m3u8"
+        },
+        {
+          "id": "ep498",
+          "title": "Shin Chan 498 - O director reconciliase coa súa cara - Gardo as miñas obras de arte - Son un mestre de kendo",
+          "url": "/Series_HLS/Shin Chan/ep498/index.m3u8"
+        },
+        {
+          "id": "ep499",
+          "title": "Shin Chan 499 - Kazama quere ser un gran líder - Matsuzaka fai de neneira - Aprendo kendo de moca",
+          "url": "/Series_HLS/Shin Chan/ep499/index.m3u8"
+        },
+        {
+          "id": "ep500",
+          "title": "Shin Chan 500 - Masao bótalle peito ao asunto - Hai que apertar o cinto - A nai de Nene vai ás rebaixas",
+          "url": "/Series_HLS/Shin Chan/ep500/index.m3u8"
+        },
+        {
+          "id": "ep501",
+          "title": "Shin Chan 501 - Misae pasa apuros para chegar a fin de mes - O pobre de Yonro pasa lambendo - O kendo non é tan doado",
+          "url": "/Series_HLS/Shin Chan/ep501/index.m3u8"
+        },
+        {
+          "id": "ep502",
+          "title": "Shin Chan 502 - Imos todos de paseo - Hoxe empezo co kendo - Papá non chega a fin de mes",
+          "url": "/Series_HLS/Shin Chan/ep502/index.m3u8"
+        },
+        {
+          "id": "ep503",
+          "title": "Shin Chan 503 - Subimos ao Monte Kasukabe (I) - Subimos ao Monte Kasukabe (II) - Subimos ao Monte Kasukabe (III)",
+          "url": "/Series_HLS/Shin Chan/ep503/index.m3u8"
+        },
+        {
+          "id": "ep504",
+          "title": "Shin Chan 504 - Kenta Musashino: Mamá engánchase ao kendo - Coido moi ben dos ovos - A vinganza do coello de Nene",
+          "url": "/Series_HLS/Shin Chan/ep504/index.m3u8"
+        },
+        {
+          "id": "ep505",
+          "title": "Shin Chan 505 - O tesouro de Boo-chan - Imos poñer tarima no patio - Quero estar enfermo",
+          "url": "/Series_HLS/Shin Chan/ep505/index.m3u8"
+        },
+        {
+          "id": "ep506",
+          "title": "Shin Chan 506 - Masao e Boo-chan cabréanse - Eu tamén quero unha cama - Mamá quere aforrar",
+          "url": "/Series_HLS/Shin Chan/ep506/index.m3u8"
+        },
+        {
+          "id": "ep507",
+          "title": "Shin Chan 507 - O planeta dos cans - O planeta dos cans (2ª parte) - Non está ben desordenado",
+          "url": "/Series_HLS/Shin Chan/ep507/index.m3u8"
+        },
+        {
+          "id": "ep508",
+          "title": "Shin Chan 508 - Kenta Musashino: Robert aprende kendo (I) - Kenta Musashino: Robert aprende kendo (II) - Os móbiles modernos son moi prácticos",
+          "url": "/Series_HLS/Shin Chan/ep508/index.m3u8"
+        },
+        {
+          "id": "ep509",
+          "title": "Shin Chan 509 - Vou á praia con Nanako (1ª parte) - Vou á praia con Nanako (2ª parte) - Vou á praia con Nanako (3ª parte)",
+          "url": "/Series_HLS/Shin Chan/ep509/index.m3u8"
+        },
+        {
+          "id": "ep510",
+          "title": "Shin Chan 510 - Que ben se vive no campo - Botamos a noite en vela - Hoxe comemos fideos flotantes",
+          "url": "/Series_HLS/Shin Chan/ep510/index.m3u8"
+        },
+        {
+          "id": "ep511",
+          "title": "Shin Chan 511 - Mamá lévanos á piscina - Que calor vai! - Hai un intruso na casa",
+          "url": "/Series_HLS/Shin Chan/ep511/index.m3u8"
+        },
+        {
+          "id": "ep512",
+          "title": "Shin Chan 512 - Hiroshi Nohara e a súa aventura na xungla na procura da tarxeta de ouro perdida (I) - Hiroshi Nohara e a súa aventura na xungla na procura da tarxeta de ouro perdida (II) - Misae, ama de casa responsable? - Quero ir de fin de semana",
+          "url": "/Series_HLS/Shin Chan/ep512/index.m3u8"
+        },
+        {
+          "id": "ep513",
+          "title": "Shin Chan 513 - Non hai quen durma con esta calor - A señorita Yoshinaga marcha de vacacións - Kenta Musashino contra o Exército Escarlata",
+          "url": "/Series_HLS/Shin Chan/ep513/index.m3u8"
+        },
+        {
+          "id": "ep514",
+          "title": "Shin Chan 514 - Mamá vai a un balneario - Kenta Musashino contra o Exército de Kasukabe - Temos un GPS e perdémonos igual",
+          "url": "/Series_HLS/Shin Chan/ep514/index.m3u8"
+        },
+        {
+          "id": "ep515",
+          "title": "Shin Chan 515 - Volve aparecer Catro - Chega un tifón - Yuko namórase do mestre Kenta Musashino",
+          "url": "/Series_HLS/Shin Chan/ep515/index.m3u8"
+        },
+        {
+          "id": "ep516",
+          "title": "Shin Chan 516 - Quedo só na casa - Estou só na casa - Misae, ama de casa responsable? - Non sei que facer co tempo",
+          "url": "/Series_HLS/Shin Chan/ep516/index.m3u8"
+        },
+        {
+          "id": "ep517",
+          "title": "Shin Chan 517 - Shin-chan vai ao cole - Hiroshi Nohara e o monte das secretarias - O primeiro amor de Boo-chan",
+          "url": "/Series_HLS/Shin Chan/ep517/index.m3u8"
+        },
+        {
+          "id": "ep518",
+          "title": "Shin Chan 518 - Masao é único no mundo - Os meus erros son os teus - Hoxe escoltamos a Nanako",
+          "url": "/Series_HLS/Shin Chan/ep518/index.m3u8"
+        },
+        {
+          "id": "ep519",
+          "title": "Shin Chan 519 - A fuga frustrada de Ai-chan - Nevado sae nun anuncio - Kenta Musashino ten un dojo rival",
+          "url": "/Series_HLS/Shin Chan/ep519/index.m3u8"
+        },
+        {
+          "id": "ep520",
+          "title": "Shin Chan 520 - A mamá de Lala non dá aparecido - Cómpre ter un lema na vida - Vaterman é moito",
+          "url": "/Series_HLS/Shin Chan/ep520/index.m3u8"
+        },
+        {
+          "id": "ep521",
+          "title": "Shin Chan 521 - Nanako botou mozo - Mamá perde o sentido por un actor pimpante - Kenta Musashino prepara o torneo de kendo",
+          "url": "/Series_HLS/Shin Chan/ep521/index.m3u8"
+        },
+        {
+          "id": "ep522",
+          "title": "Shin Chan 522 - Imaxinas a Shin-chan na escola? - Ai-chan despídese da gardaría - Aforrar dá moito choio",
+          "url": "/Series_HLS/Shin Chan/ep522/index.m3u8"
+        },
+        {
+          "id": "ep523",
+          "title": "Shin Chan 523 - Temos obras na rúa - Aprendo a coser botóns - Mamá vai a clase de inglés",
+          "url": "/Series_HLS/Shin Chan/ep523/index.m3u8"
+        },
+        {
+          "id": "ep524",
+          "title": "Shin Chan 524 - En busca do ien perdido - Hoxe xogamos ao tren - O coello de Nene fala",
+          "url": "/Series_HLS/Shin Chan/ep524/index.m3u8"
+        },
+        {
+          "id": "ep525",
+          "title": "Shin Chan 525 - Teño que tirar unha foto - Remexemos a casa de arriba abaixo - Son un xenio do kendo",
+          "url": "/Series_HLS/Shin Chan/ep525/index.m3u8"
+        },
+        {
+          "id": "ep526",
+          "title": "Shin Chan 526 - Os días de frío non hai quen nos saque do braseiro - Busco un obxecto perdido - Hai que adestrarse seguido",
+          "url": "/Series_HLS/Shin Chan/ep526/index.m3u8"
+        },
+        {
+          "id": "ep527",
+          "title": "Shin Chan 527 - Miña nai e meu pai trocan os corpos (I) - Miña nai e meu pai trocan os corpos (II) - Miña nai e meu pai trocan os corpos (III)",
+          "url": "/Series_HLS/Shin Chan/ep527/index.m3u8"
+        },
+        {
+          "id": "ep528",
+          "title": "Shin Chan 528 - Aprendo etiqueta na mesa - Masao ingresa no hospital - Ultraheroe enfróntase ao conde Flor",
+          "url": "/Series_HLS/Shin Chan/ep528/index.m3u8"
+        },
+        {
+          "id": "ep529",
+          "title": "Shin Chan 529 - Que divertido é esquiar (I) - Que divertido é esquiar (II) - Que divertido é esquiar (III)",
+          "url": "/Series_HLS/Shin Chan/ep529/index.m3u8"
+        },
+        {
+          "id": "ep530",
+          "title": "Shin Chan 530 - Chegou o torneo de kendo (I) - Chegou o torneo de kendo (II) - Chegou o torneo de kendo (III)",
+          "url": "/Series_HLS/Shin Chan/ep530/index.m3u8"
+        },
+        {
+          "id": "ep531",
+          "title": "Shin Chan 531 - Estamos sós na casa de Masao - Ai, moitos traballiños pasa Nevado comigo! - Meu pai leva o xantar feito da casa",
+          "url": "/Series_HLS/Shin Chan/ep531/index.m3u8"
+        },
+        {
+          "id": "ep532",
+          "title": "Shin Chan 532 - A Himawari non lle chista nadiña o secador - Non hai maneira de chegarmos a nosa hora - Os nenos tamén sabemos dar consellos",
+          "url": "/Series_HLS/Shin Chan/ep532/index.m3u8"
+        },
+        {
+          "id": "ep533",
+          "title": "Shin Chan 533 - Fáltanos unha perla - Eu tamén quero Chocolín - Hai que facer cola no restaurante",
+          "url": "/Series_HLS/Shin Chan/ep533/index.m3u8"
+        },
+        {
+          "id": "ep534",
+          "title": "Shin Chan 534 - Western da pradería de Kasukabe (I) - Western da pradería de Kasukabe (II)",
+          "url": "/Series_HLS/Shin Chan/ep534/index.m3u8"
+        },
+        {
+          "id": "ep535",
+          "title": "Shin Chan 535 - Como cansa facer o vago - Estamos preocupados por Nene - Ao final paga a pena aforrar",
+          "url": "/Series_HLS/Shin Chan/ep535/index.m3u8"
+        },
+        {
+          "id": "ep536",
+          "title": "Shin Chan 536 - Xogamos a Ultrabelida - Quero axudar a Kazama - Os pasteis son unha tentación",
+          "url": "/Series_HLS/Shin Chan/ep536/index.m3u8"
+        },
+        {
+          "id": "ep537",
+          "title": "Shin Chan 537 - Nanako fai sushi - Buscamos o pano do osiño - Hai que ter tacto cos veciños",
+          "url": "/Series_HLS/Shin Chan/ep537/index.m3u8"
+        },
+        {
+          "id": "ep538",
+          "title": "Shin Chan 538 - Son o espírito da contradición - A señorita Matsuzaka quérese vingar - Na biblioteca hai que estar calados",
+          "url": "/Series_HLS/Shin Chan/ep538/index.m3u8"
+        },
+        {
+          "id": "ep539",
+          "title": "Shin Chan 539 - Nótansenos as engurras - Xogamos aos ninjas - Papá obrígame a xogar con el",
+          "url": "/Series_HLS/Shin Chan/ep539/index.m3u8"
+        },
+        {
+          "id": "ep540",
+          "title": "Shin Chan 540 - Hoxe teño un amorodo - Eu quero ser artista - Quero ser artista (2ª parte)",
+          "url": "/Series_HLS/Shin Chan/ep540/index.m3u8"
+        },
+        {
+          "id": "ep541",
+          "title": "Shin Chan 541 - Loito contra os bonecos de Shock Gahn (I) - Loito contra os bonecos de Shock Gahn (II) - Loito contra os bonecos de Shock Gahn (III)",
+          "url": "/Series_HLS/Shin Chan/ep541/index.m3u8"
+        },
+        {
+          "id": "ep542",
+          "title": "Shin Chan 542 - Misae quere que lle chamen mamá - Levar lentes é unha chulada - Axudo a Kawaguchi a atopar o amor",
+          "url": "/Series_HLS/Shin Chan/ep542/index.m3u8"
+        },
+        {
+          "id": "ep543",
+          "title": "Shin Chan 543 - Imos ao barato - Hai pelexa de robots de cartón - Gozamos no mar",
+          "url": "/Series_HLS/Shin Chan/ep543/index.m3u8"
+        },
+        {
+          "id": "ep544",
+          "title": "Shin Chan 544 - Imos á piscina - Atsumi quere ir ao parque - Damos un paseo despois da chuvia",
+          "url": "/Series_HLS/Shin Chan/ep544/index.m3u8"
+        },
+        {
+          "id": "ep545",
+          "title": "Shin Chan 545 - Escribo o meu currículo - Michi ten un ex - Fago eu só a comida",
+          "url": "/Series_HLS/Shin Chan/ep545/index.m3u8"
+        },
+        {
+          "id": "ep546",
+          "title": "Shin Chan 546 - Nevado pásao fatal - Son un can - Papá ponse a réxime",
+          "url": "/Series_HLS/Shin Chan/ep546/index.m3u8"
+        },
+        {
+          "id": "ep547",
+          "title": "Shin Chan 547 - Himawari non quere ir ao médico - O terror dos peixes entra en acción - O tempo anda tolo",
+          "url": "/Series_HLS/Shin Chan/ep547/index.m3u8"
+        },
+        {
+          "id": "ep548",
+          "title": "Shin Chan 548 - Regalannos unhas figuriñas - Merco zapatos novos - Preparo unha super friameira",
+          "url": "/Series_HLS/Shin Chan/ep548/index.m3u8"
+        },
+        {
+          "id": "ep549",
+          "title": "Shin Chan 549 - Mamá ten un paraugas estupendo - Ai, non mandamos a postal - Non hai maneira de tirar as cousas",
+          "url": "/Series_HLS/Shin Chan/ep549/index.m3u8"
+        },
+        {
+          "id": "ep550",
+          "title": "Shin Chan 550 - Hima aprende a usar o penico - Masao quere ser contacontos - Os vinte e catro minutos máis longos de papá",
+          "url": "/Series_HLS/Shin Chan/ep550/index.m3u8"
+        },
+        {
+          "id": "ep551",
+          "title": "Shin Chan 551 - Celebramos unha competición na escola - Declárase a guerra das mulleres - Que bonito é o quimono de mamá",
+          "url": "/Series_HLS/Shin Chan/ep551/index.m3u8"
+        },
+        {
+          "id": "ep552",
+          "title": "Shin Chan 552 - Imos ver unha película infantil - A señorita Matsuzaka vai casar - Amañamolo ás agachadas",
+          "url": "/Series_HLS/Shin Chan/ep552/index.m3u8"
+        },
+        {
+          "id": "ep553",
+          "title": "Shin Chan 553 - Apañei unha catarreira - Eu quero comer - O deporte dá calor",
+          "url": "/Series_HLS/Shin Chan/ep553/index.m3u8"
+        },
+        {
+          "id": "ep554",
+          "title": "Shin Chan 554 - Masao fixo unha desfeita - Hai que ser previsores - Pasamos o día co braseiro",
+          "url": "/Series_HLS/Shin Chan/ep554/index.m3u8"
+        },
+        {
+          "id": "ep555",
+          "title": "Shin Chan 555 - Masao ten unha dobre vida - Misae e mais eu xogamos aos detectives - Hoxe temos unha audición",
+          "url": "/Series_HLS/Shin Chan/ep555/index.m3u8"
+        },
+        {
+          "id": "ep556",
+          "title": "Shin Chan 556 - Encontramos un gatiño - Transformación estética - Non paro de esbirrar",
+          "url": "/Series_HLS/Shin Chan/ep556/index.m3u8"
+        },
+        {
+          "id": "ep557",
+          "title": "Shin Chan 557 - Mamá fai unha torta - Saímos xuntos nenos e nenas - Hima vólvese unha caprichosa",
+          "url": "/Series_HLS/Shin Chan/ep557/index.m3u8"
+        },
+        {
+          "id": "ep558",
+          "title": "Shin Chan 558 - Toleo polo sushi - Revisión médica na gardaría - Facemos un concurso de comida",
+          "url": "/Series_HLS/Shin Chan/ep558/index.m3u8"
+        },
+        {
+          "id": "ep559",
+          "title": "Shin Chan 559 - Fannos unha entrevista - Masao é un moceiro - Os anos non pasan en van",
+          "url": "/Series_HLS/Shin Chan/ep559/index.m3u8"
+        },
+        {
+          "id": "ep560",
+          "title": "Shin Chan 560 - Hoxe mesmo me poño a dieta - Imos de visita á tele - Papá tiña unha namorada no instituto",
+          "url": "/Series_HLS/Shin Chan/ep560/index.m3u8"
+        },
+        {
+          "id": "ep561",
+          "title": "Shin Chan 561 - Meneo a cocteleira - Non podo deixar de pensar en Michi - Preparo unha súper copa de xeado",
+          "url": "/Series_HLS/Shin Chan/ep561/index.m3u8"
+        },
+        {
+          "id": "ep562",
+          "title": "Shin Chan 562 - Vou de paseo con papá - Non temos onde aparcar o coche - Papá tolea polos globos",
+          "url": "/Series_HLS/Shin Chan/ep562/index.m3u8"
+        },
+        {
+          "id": "ep563",
+          "title": "Shin Chan 563 - A señorita Ageo fai de orientadora - Kazama vólvese ruín - A tolemia dos móbiles",
+          "url": "/Series_HLS/Shin Chan/ep563/index.m3u8"
+        },
+        {
+          "id": "ep564",
+          "title": "Shin Chan 564 - Asubiar non é tan doado - Facemos unha torta Okonomiyaki - Todos queren o disfrace de Moepi",
+          "url": "/Series_HLS/Shin Chan/ep564/index.m3u8"
+        },
+        {
+          "id": "ep565",
+          "title": "Shin Chan 565 - A señorita Matsuzaka é famosa - Asino autógrafos - Hima vai ao otorrino",
+          "url": "/Series_HLS/Shin Chan/ep565/index.m3u8"
+        },
+        {
+          "id": "ep566",
+          "title": "Shin Chan 566 - Mamá ponse enferma - Imos a un restaurante secreto - Que gran caca!",
+          "url": "/Series_HLS/Shin Chan/ep566/index.m3u8"
+        },
+        {
+          "id": "ep567",
+          "title": "Shin Chan 567 - Facemos uns zancos - Imos ao dentista - Teño sede de zume",
+          "url": "/Series_HLS/Shin Chan/ep567/index.m3u8"
+        },
+        {
+          "id": "ep568",
+          "title": "Shin Chan 568 - Vou á tenda de música - Imos ver os fogos artificiais - Vou cazar escaravellos",
+          "url": "/Series_HLS/Shin Chan/ep568/index.m3u8"
+        },
+        {
+          "id": "ep569",
+          "title": "Shin Chan 569 - Imos cazar escaravellos - Mamá quere unha masaxe - Coñezo un fulano moi motivado",
+          "url": "/Series_HLS/Shin Chan/ep569/index.m3u8"
+        },
+        {
+          "id": "ep570",
+          "title": "Shin Chan 570 - Chega o profesor Agobi - Vou pasear polas mañás - Xogamos un partido de fútbol",
+          "url": "/Series_HLS/Shin Chan/ep570/index.m3u8"
+        },
+        {
+          "id": "ep571",
+          "title": "Shin Chan 571 - Himawari fai malabarismos - Poñémonos fortes cun extensor - Que ben recende",
+          "url": "/Series_HLS/Shin Chan/ep571/index.m3u8"
+        },
+        {
+          "id": "ep572",
+          "title": "Shin Chan 572 - O noso lema é lume... xa! - Aprendemos a facer bixutería - Nene está moi rara",
+          "url": "/Series_HLS/Shin Chan/ep572/index.m3u8"
+        },
+        {
+          "id": "ep573",
+          "title": "Shin Chan 573 - Regálannos un cogomelo - Deus axuda a quen madruga - Afán de superación",
+          "url": "/Series_HLS/Shin Chan/ep573/index.m3u8"
+        },
+        {
+          "id": "ep574",
+          "title": "Shin Chan 574 - Lume no festival deportivo - Non queremos que marche Agobi - Mamá quere comer como sexa",
+          "url": "/Series_HLS/Shin Chan/ep574/index.m3u8"
+        },
+        {
+          "id": "ep575",
+          "title": "Shin Chan 575 - O profesor Agobi marcha - Hoxe pintamos - Hima ten gustos propios",
+          "url": "/Series_HLS/Shin Chan/ep575/index.m3u8"
+        },
+        {
+          "id": "ep576",
+          "title": "Shin Chan 576 - A señorita Ageo aprende a saír en grupo - Papá quere traballar tranquilo - Nevado tamén pode ir á moda",
+          "url": "/Series_HLS/Shin Chan/ep576/index.m3u8"
+        },
+        {
+          "id": "ep577",
+          "title": "Shin Chan 577 - Non nos vai vencer o vento nin a chuvia - Non nos vai vencer o vento nin a chuvia (2ª parte) - Non nos vai vencer o vento nin a chuvia (3ª parte)",
+          "url": "/Series_HLS/Shin Chan/ep577/index.m3u8"
+        },
+        {
+          "id": "ep578",
+          "title": "Shin Chan 578 - Mamá mándame coidar dos nenos - Vemos os homes do Yamato - Acabo perdido na rúa",
+          "url": "/Series_HLS/Shin Chan/ep578/index.m3u8"
+        },
+        {
+          "id": "ep579",
+          "title": "Shin Chan 579 - Pido unha pizza - Enterramos unha cápsula do tempo - Fago de produtor artístico",
+          "url": "/Series_HLS/Shin Chan/ep579/index.m3u8"
+        },
+        {
+          "id": "ep580",
+          "title": "Shin Chan 580 - Papá ten antollo de tofu - Mamá quere adelgazar - Os amigos de verdade teñen bo corazón",
+          "url": "/Series_HLS/Shin Chan/ep580/index.m3u8"
+        },
+        {
+          "id": "ep581",
+          "title": "Shin Chan 581 - Mamá coida doutro neno - Volvo á universidade feminina - Lévanme a esquiar",
+          "url": "/Series_HLS/Shin Chan/ep581/index.m3u8"
+        },
+        {
+          "id": "ep582",
+          "title": "Shin Chan 582 - Lévanme a esquiar (2ª parte) - Xogamos coa neve na gardería - Himawari é unha princesa",
+          "url": "/Series_HLS/Shin Chan/ep582/index.m3u8"
+        },
+        {
+          "id": "ep583",
+          "title": "Shin Chan 583 - Facemos cola para comer ramen - A señorita Matsuzaka lévame á casa - Aténdeme cando che falo!",
+          "url": "/Series_HLS/Shin Chan/ep583/index.m3u8"
+        },
+        {
+          "id": "ep584",
+          "title": "Shin Chan 584 - Vai esquiar toda a familia - Mamá é unha mestra da limpeza - Imos comprar un coche novo",
+          "url": "/Series_HLS/Shin Chan/ep584/index.m3u8"
+        },
+        {
+          "id": "ep585",
+          "title": "Shin Chan 585 - Coñezo unha moza policía - Papá presume coa camisa nova - A miña tía vén de visita",
+          "url": "/Series_HLS/Shin Chan/ep585/index.m3u8"
+        },
+        {
+          "id": "ep586",
+          "title": "Shin Chan 586 - Imos pasar o día ao parque - Gano as galletas de chocolate - Aumenta a familia, que horror!",
+          "url": "/Series_HLS/Shin Chan/ep586/index.m3u8"
+        },
+        {
+          "id": "ep587",
+          "title": "Shin Chan 587 - Encontro na terceira fase - Dúas irmás moi lerchanas - Aguanta, Musae!",
+          "url": "/Series_HLS/Shin Chan/ep587/index.m3u8"
+        },
+        {
+          "id": "ep588",
+          "title": "Shin Chan 588 - Kazama leva a Nevado de paseo - Botámoslle un responso a Musae - Hoxe collemos o tren",
+          "url": "/Series_HLS/Shin Chan/ep588/index.m3u8"
+        },
+        {
+          "id": "ep589",
+          "title": "Shin Chan 589 - Fórmase o novo Exército Escarlata (1ª parte) - Fórmase o novo Exército Escarlata (2ª parte) - Facemos a bogada",
+          "url": "/Series_HLS/Shin Chan/ep589/index.m3u8"
+        },
+        {
+          "id": "ep590",
+          "title": "Shin Chan 590 - Xogamos ao futuro - Hoxe tócame ir á tinturaría - Hai que gañar o arroz",
+          "url": "/Series_HLS/Shin Chan/ep590/index.m3u8"
+        },
+        {
+          "id": "ep591",
+          "title": "Shin Chan 591 - Xúntanse as tres - Imos xogar ao golf - Vemos un partido do mundial",
+          "url": "/Series_HLS/Shin Chan/ep591/index.m3u8"
+        },
+        {
+          "id": "ep592",
+          "title": "Shin Chan 592 - Sentimos paixón polo fútbol - Musae ten unha cita - Practicamos inglés",
+          "url": "/Series_HLS/Shin Chan/ep592/index.m3u8"
+        },
+        {
+          "id": "ep593",
+          "title": "Shin Chan 593 - Perdinme no parque de atraccións - Lévame Musae á gardería - O amor está no aire",
+          "url": "/Series_HLS/Shin Chan/ep593/index.m3u8"
+        },
+        {
+          "id": "ep594",
+          "title": "Shin Chan 594 - Musae vive á súa maneira - Non te vaias con estraños - Vou facer copias",
+          "url": "/Series_HLS/Shin Chan/ep594/index.m3u8"
+        },
+        {
+          "id": "ep595",
+          "title": "Shin Chan 595 - Coñecemos a fermosura que cazainsectos - Musae coida da casa - O béisbol levanta paixóns",
+          "url": "/Series_HLS/Shin Chan/ep595/index.m3u8"
+        },
+        {
+          "id": "ep596",
+          "title": "Shin Chan 596 - Cando dúas mulleres se xuntan... - O conto do panda en calzóns (1ª parte) - O conto do panda en calzóns (2ª parte)",
+          "url": "/Series_HLS/Shin Chan/ep596/index.m3u8"
+        },
+        {
+          "id": "ep597",
+          "title": "Shin Chan 597 - Masao é tímido - O retorno do coello de peluche - Teño dous anos",
+          "url": "/Series_HLS/Shin Chan/ep597/index.m3u8"
+        },
+        {
+          "id": "ep598",
+          "title": "Shin Chan 598 - Musae enfróntase ao avó - É a primeira vez que vou ao dentista - O avó toma o día libre",
+          "url": "/Series_HLS/Shin Chan/ep598/index.m3u8"
+        },
+        {
+          "id": "ep599",
+          "title": "Shin Chan 599 - Avaríanos o aire acondicionado - Empeza a guerra dos móbiles - Papá preocúpase por nada",
+          "url": "/Series_HLS/Shin Chan/ep599/index.m3u8"
+        },
+        {
+          "id": "ep600",
+          "title": "Shin Chan 600 - O Señor dos Aneis de Lura: A comunidade da Lura - O Señor dos Aneis de Lura: Non sei onde están as dúas torres - O Señor dos Aneis de Lura: O final de todas as cousas",
+          "url": "/Series_HLS/Shin Chan/ep600/index.m3u8"
+        },
+        {
+          "id": "ep601",
+          "title": "Shin Chan 601 - Son un tipo con sorte - Isto é a guerra das patacas - Quero que me chamen señorita",
+          "url": "/Series_HLS/Shin Chan/ep601/index.m3u8"
+        },
+        {
+          "id": "ep602",
+          "title": "Shin Chan 602 - Somos tres xeracións de Nohara - Na piscina estase de marabilla - Nevado non toma a medicina",
+          "url": "/Series_HLS/Shin Chan/ep602/index.m3u8"
+        },
+        {
+          "id": "ep603",
+          "title": "Shin Chan 603 - O Exército Escarlata esfórzase coa amizade - Hai que comprar un traxe novo - Hai que adormecer a Himawari",
+          "url": "/Series_HLS/Shin Chan/ep603/index.m3u8"
+        },
+        {
+          "id": "ep604",
+          "title": "Shin Chan 604 - Perdémonos no bosque (1ª parte) - Perdémonos no bosque (2ª parte) - Non se pode sacar a estufa do armario",
+          "url": "/Series_HLS/Shin Chan/ep604/index.m3u8"
+        },
+        {
+          "id": "ep605",
+          "title": "Shin Chan 605 - De quen é este lixo? - Musae canta un arrolo - Facemos gancho todos",
+          "url": "/Series_HLS/Shin Chan/ep605/index.m3u8"
+        },
+        {
+          "id": "ep606",
+          "title": "Shin Chan 606 - Desapareceu a bicicleta - Preocupámonos moito - Animamos a Yonro no traballo",
+          "url": "/Series_HLS/Shin Chan/ep606/index.m3u8"
+        },
+        {
+          "id": "ep607",
+          "title": "Shin Chan 607 - Cambiamos as fundas dos edredóns - O que non me gusta... non me gusta - Esquézome de Nevado",
+          "url": "/Series_HLS/Shin Chan/ep607/index.m3u8"
+        },
+        {
+          "id": "ep608",
+          "title": "Shin Chan 608 - Espiamos a papá (1ª parte) - Espiamos a papá (2ª parte) - A primeira despedida de Hima",
+          "url": "/Series_HLS/Shin Chan/ep608/index.m3u8"
+        },
+        {
+          "id": "ep609",
+          "title": "Shin Chan 609 - Que mañá faga bo día - Musae quere comer tenreira - Que gusto dá bañarse",
+          "url": "/Series_HLS/Shin Chan/ep609/index.m3u8"
+        },
+        {
+          "id": "ep610",
+          "title": "Shin Chan 610 - Masao vai florear - Temos febre todos - Nado á miña maneira",
+          "url": "/Series_HLS/Shin Chan/ep610/index.m3u8"
+        },
+        {
+          "id": "ep611",
+          "title": "Shin Chan 611 - Miña nai deixa todo a medio facer - Perdín unha cousiña - A Masao haille que dar ánimos sen que o saiba",
+          "url": "/Series_HLS/Shin Chan/ep611/index.m3u8"
+        },
+        {
+          "id": "ep612",
+          "title": "Shin Chan 612 - Vanlle facer unha proba a Himawari - Hoxe son vendedor de sushi - Cómpre defender o futuro da escola",
+          "url": "/Series_HLS/Shin Chan/ep612/index.m3u8"
+        },
+        {
+          "id": "ep613",
+          "title": "Shin Chan 613 - Aparece unha cara nova na escola - Aparece unha cara nova na escola (2ª parte) - Arrombo coma un heroe",
+          "url": "/Series_HLS/Shin Chan/ep613/index.m3u8"
+        },
+        {
+          "id": "ep614",
+          "title": "Shin Chan 614 - Xogamos con Ai-chan - Son igualiño ao avó - Facemos patrulla polo barrio",
+          "url": "/Series_HLS/Shin Chan/ep614/index.m3u8"
+        },
+        {
+          "id": "ep615",
+          "title": "Shin Chan 615 - Déixanme só na casa - Como cansa dar fretas nas costas - Vou atrás dunha moza",
+          "url": "/Series_HLS/Shin Chan/ep615/index.m3u8"
+        },
+        {
+          "id": "ep616",
+          "title": "Shin Chan 616 - Calquera adiviña o que lle pasa a Nene - Ter afeccións é moi divertido - Dámoslle un agasallo a meu pai",
+          "url": "/Series_HLS/Shin Chan/ep616/index.m3u8"
+        },
+        {
+          "id": "ep617",
+          "title": "Shin Chan 617 - Quero ser astronauta - Participamos nunha competición de natación - As bolsas de papel son moi importantes",
+          "url": "/Series_HLS/Shin Chan/ep617/index.m3u8"
+        },
+        {
+          "id": "ep618",
+          "title": "Shin Chan 618 - Temos pementos no xardín - Abafamos para aforrar - Oi, alá nos foi o regalo!",
+          "url": "/Series_HLS/Shin Chan/ep618/index.m3u8"
+        },
+        {
+          "id": "ep619",
+          "title": "Shin Chan 619 - Poñémonos na fileira para mercar rosquillas - Nevado é un can felicísimo - Como pesa a sandía",
+          "url": "/Series_HLS/Shin Chan/ep619/index.m3u8"
+        },
+        {
+          "id": "ep620",
+          "title": "Shin Chan 620 - Abéirome da chuvia co Exército Escarlata - Atopo un trasno no río (1ª parte) - Atopo un trasno no río (2ª parte)",
+          "url": "/Series_HLS/Shin Chan/ep620/index.m3u8"
+        },
+        {
+          "id": "ep621",
+          "title": "Shin Chan 621 - Musae ten que drobar o lombo - Veu o avó de Kyushu (1ª parte) - Veu o avó de Kyushu (2ª parte)",
+          "url": "/Series_HLS/Shin Chan/ep621/index.m3u8"
+        },
+        {
+          "id": "ep622",
+          "title": "Shin Chan 622 - Facemos unha churrascada - Hoxe toca desafío de golf - Musae cae da burra",
+          "url": "/Series_HLS/Shin Chan/ep622/index.m3u8"
+        },
+        {
+          "id": "ep623",
+          "title": "Shin Chan 623 - Dannos unhas fretiñas de moca - Son o convidado da convidada - Hoxe é domingo",
+          "url": "/Series_HLS/Shin Chan/ep623/index.m3u8"
+        },
+        {
+          "id": "ep624",
+          "title": "Shin Chan 624 - Nene ten moita sorte - Boo-chan é famoso - Musae traballa de libreira",
+          "url": "/Series_HLS/Shin Chan/ep624/index.m3u8"
+        },
+        {
+          "id": "ep625",
+          "title": "Shin Chan 625 - Volvemos a Akita (1ª parte) - Volvemos a Akita (2ª parte) - Volve Musae",
+          "url": "/Series_HLS/Shin Chan/ep625/index.m3u8"
+        },
+        {
+          "id": "ep626",
+          "title": "Shin Chan 626 - Chega o destino de Musae (1ª parte) - Chega o destino de Musae (1ª parte) - Xogamos con meu pai",
+          "url": "/Series_HLS/Shin Chan/ep626/index.m3u8"
+        },
+        {
+          "id": "ep627",
+          "title": "Shin Chan 627 - Axúdolle ao campión do mundo - Miña nai espílese - Quedo a coidar da casa con Kazama",
+          "url": "/Series_HLS/Shin Chan/ep627/index.m3u8"
+        },
+        {
+          "id": "ep628",
+          "title": "Shin Chan 628 - Ter boa memoria é moi importante - Tiramos unhas fotos para unha cerimonia de compromiso - Bótolle unha man a Masao",
+          "url": "/Series_HLS/Shin Chan/ep628/index.m3u8"
+        },
+        {
+          "id": "ep629",
+          "title": "Shin Chan 629 - Vou ao salón de beleza infantil - Somos ecoloxistas - Que traballiño dá ter conta da esqueira!",
+          "url": "/Series_HLS/Shin Chan/ep629/index.m3u8"
+        },
+        {
+          "id": "ep630",
+          "title": "Shin Chan 630 - Estragóusenos a neveira - Nene dálle voltas ao futuro - Pintar non che vos é cousa fácil",
+          "url": "/Series_HLS/Shin Chan/ep630/index.m3u8"
+        },
+        {
+          "id": "ep631",
+          "title": "Shin Chan 631 - Coñezo o príncipe do sushi (1ª parte) - Coñezo o príncipe do sushi (2ª parte) - Saímos de camiñada",
+          "url": "/Series_HLS/Shin Chan/ep631/index.m3u8"
+        },
+        {
+          "id": "ep632",
+          "title": "Shin Chan 632 - Xogamos ás tendas - Probo un té novo - Hoxe son escolta",
+          "url": "/Series_HLS/Shin Chan/ep632/index.m3u8"
+        },
+        {
+          "id": "ep633",
+          "title": "Shin Chan 633 - Kazama trae unha friameira secreta - Himawari e mais eu facemos unha escolla importante - Ui, fixémola boa!",
+          "url": "/Series_HLS/Shin Chan/ep633/index.m3u8"
+        },
+        {
+          "id": "ep634",
+          "title": "Shin Chan 634 - Meu pai perdeu un calcetín - Un chope é un chope - Meu pai vaise da casa",
+          "url": "/Series_HLS/Shin Chan/ep634/index.m3u8"
+        },
+        {
+          "id": "ep635",
+          "title": "Shin Chan 635 - Nene anda namorada - Vou probar espetos - Teño que levar a Nevado de paseo",
+          "url": "/Series_HLS/Shin Chan/ep635/index.m3u8"
+        },
+        {
+          "id": "ep636",
+          "title": "Shin Chan 636 - Moito enreda miña nai - O Exército Escarlata traballa coidando nenos - Haille que cortar as uñas a Himawari",
+          "url": "/Series_HLS/Shin Chan/ep636/index.m3u8"
+        },
+        {
+          "id": "ep637",
+          "title": "Shin Chan 637 - Armo unha boa no aniversario - Quedamos sen gasolina - O mafioso ten un amor secreto",
+          "url": "/Series_HLS/Shin Chan/ep637/index.m3u8"
+        },
+        {
+          "id": "ep638",
+          "title": "Shin Chan 638 - Tócanos a lotería - Que divertido é viaxar - Chove en domingo",
+          "url": "/Series_HLS/Shin Chan/ep638/index.m3u8"
+        },
+        {
+          "id": "ep639",
+          "title": "Shin Chan 639 - Aparece un invitado sorpresa na festa - Papá vai cazar bichos - Facemos unha grellada no río",
+          "url": "/Series_HLS/Shin Chan/ep639/index.m3u8"
+        },
+        {
+          "id": "ep640",
+          "title": "Shin Chan 640 - Pescamos con paxaros (1ª parte) - Pescamos con paxaros (2ª parte) - Que gustiño dá a barbiña de papá",
+          "url": "/Series_HLS/Shin Chan/ep640/index.m3u8"
+        },
+        {
+          "id": "ep641",
+          "title": "Shin Chan 641 - Trona e lostrega - Papá quéimase ao sol - Hoxe nada me sae ben",
+          "url": "/Series_HLS/Shin Chan/ep641/index.m3u8"
+        },
+        {
+          "id": "ep642",
+          "title": "Shin Chan 642 - Á señorita Matsuzaka nada lle sae ben - Mamá marcha da casa (1ª parte) - Mamá marcha da casa (2ª parte)",
+          "url": "/Series_HLS/Shin Chan/ep642/index.m3u8"
+        },
+        {
+          "id": "ep643",
+          "title": "Shin Chan 643 - Facemos as paces ou non? (1ª parte) - Facemos as paces ou non? (2ª parte) - Ensaio para a competición deportiva",
+          "url": "/Series_HLS/Shin Chan/ep643/index.m3u8"
+        },
+        {
+          "id": "ep644",
+          "title": "Shin Chan 644 - A veciña pídenos un favor - Fago burbullas no baño - Separamos o lixo",
+          "url": "/Series_HLS/Shin Chan/ep644/index.m3u8"
+        },
+        {
+          "id": "ep645",
+          "title": "Shin Chan 645 - Axudamos a limpar a gardería - Hima ten gana de xogar - O club de teatro e o xardín das cerdeiras",
+          "url": "/Series_HLS/Shin Chan/ep645/index.m3u8"
+        },
+        {
+          "id": "ep646",
+          "title": "Shin Chan 646 - Ármase unha boa por un pano - Mándanme ir comprar unha revista - Somos os axudantes de Masao",
+          "url": "/Series_HLS/Shin Chan/ep646/index.m3u8"
+        },
+        {
+          "id": "ep647",
+          "title": "Shin Chan 647 - A ver se ri o mafioso - Mamá busca un traballo - Que difícil é cantar",
+          "url": "/Series_HLS/Shin Chan/ep647/index.m3u8"
+        },
+        {
+          "id": "ep648",
+          "title": "Shin Chan 648 - Aparece Shinko, a nena misteirosa - Kazama está enfermo - Facemos roupa de bebé na casa",
+          "url": "/Series_HLS/Shin Chan/ep648/index.m3u8"
+        },
+        {
+          "id": "ep649",
+          "title": "Shin Chan 649 - Vendemos cousas nun mercadiño - Papá vai de paseo con Nevado - Xogamos ao minigolf",
+          "url": "/Series_HLS/Shin Chan/ep649/index.m3u8"
+        },
+        {
+          "id": "ep650",
+          "title": "Shin Chan 650 - Imos todos a Kumamoto (1ª parte) - Imos todos a Kumamoto (2ª parte) - Imos coñecer o pretendente",
+          "url": "/Series_HLS/Shin Chan/ep650/index.m3u8"
+        },
+        {
+          "id": "ep651",
+          "title": "Shin Chan 651 - Sempre sei onde andas - Volve aparecer Shinko - As nais quedan para xantar",
+          "url": "/Series_HLS/Shin Chan/ep651/index.m3u8"
+        },
+        {
+          "id": "ep652",
+          "title": "Shin Chan 652 - Neva un pouquiño - Ryuko anda buscando algo - Limpamos facendo rap",
+          "url": "/Series_HLS/Shin Chan/ep652/index.m3u8"
+        },
+        {
+          "id": "ep653",
+          "title": "Shin Chan 653 - Aparece Shinko outra vez - O móbil é difícil de dominar - Ai-chan ponse a dieta",
+          "url": "/Series_HLS/Shin Chan/ep653/index.m3u8"
+        },
+        {
+          "id": "ep654",
+          "title": "Shin Chan 654 - Marcho para sempre - Xogo unha partida de billar - Shinko despídese de nós",
+          "url": "/Series_HLS/Shin Chan/ep654/index.m3u8"
+        },
+        {
+          "id": "ep655",
+          "title": "Shin Chan 655 - Planto sementes de ravo - O diñeiro non se esconde - Quedo só con Nanako na casa",
+          "url": "/Series_HLS/Shin Chan/ep655/index.m3u8"
+        },
+        {
+          "id": "ep656",
+          "title": "Shin Chan 656 - Fago un estante con papá - Ai-chan marcha da casa - Que alguén cace o neno ese",
+          "url": "/Series_HLS/Shin Chan/ep656/index.m3u8"
+        },
+        {
+          "id": "ep657",
+          "title": "Shin Chan 657 - Nevado dorme fóra da casa - Hoxe teño contratempos... seguido - A galleta pasa dunha man á outra",
+          "url": "/Series_HLS/Shin Chan/ep657/index.m3u8"
+        },
+        {
+          "id": "ep658",
+          "title": "Shin Chan 658 - Non contes nada, estamos? - A señorita Matsuzaka quedou presa - Cóidannos a Himawari unhas horiñas",
+          "url": "/Series_HLS/Shin Chan/ep658/index.m3u8"
+        },
+        {
+          "id": "ep659",
+          "title": "Shin Chan 659 - Imos a un casamento - Miña nai conduce coa noite botada - Declararse échevos moi complicado",
+          "url": "/Series_HLS/Shin Chan/ep659/index.m3u8"
+        },
+        {
+          "id": "ep660",
+          "title": "Shin Chan 660 - Aprendo a cambiar gomas - Kazama ten un furado - O caranguexo de río anda á solta",
+          "url": "/Series_HLS/Shin Chan/ep660/index.m3u8"
+        },
+        {
+          "id": "ep661",
+          "title": "Shin Chan 661 - Cómpre encontrar o culpable - Somos a galería Nohara - As friameiras son cousa dos homes",
+          "url": "/Series_HLS/Shin Chan/ep661/index.m3u8"
+        },
+        {
+          "id": "ep662",
+          "title": "Shin Chan 662 - Himawari métese na piscina - Limpamos cando quedamos sós - Publícanse os fascículos do goberno de Saitama",
+          "url": "/Series_HLS/Shin Chan/ep662/index.m3u8"
+        },
+        {
+          "id": "ep663",
+          "title": "Shin Chan 663 - Chega o doutor Kazama - No banco non se pode armar barullo - As Kutsuzoko marchan da casa",
+          "url": "/Series_HLS/Shin Chan/ep663/index.m3u8"
+        },
+        {
+          "id": "ep664",
+          "title": "Shin Chan 664 - Os pelouros teñen sentimentos - Os favores hai que devolvelos - Nevado atafégase coa calor",
+          "url": "/Series_HLS/Shin Chan/ep664/index.m3u8"
+        },
+        {
+          "id": "ep665",
+          "title": "Shin Chan 665 - Imos á procura do abano da vitoria (1ª parte) - Imos á procura do abano da vitoria (2ª parte) - Meu pai adéstrase ás noites",
+          "url": "/Series_HLS/Shin Chan/ep665/index.m3u8"
+        },
+        {
+          "id": "ep666",
+          "title": "Shin Chan 666 - A conquista do parque - Non hai quen ature a Nene - Papá perde a chave",
+          "url": "/Series_HLS/Shin Chan/ep666/index.m3u8"
+        },
+        {
+          "id": "ep667",
+          "title": "Shin Chan 667 - Cociña para solteiros - Mamá marca un home run - O trevo de catro follas",
+          "url": "/Series_HLS/Shin Chan/ep667/index.m3u8"
+        },
+        {
+          "id": "ep668",
+          "title": "Shin Chan 668 - Patacas doces á esgalla - A volta de Shinko - Mamá contra Himawari",
+          "url": "/Series_HLS/Shin Chan/ep668/index.m3u8"
+        },
+        {
+          "id": "ep669",
+          "title": "Shin Chan 669 - Masao aborrece a menta - A caligrafía é guai - Chegou a granxa móbil",
+          "url": "/Series_HLS/Shin Chan/ep669/index.m3u8"
+        },
+        {
+          "id": "ep670",
+          "title": "Shin Chan 670 - Hai que aprender a utilizar os palillos - Nene quere recibir cartas - Hai que levarse ben",
+          "url": "/Series_HLS/Shin Chan/ep670/index.m3u8"
+        },
+        {
+          "id": "ep671",
+          "title": "Shin Chan 671 - Nevado sae nun calendario - As pestanas postizas non son para xogar - A fin de semana da señorita Ageo",
+          "url": "/Series_HLS/Shin Chan/ep671/index.m3u8"
+        },
+        {
+          "id": "ep672",
+          "title": "Shin Chan 672 - Montamos un mercado na gardería - O director ten un mal día - Unha caixa de bombóns moi caros de regalo",
+          "url": "/Series_HLS/Shin Chan/ep672/index.m3u8"
+        },
+        {
+          "id": "ep673",
+          "title": "Shin Chan 673 - Shinko volve ás mesmas - Hoxe toca ordenar as caixas - Visitamos a fábrica de galletas",
+          "url": "/Series_HLS/Shin Chan/ep673/index.m3u8"
+        },
+        {
+          "id": "ep674",
+          "title": "Shin Chan 674 - Quero unha toalla de Ultraheroe - Unha viaxe a Australia é inesquecible (I) - Unha viaxe a Australia é inesquecible (II)",
+          "url": "/Series_HLS/Shin Chan/ep674/index.m3u8"
+        },
+        {
+          "id": "ep675",
+          "title": "Shin Chan 675 - Somos as forzas unidas de Kasukabe - As empregadas do fogar teñen moita forza - Debaixo do abrigo hai algo raro",
+          "url": "/Series_HLS/Shin Chan/ep675/index.m3u8"
+        },
+        {
+          "id": "ep676",
+          "title": "Shin Chan 676 - Pedímoslle un desexo a unha estrela fugaz - Imos dar unha volta no coche - Quero patacas doces quentes ó prezo que sexa",
+          "url": "/Series_HLS/Shin Chan/ep676/index.m3u8"
+        },
+        {
+          "id": "ep677",
+          "title": "Shin Chan 677 - Quero coñecer á miña muller (I) - Quero coñecer á miña muller (II) - Quero que me toque o premio",
+          "url": "/Series_HLS/Shin Chan/ep677/index.m3u8"
+        },
+        {
+          "id": "ep678",
+          "title": "Shin Chan 678 - A señorita Matsuzaka conségueo por fin - Regreso ó futuro (I) - Regreso ó futuro (II)",
+          "url": "/Series_HLS/Shin Chan/ep678/index.m3u8"
+        },
+        {
+          "id": "ep679",
+          "title": "Shin Chan 679 - Nevado desapareceu - Volve Shinnosuke o executivo - É o autógrafo dos meus soños",
+          "url": "/Series_HLS/Shin Chan/ep679/index.m3u8"
+        },
+        {
+          "id": "ep680",
+          "title": "Shin Chan 680 - Boo-chan queda con Himawari - Non encontramos o xogo da oca - Papá ponse en forma",
+          "url": "/Series_HLS/Shin Chan/ep680/index.m3u8"
+        },
+        {
+          "id": "ep681",
+          "title": "Shin Chan 681 - Decoramos o carriño de Himawari - Somos os escoltas de Nene - Quedar na casa é moi emocionante... pero ás veces mete medo",
+          "url": "/Series_HLS/Shin Chan/ep681/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "id": "shin_chan_-_3_minutos_para_salvar_o_mundo",
+      "title": "Shin Chan - 3 minutos para salvar o mundo",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - 3 minutos para salvar o mundo/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767374689.8508868,
+      "description": "A familia Nohara terá que enfrontarse a numerosos monstros que ameazan o equilibrio e a paz do mundo. Toda unha proba que esperta a sede de xustiza de Shin chan, que quere emular ós seus heroes favoritos. Todo comeza cando, despois dunha mañá moi esgotadora, a Misae aparéceselle Futuroman, un espírito coa apariencia dun dos xoguetes de Shinnosuke. Futuroman chega desde o futuro lonxano para advertirlles de que o mundo está e perigo e que deben salvalo da chegada de milleiros de monstros",
+      "year": "2005"
+    },
+    {
+      "id": "shin_chan_-_a_ambicion_do_kakafede",
+      "title": "Shin Chan - A ambición do Kakafede",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - A ambición do Kakafede/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767305872.560277,
+      "description": "A familia Nohara ao completo aterra no século XVIII, nunha zona do Xapón chea de personaxes coñecedores das artes das espadas. Shin-chan coñece a Fubukimaru, un experto loitador ao que axudará para así poder volver toda a familia ao presente.",
+      "year": "1995"
+    },
+    {
+      "id": "shin_chan_-_a_bomba_das_cachas_ritmombantes",
+      "title": "Shin Chan - A bomba das cachas ritmombantes",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - A bomba das cachas ritmombantes/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767369288.3197374,
+      "description": "A familia Nohara terá que enfrontarse a numerosos monstros que ameazan o equilibrio e a paz do mundo. Toda unha proba que esperta a sede de xustiza de Shin chan, que quere emular ós seus heroes favoritos. Todo comeza cando, despois dunha mañá moi esgotadora, a Misae aparéceselle Futuroman, un espírito coa apariencia dun dos xoguetes de Shinnosuke. Futuroman chega desde o futuro lonxano para advertirlles de que o mundo está e perigo e que deben salvalo da chegada de milleiros de monstros",
+      "year": "2007"
+    },
+    {
+      "id": "shin_chan_-_a_costelada_imposible",
+      "title": "Shin Chan - A costelada imposible",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - A costelada imposible/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767374766.755041,
+      "description": "Os Nohara están de sorte, logo dun tempo de aforros poden mercar un lote de carne do milloriño, pero alguén os interrompe na súa casa. Tras deste home, chega un pelotón de xente que os acaba raptando a todos. Sen saber o que pasa, acadan escapar, pero o xefe da organización segreda comeza unha nova persecución para collelos. Por diante queda un longo camiño...",
+      "year": "2003"
+    },
+    {
+      "id": "shin_chan_-_a_guerra_dos_balnearios",
+      "title": "Shin Chan - A guerra dos balnearios",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - A guerra dos balnearios/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767654468.7518818,
+      "description": "Na casa de Shin-chan aparece un manantial de augas termais, que pode determinar o resultado dunha longa guera entre a alianza das augas e as forzas do imperio Yuzame, lideradas polo temible doutor. Sen entender moi ben o que ocorre, a familia Nohara acaba metida noutra aventura para poder volver á casa. Será Shin-chan o elexido que acabe coa tiranía do imperio e devolva a paz ao mundo das caldas?",
+      "year": "1999"
+    },
+    {
+      "id": "shin_chan_-_a_invasion",
+      "title": "Shin Chan - A invasión",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - A invasión/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767371416.774993,
+      "description": "Un exército de extraterrestres tenta invadila terra. Queren domina-la humanidade e vestir a todos iguais: cun bañador de muller! Só hai unha esperanza, o poder de Ultraheroe. Pero a clave de todo está nalguén máis pequeno e rebuldeiro... Shin-chan!",
+      "year": "1993"
+    },
+    {
+      "id": "shin_chan_-_a_ritmo_de_samba",
+      "title": "Shin Chan - A ritmo de samba",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - A ritmo de samba/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767369283.772583,
+      "description": "Todo comeza cando Shin Chan e os seus amigos danse conta de que as mestras e os seus compañeiros compórtanse máis raro que de costume. Cando comezan a investigar, chegan á conclusión de que a cidade de Kasukabe estase enchendo de clones. Aparece un ser idéntico a outro e sen que ninguén poida evitalo, o auténtico desaparece por completo. O único que saben destes clones é que lles gusta bailar nin máis nin menos que... A samba! Este dato axúdalles a adiviñar que persoas do seu redor non son auténticas; xa que unha vez que soa a música, non poden deixar de mover o esqueleto!",
+      "year": "2006"
+    },
+    {
+      "id": "shin_chan_-_aventuras_en_henderland",
+      "title": "Shin Chan - Aventuras en Henderland",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - Aventuras en Henderland/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767371422.5116696,
+      "description": "A familia Nohara e todos os compañeiros de clase de Shinnosuke están convidados a un fantástico cruceiro polo mares do sur, para asistiren á estrea do ultimo filme de Ultra-heroe. O que niguén se imaxinaba era que... rematarían perdidos na xungla!",
+      "year": "1996"
+    },
+    {
+      "id": "shin_chan_-_na_illa_do_tesouro",
+      "title": "Shin Chan - Na illa do tesouro",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - Na illa do tesouro/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767371419.4849043,
+      "description": "Shin-chan visita o parque de atraccións Henderland, un lugar de esparexemento que encerra unha escura ameaza: unha banda de criminais tenta facerse co mundo, pero só Shin-chan, coa axuda da maxia e dos seus amigos, poderá facerlles fronte.",
+      "year": "1994"
+    },
+    {
+      "id": "shin_chan_-_na_procura_das_bolas_perdidas",
+      "title": "Shin Chan - Na procura das bolas perdidas",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - Na procura das bolas perdidas/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767295126.5702403,
+      "description": "As dúas bólas perdidas son uns obxectos cun grande poder, que xuntas, poden desata-lo caos no mundo. Dúas bandas rivais andan na súa procura, pero unha das bólas cae en mans de Shin-chan, involucrando de cheo á familia Nohara.",
+      "year": "1997"
+    },
+    {
+      "id": "shin_chan_-_o_imperio_dos_carrozas",
+      "title": "Shin Chan - O imperio dos carrozas",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - O imperio dos carrozas/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767369278.8535843,
+      "description": "O antigo recinto da Expo de Osaka converteuse nun moderno parque temático adicado a rememorar o século XX. Os seus creadores, deseñaron a \"esencia do pasado\", unha substancia que converte aos adultos nuns rapaces despreocupados das súas obrigas. O exército de Kasukabe, con Shin-chan á cabeza, tentará restablecer o futuro que está en xogo.",
+      "year": "2001"
+    },
+    {
+      "id": "shin_chan_-_o_pequeno_samurai",
+      "title": "Shin Chan - O pequeno samurai",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - O pequeno samurai/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767369271.4759803,
+      "description": "Shin-chan viaxa no tempo ao ano 1574, nunha era chea de conflictos. Alí coñecerá a Matabe, un samurai soitario do que se fará bo amigo. Xuntos vivirán unha intensa aventura ao verse envoltos nunha batalla en clans rivais.",
+      "year": "2002"
+    },
+    {
+      "id": "shin_chan_-_operacion_rescate",
+      "title": "Shin Chan - Operación rescate",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - Operación rescate/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767369269.9523137,
+      "description": "Os \"pezuña de porco\" son un grupo terrorista que tenta domina-lo mundo cun virus informático con vida propia. Shin-chan, os seus amigos e a axente especial Sexy Girl (que acaba de facerse cun CD que ten o programa informático), son secuestrados. En canto os Nohara son informados do feito, sairán na procura de seu fillo.",
+      "year": "1998"
+    },
+    {
+      "id": "shin_chan_-_perdidos_na_xungla",
+      "title": "Shin Chan - Perdidos na Xungla",
+      "lang": "gl",
+      "url": "/Peliculas_HLS/Shin Chan - Perdidos na Xungla/index.m3u8",
+      "type": "movie",
+      "updated_at": 1767369268.194025,
+      "description": "A familia Nohara e todos os compañeiros de clase de Shinnosuke están convidados a un fantástico cruceiro polo mares do sur, para asistiren á estrea do ultimo filme de Ultra-heroe. O que niguén se imaxinaba era que... rematarían perdidos na xungla!",
+      "year": "2000"
+    }
+  ]
+}

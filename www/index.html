@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>SerieGal</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/auth.js"></script>
+  <script defer src="assets/js/app.js"></script>
+
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/@silvermine/videojs-chromecast@1.5.0/dist/videojs-chromecast.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@silvermine/videojs-chromecast@1.5.0/dist/videojs-chromecast.min.js"></script>
+
+  <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/@silvermine/videojs-chromecast@1.5.0/dist/videojs-chromecast.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@silvermine/videojs-chromecast@1.5.0/dist/videojs-chromecast.min.js"></script>
+
+</head>
+<body style="visibility: hidden;">
+
+<!-- Overlay de autenticación (visible por defecto si no hay sesión) -->
+<div id="authOverlay" class="auth-overlay">
+  <div class="auth-container">
+    <div class="auth-box">
+      <h2 id="authTitle">Iniciar sesión</h2>
+
+      <div class="auth-tabs">
+        <button class="tab-btn active" data-mode="login">Iniciar sesión</button>
+        <button class="tab-btn" data-mode="register">Registrarse</button>
+      </div>
+
+      <form id="authForm">
+        <div class="form-group">
+          <label for="authUsername">Usuario</label>
+          <input type="text" id="authUsername" placeholder="Nombre de usuario" required autocomplete="username">
+        </div>
+
+        <div class="form-group">
+          <label for="authPassword">Contraseña</label>
+          <input type="password" id="authPassword" placeholder="Contraseña" required autocomplete="current-password">
+        </div>
+
+        <div class="form-group" id="confirmPasswordGroup" style="display:none;">
+          <label for="authConfirmPassword">Repetir contraseña</label>
+          <input type="password" id="authConfirmPassword" placeholder="Repetir contraseña">
+        </div>
+
+        <button type="submit" class="auth-btn" id="authSubmitBtn">Entrar</button>
+      </form>
+
+      <p class="auth-message" id="authMessage"></p>
+    </div>
+  </div>
+</div>
+
+<!-- Contenido principal - SOLO visible con sesión -->
+<div id="main-content" style="display:none;">
+  <header class="header">
+    <div class="header-container">
+      <div class="header-left">
+        <div class="brand" onclick="forceGoHome()" style="cursor:pointer">
+          <span class="logo-icon">🎬</span>
+          <span class="logo-text">SERIE<span class="accent-text">GAL</span></span>
+        </div>
+        
+        <nav class="main-nav">
+          <button class="nav-link" onclick="showAllSeries()">Series</button>
+          <button class="nav-link" onclick="showAllMovies()">Películas</button>
+          <button class="nav-link" onclick="showFavorites()">Favoritos</button>
+        </nav>
+      </div>
+
+      <div class="search">
+        <span class="search-icon">🔍</span>
+        <input id="searchBox" type="text" placeholder="Buscar series y películas…" autocomplete="off" />
+        <div id="suggest" class="suggest hidden"></div>
+      </div>
+
+      <div class="header-right">
+        <button class="fav-mobile-btn" onclick="showFavorites()" title="Favoritos">⭐</button>
+        <div class="user-profile">
+          <div class="user-info">
+            <span id="userName" class="user-name">Usuario</span>
+            <div class="user-avatar">
+              <img src="https://ui-avatars.com/api/?name=O&background=38bdf8&color=fff" id="userImg" alt="Avatar">
+            </div>
+          </div>
+          <div class="user-dropdown">
+            <div class="dropdown-header">Mi Cuenta</div>
+            <button onclick="logout()" class="dropdown-item danger">
+              <span>🚪</span> Cerrar sesión
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="backBtn" class="back" style="display:none">⬅ Volver</div>
+
+    <!-- HOME -->
+    <section id="home">
+      <div id="continue"></div>
+
+      <div class="section-header">
+        <h2>Últimas series añadidas</h2>
+        <button class="btn ghost" onclick="showAllSeries()">Ver todas</button>
+      </div>
+      <div id="seriesRow" class="row"></div>
+
+      <div class="section-header">
+        <h2>Últimas películas añadidas</h2>
+        <button class="btn ghost" onclick="showAllMovies()">Ver todas</button>
+      </div>
+      <div id="moviesRow" class="row"></div>
+    </section>
+
+    <!-- VISTA DINÁMICA -->
+    <section id="view"></section>
+  </main>
+</div>
+
+</body>
+</html>
