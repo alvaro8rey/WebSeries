@@ -1,4 +1,20 @@
-/* ================= SERIES VIEW ================= */
+/* ================= SERIES VIEW (DISNEY+ STYLE) ================= */
+
+/**
+ * Obtiene el progreso de todos los episodios desde el servidor
+ */
+async function getAllEpisodesProgress(seriesId) {
+    if (!localStorage.getItem("ws_token")) return [];
+
+    try {
+        const resp = await window.API.fetchWithAuth(`${API_BASE}/continue-watching`);
+        const allProgress = await resp.json();
+        return allProgress.filter(p => p.series_id === seriesId);
+    } catch (e) {
+        console.error("Error al obtener progreso:", e);
+        return [];
+    }
+}
 
 /**
  * Abre la vista de una serie
@@ -17,6 +33,9 @@ async function openSerie(id, page = 0) {
     window.AppState.setCurrentSerie(foundSerie);
     window.AppState.setCurrentSeasonIndex(0);
     window.AppState.setCurrentEpisodePage(page);
+
+    // Obtener progreso de todos los episodios
+    window.seriesProgress = await getAllEpisodesProgress(id);
 
     let serverWatched = [];
     if (localStorage.getItem("ws_token")) {
@@ -41,7 +60,36 @@ async function openSerie(id, page = 0) {
 }
 
 /**
- * Renderiza la vista de la serie con sus episodios
+ * Encuentra el episodio actual (último visto o primero)
+ */
+function findCurrentEpisode() {
+    const currentSerie = window.AppState.getCurrentSerie();
+    const allEpisodes = window.AppUtils.getEpisodesFromSerie(currentSerie);
+    const progress = window.seriesProgress || [];
+
+    // Buscar el último episodio con progreso
+    if (progress.length > 0) {
+        const lastWatched = progress.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))[0];
+        const episode = allEpisodes.find(e => e.id === lastWatched.episode_id);
+        if (episode) {
+            return {
+                episode,
+                index: allEpisodes.indexOf(episode),
+                progress: lastWatched
+            };
+        }
+    }
+
+    // Si no hay progreso, devolver el primer episodio
+    return {
+        episode: allEpisodes[0],
+        index: 0,
+        progress: null
+    };
+}
+
+/**
+ * Renderiza la vista de la serie con sus episodios (estilo Disney+)
  */
 function renderSerieView() {
     const currentSerie = window.AppState.getCurrentSerie();
@@ -51,103 +99,179 @@ function renderSerieView() {
     if (globalBackBtn) globalBackBtn.style.display = "block";
 
     const allEpisodes = window.AppUtils.getEpisodesFromSerie(currentSerie);
-    const totalEpisodes = allEpisodes.length;
-    const totalPages = Math.ceil(totalEpisodes / window.AppState.getEpisodesPerPage());
-    const currentEpisodePage = window.AppState.getCurrentEpisodePage();
-    const start = currentEpisodePage * window.AppState.getEpisodesPerPage();
-    const episodes = allEpisodes.slice(start, start + window.AppState.getEpisodesPerPage());
-
     const isSerieFav = window.AppState.getFavoritesList().includes(String(currentSerie.id));
 
-    // Selector de temporadas
+    // Obtener episodio actual
+    const currentEp = findCurrentEpisode();
     const hasSeasons = currentSerie.seasons && currentSerie.seasons.length > 0;
     const currentSeasonIndex = window.AppState.getCurrentSeasonIndex();
-    const seasonSelector = hasSeasons ? `
-        <select class="season-select" onchange="window.SeriesView.changeSeason(this.value)">
-            ${currentSerie.seasons.map((s, i) => `
-                <option value="${i}" ${i === currentSeasonIndex ? "selected" : ""}>
-                    ${s.title || `Temporada ${s.season}`}
-                </option>
-            `).join("")}
-        </select>
-    ` : "";
 
-    // Buscador GOTO
-    const gotoHTML = (!hasSeasons && totalEpisodes > 20) ? `
-        <div class="goto-episode">
-            <span class="goto-label-desktop">EP</span>
-            <input type="number" id="goto-input" placeholder="EP..."
-                onkeyup="if(event.key==='Enter') window.SeriesView.goToEpisode(this.value)">
-            <button onclick="window.SeriesView.goToEpisode(document.getElementById('goto-input').value)" class="goto-btn-minimal">
-                <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="4" fill="none">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
-            </button>
-        </div>
-    ` : "";
-
-    // Paginación
-    let paginationHTML = "";
-    if (totalPages > 1) {
-        let pages = [];
-        const delta = window.innerWidth < 600 ? 1 : 2;
-
-        pages.push(`<button class="page-btn" ${currentEpisodePage === 0 ? 'disabled' : ''} onclick="window.SeriesView.changePageTo(0)">«</button>`);
-        pages.push(`<button class="page-btn" ${currentEpisodePage === 0 ? 'disabled' : ''} onclick="window.SeriesView.changePageTo(${currentEpisodePage - 1})">‹</button>`);
-
-        for (let i = 0; i < totalPages; i++) {
-            if (i === 0 || i === totalPages - 1 || (i >= currentEpisodePage - delta && i <= currentEpisodePage + delta)) {
-                pages.push(`<button class="page-btn ${i === currentEpisodePage ? 'active' : ''}" onclick="window.SeriesView.changePageTo(${i})">${i + 1}</button>`);
-            } else if (i === currentEpisodePage - delta - 1 || i === currentEpisodePage + delta + 1) {
-                pages.push(`<span class="page-dots">...</span>`);
-            }
-        }
-
-        pages.push(`<button class="page-btn" ${currentEpisodePage >= totalPages - 1 ? 'disabled' : ''} onclick="window.SeriesView.changePageTo(${currentEpisodePage + 1})">›</button>`);
-        pages.push(`<button class="page-btn" ${currentEpisodePage >= totalPages - 1 ? 'disabled' : ''} onclick="window.SeriesView.changePageTo(${totalPages - 1})">»</button>`);
-
-        paginationHTML = `<div class="pagination"><div class="pagination-numbers">${pages.join("")}</div></div>`;
-    }
-
-    // Renderizado Final
-    const viewEl = document.getElementById("view");
-    viewEl.innerHTML = `
-        <div class="serie-detail-header">
-            <img src="images/${currentSerie.id}.jpg" onerror="this.src='images/default.jpg'" class="serie-poster">
-            <div class="serie-info-text">
-                <h2>${currentSerie.title}</h2>
-                <p class="muted">${totalEpisodes} episodios</p>
-                <div class="header-actions">
-                    ${seasonSelector}
-                    ${gotoHTML}
-                    <button id="fav-main-btn" class="btn-fav-compact ${isSerieFav ? 'active' : ''}" onclick="window.Favorites.handleMainClick(event, '${currentSerie.id}')">
-                        <svg class="heart-icon" viewBox="0 0 24 24" fill="none"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="2"/></svg>
-                        <span class="btn-text">${isSerieFav ? 'Favorito' : 'Añadir'}</span>
+    // Hero Section
+    const heroHTML = `
+        <div class="serie-hero" style="background-image: url('images/${currentSerie.id}.jpg');">
+            <div class="serie-hero-content">
+                <h1 class="serie-hero-title">${currentSerie.title}</h1>
+                <p class="serie-hero-subtitle">
+                    ${currentEp.progress ? `Continuar viendo · Episodio ${currentEp.index + 1}` : `${allEpisodes.length} episodios`}
+                </p>
+                <div class="serie-hero-actions">
+                    <button class="btn-hero-play" onclick="window.SeriesView.playHeroEpisode()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        ${currentEp.progress ? 'Continuar' : 'Reproducir'}
+                    </button>
+                    <button class="btn-hero-secondary" onclick="window.Favorites.handleMainClick(event, '${currentSerie.id}')">
+                        ${isSerieFav ? '✓ En Mi Lista' : '+ Mi Lista'}
                     </button>
                 </div>
             </div>
         </div>
-        <div class="episodes" id="episodesList">
-            ${episodes.map((e, i) => {
-                const realIndex = start + i;
-                const isWatched = window.currentSerieWatched && window.currentSerieWatched.includes(String(e.id));
-                const displayTitle = window.AppUtils.cleanEpisodeTitle(e.title);
-                const episodeMatch = e.id.match(/\d+(\.\d+)?/);
-                let displayNum = episodeMatch ? (Number.isInteger(parseFloat(episodeMatch[0])) ? parseFloat(episodeMatch[0]) : episodeMatch[0]) : realIndex + 1;
+    `;
+
+    // Selector de temporadas estilo Disney+
+    let seasonSelectorHTML = '';
+    if (hasSeasons) {
+        seasonSelectorHTML = `
+            <div class="season-selector-disney">
+                ${currentSerie.seasons.map((s, i) => `
+                    <button class="season-tab ${i === currentSeasonIndex ? 'active' : ''}" onclick="window.SeriesView.changeSeason(${i})">
+                        ${s.title || `Temporada ${s.season}`}
+                    </button>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    // Grid de episodios
+    const episodesGridHTML = `
+        <div class="episodes-grid">
+            ${allEpisodes.map((ep, index) => {
+                const episodeProgress = (window.seriesProgress || []).find(p => p.episode_id === ep.id);
+                const progressPercent = episodeProgress ? Math.min(100, (episodeProgress.time / episodeProgress.duration) * 100) : 0;
+                const isWatched = window.currentSerieWatched && window.currentSerieWatched.includes(String(ep.id));
+                const displayTitle = window.AppUtils.cleanEpisodeTitle(ep.title);
+
+                // Calcular número de episodio
+                const episodeMatch = ep.id.match(/\d+(\.\d+)?/);
+                let displayNum = episodeMatch ? (Number.isInteger(parseFloat(episodeMatch[0])) ? parseFloat(episodeMatch[0]) : episodeMatch[0]) : index + 1;
 
                 return `
-                    <div class="episode ${isWatched ? "watched" : ""}" id="ep-card-${e.id}" onclick='window.Player.playEpisode(${JSON.stringify(e)}, this, ${realIndex})'>
-                        <div class="episode-row">
-                            <div class="episode-num">${displayNum}.</div>
-                            <div class="episode-title-main">${displayTitle}</div>
-                            ${isWatched ? '<div class="watched-check" style="color: #4caf50; margin-left: auto;">✔</div>' : ''}
+                    <div class="episode-card-disney" onclick="window.SeriesView.playEpisodeDisney(${index})">
+                        <div class="episode-thumbnail">
+                            <img src="images/${currentSerie.id}.jpg" onerror="this.src='images/default.jpg'">
+                            <div class="episode-play-overlay">
+                                <div class="play-icon-large">▶</div>
+                            </div>
+                            ${isWatched ? '<div class="episode-watched-badge">✓ Visto</div>' : ''}
+                        </div>
+                        <div class="episode-info-disney">
+                            <div class="episode-header-disney">
+                                <span class="episode-number-disney">Episodio ${displayNum}</span>
+                                <span class="episode-duration">45 min</span>
+                            </div>
+                            <h3 class="episode-title-disney">${displayTitle}</h3>
+                            <p class="episode-description">
+                                ${displayTitle}
+                            </p>
+                            ${progressPercent > 0 ? `
+                                <div class="episode-progress-bar">
+                                    <div class="episode-progress-fill" style="width: ${progressPercent}%"></div>
+                                </div>
+                            ` : ''}
                         </div>
                     </div>
                 `;
-            }).join("")}
+            }).join('')}
         </div>
-        ${paginationHTML}
     `;
+
+    // Renderizado Final
+    const viewEl = document.getElementById("view");
+    viewEl.innerHTML = `
+        ${heroHTML}
+        <div class="episodes-grid-container">
+            <div class="section-header">
+                <h2>Episodios</h2>
+            </div>
+            ${seasonSelectorHTML}
+            ${episodesGridHTML}
+        </div>
+    `;
+
+    window.scrollTo(0, 0);
+}
+
+/**
+ * Reproduce el episodio del hero
+ */
+function playHeroEpisode() {
+    const currentEp = findCurrentEpisode();
+    playEpisodeDisney(currentEp.index);
+}
+
+/**
+ * Reproduce un episodio en modal de pantalla completa
+ */
+function playEpisodeDisney(episodeIndex) {
+    const currentSerie = window.AppState.getCurrentSerie();
+    const allEpisodes = window.AppUtils.getEpisodesFromSerie(currentSerie);
+    const episode = allEpisodes[episodeIndex];
+
+    if (!episode) return;
+
+    // Crear modal de reproductor
+    let modal = document.getElementById('player-modal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'player-modal';
+        modal.className = 'player-modal';
+        document.body.appendChild(modal);
+    }
+
+    const displayTitle = window.AppUtils.cleanEpisodeTitle(episode.title);
+    const episodeMatch = episode.id.match(/\d+(\.\d+)?/);
+    let displayNum = episodeMatch ? (Number.isInteger(parseFloat(episodeMatch[0])) ? parseFloat(episodeMatch[0]) : episodeMatch[0]) : episodeIndex + 1;
+
+    modal.innerHTML = `
+        <div class="player-modal-header">
+            <div class="player-modal-title">
+                ${currentSerie.title} · Episodio ${displayNum}: ${displayTitle}
+            </div>
+            <button class="btn-close-player" onclick="window.SeriesView.closePlayer()">×</button>
+        </div>
+        <div class="player-modal-content">
+            <div class="player-container">
+                <video id="vjs-player-disney" class="video-js vjs-default-skin vjs-big-play-centered" playsinline></video>
+            </div>
+        </div>
+    `;
+
+    modal.classList.add('active');
+
+    // Inicializar Video.js
+    setTimeout(() => {
+        window.Player.playEpisode(episode, null, episodeIndex);
+    }, 300);
+}
+
+/**
+ * Cierra el reproductor modal
+ */
+function closePlayer() {
+    const modal = document.getElementById('player-modal');
+    if (modal) {
+        modal.classList.remove('active');
+        if (window.Player) window.Player.stop();
+
+        // Recargar la vista para actualizar progresos
+        setTimeout(() => {
+            const currentSerie = window.AppState.getCurrentSerie();
+            if (currentSerie) {
+                openSerie(currentSerie.id, 0);
+            }
+        }, 300);
+    }
 }
 
 /**
@@ -187,19 +311,7 @@ function goToEpisode(number) {
     });
 
     if (epIndex !== -1) {
-        const targetPage = Math.floor(epIndex / window.AppState.getEpisodesPerPage());
-        window.AppState.setCurrentEpisodePage(targetPage);
-        renderSerieView();
-
-        setTimeout(() => {
-            const targetId = allEpisodes[epIndex].id;
-            const el = document.getElementById(`ep-card-${targetId}`);
-            if (el) {
-                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                el.style.background = "rgba(56, 189, 248, 0.4)";
-                setTimeout(() => el.style.background = "", 2500);
-            }
-        }, 300);
+        playEpisodeDisney(epIndex);
     } else {
         alert("Episodio no encontrado");
     }
@@ -216,18 +328,8 @@ async function syncServerWatchedStatus() {
         const serverProgress = await resp.json();
         const currentSerie = window.AppState.getCurrentSerie();
 
-        serverProgress.forEach(sp => {
-            if (sp.series_id === currentSerie.id && (sp.duration - sp.time) < 15) {
-                const epEl = document.getElementById(`ep-card-${sp.episode_id}`);
-                if (epEl && !epEl.classList.contains('watched')) {
-                    epEl.classList.add('watched');
-                    const row = epEl.querySelector('.episode-row');
-                    if (row && !row.querySelector('.watched-check')) {
-                        row.insertAdjacentHTML('beforeend', '<div class="watched-check" style="color: #4caf50; margin-left: auto;">✔</div>');
-                    }
-                }
-            }
-        });
+        window.seriesProgress = serverProgress.filter(p => p.series_id === currentSerie.id);
+        renderSerieView();
     } catch (e) {
         console.log("Sincronización silenciosa fallida");
     }
@@ -240,5 +342,8 @@ window.SeriesView = {
     changeSeason,
     changePageTo,
     goToEpisode,
-    syncWatchedStatus: syncServerWatchedStatus
+    syncWatchedStatus: syncServerWatchedStatus,
+    playHeroEpisode,
+    playEpisodeDisney,
+    closePlayer
 };

@@ -1,4 +1,4 @@
-/* ================= PLAYER ================= */
+/* ================= PLAYER (CON SOPORTE MODAL) ================= */
 
 /**
  * Reproduce un episodio de una serie
@@ -15,33 +15,63 @@ function playEpisode(ep, el, index) {
     stopPlayer();
     window.AppState.setCurrentEpisodeElement(el);
 
-    const box = document.createElement("div");
-    box.className = "player-container";
-    box.innerHTML = `
-        <style>
-            .video-js .vjs-play-progress:before,
-            .video-js .vjs-play-progress:after {
-                display: none !important;
-            }
-            .video-js .vjs-play-progress {
-                border-right: 2px solid #fff;
-            }
-            .video-js .vjs-progress-holder {
-                height: 8px !important;
-            }
-        </style>
-        <video id="vjs-player" class="video-js vjs-default-skin vjs-big-play-centered" playsinline></video>
-        <button id="floatingNextBtn" class="btn-next-floating hidden">
-            Siguiente episodio ➔
-        </button>
-        <div class="autoplay"></div>`;
-    el.after(box);
+    // Detectar si estamos en el modal de Disney+
+    const modalContainer = document.querySelector('.player-modal.active .player-container');
+    let box;
+    let videoId = 'vjs-player';
+
+    if (modalContainer) {
+        // Usar el contenedor del modal
+        box = modalContainer;
+        videoId = 'vjs-player-disney';
+        box.innerHTML = `
+            <style>
+                .video-js .vjs-play-progress:before,
+                .video-js .vjs-play-progress:after {
+                    display: none !important;
+                }
+                .video-js .vjs-play-progress {
+                    border-right: 2px solid #fff;
+                }
+                .video-js .vjs-progress-holder {
+                    height: 8px !important;
+                }
+            </style>
+            <video id="${videoId}" class="video-js vjs-default-skin vjs-big-play-centered" playsinline></video>
+            <button id="floatingNextBtn" class="btn-next-floating hidden">
+                Siguiente episodio ➔
+            </button>
+            <div class="autoplay"></div>`;
+    } else {
+        // Crear contenedor tradicional
+        box = document.createElement("div");
+        box.className = "player-container";
+        box.innerHTML = `
+            <style>
+                .video-js .vjs-play-progress:before,
+                .video-js .vjs-play-progress:after {
+                    display: none !important;
+                }
+                .video-js .vjs-play-progress {
+                    border-right: 2px solid #fff;
+                }
+                .video-js .vjs-progress-holder {
+                    height: 8px !important;
+                }
+            </style>
+            <video id="${videoId}" class="video-js vjs-default-skin vjs-big-play-centered" playsinline></video>
+            <button id="floatingNextBtn" class="btn-next-floating hidden">
+                Siguiente episodio ➔
+            </button>
+            <div class="autoplay"></div>`;
+        if (el) el.after(box);
+    }
 
     const currentSerie = window.AppState.getCurrentSerie();
     const seriesId = currentSerie ? currentSerie.id : ep.id;
     const key = seriesId + "_" + ep.id;
 
-    const player = videojs('vjs-player', {
+    const player = videojs(videoId, {
         controls: true,
         autoplay: false,
         fluid: false,
@@ -52,6 +82,17 @@ function playEpisode(ep, el, index) {
 
     window.currentVjs = player;
     player.src({ src: ep.url, type: 'application/x-mpegURL' });
+
+    // Listener para tecla Escape si estamos en modal
+    if (modalContainer) {
+        const escapeHandler = (e) => {
+            if (e.key === 'Escape') {
+                window.SeriesView.closePlayer();
+                document.removeEventListener('keydown', escapeHandler);
+            }
+        };
+        document.addEventListener('keydown', escapeHandler);
+    }
 
     // MINIATURAS VTT
     player.ready(() => {
@@ -273,7 +314,14 @@ function autoplayNext(currentIndex, container) {
     const allEpisodes = window.AppUtils.getEpisodesFromSerie(currentSerie);
     const nextIndex = currentIndex + 1;
 
-    if (nextIndex >= allEpisodes.length) return;
+    if (nextIndex >= allEpisodes.length) {
+        // Si estamos en modal, cerrar automáticamente
+        const modal = document.querySelector('.player-modal.active');
+        if (modal) {
+            setTimeout(() => window.SeriesView.closePlayer(), 2000);
+        }
+        return;
+    }
 
     const nextEp = allEpisodes[nextIndex];
 
@@ -297,6 +345,12 @@ function autoplayNext(currentIndex, container) {
     document.getElementById("btn-cancel-next").onclick = () => {
         clearInterval(window.AppState.getAutoplayTimer());
         container.innerHTML = "";
+
+        // Si estamos en modal, cerrar
+        const modal = document.querySelector('.player-modal.active');
+        if (modal) {
+            window.SeriesView.closePlayer();
+        }
     };
 
     const timer = setInterval(() => {
@@ -320,12 +374,19 @@ function autoplayNext(currentIndex, container) {
  * Inicia el siguiente episodio
  */
 function startNextEpisode(nextEp, nextIndex) {
-    const episodeElements = document.querySelectorAll('.episode');
-    const nextEl = episodeElements[nextIndex % window.AppState.getEpisodesPerPage()];
+    // Si estamos en modal, reproducir en modal
+    const modal = document.querySelector('.player-modal.active');
+    if (modal) {
+        window.SeriesView.playEpisodeDisney(nextIndex);
+    } else {
+        // Vista tradicional
+        const episodeElements = document.querySelectorAll('.episode');
+        const nextEl = episodeElements[nextIndex % window.AppState.getEpisodesPerPage()];
 
-    if (nextEl) {
-        playEpisode(nextEp, nextEl, nextIndex);
-        nextEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        if (nextEl) {
+            playEpisode(nextEp, nextEl, nextIndex);
+            nextEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
     }
 }
 
@@ -351,43 +412,22 @@ async function playFromHome(seriesId, episodeUrl, episodeId) {
         return;
     }
 
-    // CASO SERIE
+    // CASO SERIE - Abrir en modal Disney+
     const foundSerie = series.find(s => s.id === seriesId);
-    let targetPage = 0;
 
     if (foundSerie) {
-        const allEpisodes = window.AppUtils.getEpisodesFromSerie(foundSerie);
-        const epIndex = allEpisodes.findIndex(e => e.id === episodeId);
-        if (epIndex !== -1) {
-            targetPage = Math.floor(epIndex / window.AppState.getEpisodesPerPage());
-            console.log("Página serie detectada:", targetPage);
-        }
+        await window.SeriesView.open(seriesId, 0);
+
+        // Buscar el episodio
+        setTimeout(() => {
+            const allEpisodes = window.AppUtils.getEpisodesFromSerie(foundSerie);
+            const epIndex = allEpisodes.findIndex(e => e.id === episodeId);
+
+            if (epIndex !== -1) {
+                window.SeriesView.playEpisodeDisney(epIndex);
+            }
+        }, 500);
     }
-
-    await window.SeriesView.open(seriesId, targetPage);
-
-    let attempts = 0;
-    const maxAttempts = 30;
-    const searchInterval = setInterval(() => {
-        const target = document.getElementById(`ep-card-${episodeId}`);
-
-        if (target) {
-            clearInterval(searchInterval);
-            target.click();
-            setTimeout(() => {
-                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                target.style.background = "rgba(56, 189, 248, 0.3)";
-                setTimeout(() => target.style.background = "", 2000);
-            }, 500);
-            return;
-        }
-
-        attempts++;
-        if (attempts > maxAttempts) {
-            clearInterval(searchInterval);
-            console.error("Episodio no encontrado después de intentos.");
-        }
-    }, 250);
 }
 
 /**
@@ -403,7 +443,7 @@ function stopPlayer() {
   const autoplayTimer = window.AppState.getAutoplayTimer();
   if (autoplayTimer) clearInterval(autoplayTimer);
 
-  document.querySelectorAll(".player-container").forEach(p => p.remove());
+  document.querySelectorAll(".player-container:not(.player-modal .player-container)").forEach(p => p.remove());
 }
 
 /* ================= EXPORTS ================= */
